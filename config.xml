@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.circlecube.scripturemastery"
+        versionCode="001" 
+        version   = "0.0.1">
+
+    <name>LDS Scripture Mastery</name>
+
+    <description>
+        An easy to use tool to learn or memorize or rememorize all Scriptuer Mastery verses of the Church of Jesus Christ of Latter-Day Saints. Review the scriptures in a clean list view, and quiz yourself on each of them in multiple ways. Quiz presents you words from the verses scrambled, you select the words in the correct order. Many different levels: all words scrambled, random words scrambled, only long words or short words scrambled, all words with a first letter displayed as a hint... etc. Suggest more levels if you can think of them.
+    </description>
+
+    <author href="http://circlecube.com" email="evan@circlecube.com">
+        Evan Mullins 
+    </author>
+    <gap:plugin name="com.adobe.plugins.gaplugin" />
+    <gap:platform name="android" />
+    <preference name="phonegap-version" value="3.1.0" />
+    <icon src="icon-large.png" />
+    <gap:splash src="splash.png" />
+    <preference name="orientation" value="default" />
+    <preference name="fullscreen" value="true" />
+    <icon src="apple-touch-icon-precomposed.png" />
+    <preference name="permissions" value="none"/>
+</widget>

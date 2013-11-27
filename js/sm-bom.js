@@ -15,295 +15,102 @@ var sm_bom = [
 		context: "Lehi taught his sons about the necessity of the Fall and its consequences.",
 		principle: "The Fall was a necessary part of Heavenly Father’s plan and allowed for our mortal existence.",
 		application: "How does knowing about the Fall and mortality help you better understand your purpose in life?",
+		verse: "Adam fell that men might be; and men are, that they might have joy.",
+	},
+	{
+		index: 3,
+		reference: "2 Nephi 2:27",
+		title: "We are free to choose.",
+		context: "Lehi taught his sons about the role of agency in the plan of salvation.",
+		principle: "We are free to follow Jesus Christ, which leads to liberty and eternal life, or the devil, which leads to captivity and death.",
+		application: "Think of a time you chose to obey a commandment. How do you feel that your obedience has or will lead to greater freedom?",
+		verse: "Wherefore, men are free according to the flesh; and all things are given them which are expedient unto man. And they are free to choose liberty and eternal life, through the great Mediator of all men, or to choose captivity and death, according to the captivity and power of the devil; for he seeketh that all men might be miserable like unto himself.",
+	},
+	{
+		index: 4,
+		reference: "2 Nephi 9:28-29",
+		title: "Learning is good if we follow God’s counsel.",
+		context: "Jacob contrasted the greatness of Heavenly Father’s plan of salvation and the cunning plan of the devil.",
+		principle: "The learned often take pride in their own wisdom and set aside the counsel of God. To obtain knowledge is good if we continue to obey God.",
+		application: "How does obedience to the counsel of God help you keep a proper perspective concerning the wisdom of the world?",
+		verse: "O that cunning plan of the evil one! O the vainness, and the frailties, and the foolishness of men! When they are learned they think they are wise, and they hearken not unto the counsel of God, for they set it aside, supposing they know of themselves, wherefore, their wisdom is foolishness and it profiteth them not. And they shall perish.  But to be learned is good if they hearken unto the counsels of God. ",
+	},
+	{
+		index: 5,
+		reference: "2 Nephi 25:23, 26",
+		title: "By grace we are saved.",
+		context: "Nephi explained some of the reasons why it is only through Jesus Christ that a person can be saved.",
+		principle: "Through Jesus Christ, we can receive a remission of sins and be saved by grace after doing all we can do.",
+		application: "What personal feelings and testimony would you share with a person who questioned whether Latter-day Saints believe in Jesus Christ?",
+		verse: "For we labor diligently to write, to persuade our children, and also our brethren, to believe in Christ, and to be reconciled to God; for we know that it is by grace that we are saved, after all we can do.  And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies, that our children may know to what source they may look for a remission of their sins.",
+	},
+	{
+		index: 6,
+		reference: "2 Nephi 28:7-9",
+		title: "We cannot justify any sin.",
+		context: "The prophet Nephi taught his people of the great wickedness that would abound in the latter days.",
+		principle: "In the last days, many will teach false, vain, and foolish doctrines.",
+		application: "How can you recognize the foolish doctrines of the world?",
+		verse: "Yea, and there shall be many which shall say: Eat, drink, and be merry, for tomorrow we die; and it shall be well with us.  And there shall also be many which shall say: Eat, drink, and be merry; nevertheless, fear God--he will justify in committing a little sin; yea, lie a little, take the advantage of one because of his words, dig a pit for thy neighbor; there is no harm in this; and do all these things, for tomorrow we die; and if it so be that we are guilty, God will beat us with a few stripes, and at last we shall be saved in the kingdom of God.  Yea, and there shall be many which shall teach after this manner, false and vain and foolish doctrines, and shall be puffed up in their hearts, and shall seek deep to hide their counsels from the Lord; and their works shall be in the dark.",
+	},
+	{
+		index: 7,
+		reference: "2 Nephi 31:19-20",
+		title: "Endure to the end.",
+		context: "Near the end of his ministry, Nephi wrote that all people must follow Jesus Christ’s example to inherit eternal life.",
+		principle: "After we exercise faith, repent of our sins, are baptized, and receive the gift of the Holy Ghost, we must press forward in righteousness and endure to the end to receive eternal life.",
+		application: "What counsel would you give a newly baptized member of the Church? What are you doing to “press forward with a steadfastness in Christ”?",
+		verse: "And now, my beloved brethren, after ye have gotten into this strait and narrow path, I would ask if all is done? Behold, I say unto you, Nay; for ye have not come thus far save it were by the word of Christ with unshaken faith in him, relying wholly upon the merits of him who is mighty to save.  Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men. Wherefore, if ye shall press forward, feasting upon the word of Christ, and endure to the end, behold, thus saith the Father: Ye shall have eternal life. ",
+	},
+	{
+		index: 8,
+		reference: "2 Nephi 32:3",
+		title: "Feast on the words of Christ.",
+		context: "Near the end of his ministry, Nephi wrote what all people must do to understand and live the doctrine of Jesus Christ.",
+		principle: "If we study the words of Christ and of His inspired servants, we will receive the direction we need to make correct choices.",
+		application: "How have the words of Christ helped you know what to do? What will you do to “feast” on the words of Christ?",
+		verse: "Angels speak by the power of the Holy Ghost; wherefore, they speak the words of Christ. Wherefore, I said unto you, feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do. ",
+	},
+	{
+		index: 9,
+		reference: "2 Nephi 32:8-9",
+		title: "Ye must pray always.",
+		context: "Near the end of his ministry, Nephi wrote what all people must do to understand and live the doctrine of Jesus Christ.",
+		principle: "The Spirit teaches us to pray.",
+		application: "How can you remember to pray night and day? How can you seek the influence of the Holy Ghost in your prayers?",
+		verse: "And now, my beloved brethren, I perceive that ye ponder still in your hearts; and it grieveth me that I must speak concerning this thing. For if ye would hearken unto the Spirit which teacheth a man to pray ye would know that ye must pray; for the evil spirit teacheth not a man to pray, but teacheth him that he must not pray.  But behold, I say unto you that ye must pray always, and not faint; that ye must not perform any thing unto the Lord save in the first place ye shall pray unto the Father in the name of Christ, that he will consecrate thy performance unto thee, that thy performance may be for the welfare of thy soul.",
+	},
+	{
+		index: 10,
+		reference: "Mosiah 2:17",
+		title: "Serving others serves God.",
+		context: "King Benjamin addressed his people, preparing them to take upon themselves the name of Jesus Christ.",
+		principle: "When we serve our fellow beings, we serve God.",
+		application: "What specific things can you do for those around you that the Savior would do if He were here?",
+		verse: "And behold, I tell you these things that ye may learn wisdom; that ye may learn that when ye are in the service of your fellow beings ye are only in the service of your God.",
+	},
+	{
+		index: 11,
+		reference: "",
+		title: "",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "",
+	},
+	{
+		index: 10,
+		reference: "",
+		title: "",
+		context: "",
+		principle: "",
+		application: "",
 		verse: "",
 	}
 ];   
 
 /*
 
-1 Nephi 3:7 And it came to 
-pass that I, Nephi, said unto my 
-father: I will go and do the 
-things which the Lord hath 
-commanded, for I know that the 
-Lord giveth no commandments 
-unto the children of men, save 
-he shall prepare a way for them 
-that they may accomplish the 
-thing which he commandeth 
-them. 
-
- 
-_____ 
-2 Nephi 2:25 Adam fell that 
-men might be; and men are, that 
-they might have joy. 
- 
- 
-_____ 
-2 Nephi 2:27 Wherefore, men 
-are free according to the flesh; 
-and all things are given them 
-which are expedient unto man. 
-And they are free to choose 
-liberty and eternal life, through 
-the great Mediator of all men, 
-or to choose captivity and 
-death, according to the captivity 
-and power of the devil; for he 
-seeketh that all men might be 
-miserable like unto himself. 
-
- We are free to choose.
-
-Context
-
-Lehi taught his sons about the role of agency in the plan of salvation.
-
-Doctrine or Principle
-
-We are free to follow Jesus Christ, which leads to liberty and eternal life, or the devil, which leads to captivity and death.
-
-Application
-
-Think of a time you chose to obey a commandment. How do you feel that your obedience has or will lead to greater freedom?
-_____ 
-2 Nephi 9:28-29 O that 
-cunning plan of the evil one! O 
-the vainness, and the frailties, 
-and the foolishness of men! 
-When they are learned they 
-think they are wise, and they 
-hearken not unto the counsel of 
-God, for they set it aside, 
-supposing they know of 
-themselves, wherefore, their 
-wisdom is foolishness and it 
-profiteth them not. And they 
-shall perish. 
- 29 But to be learned is good if 
-they hearken unto the counsels 
-of God. 
-
- Learning is good if we follow God’s counsel.
-
-Context
-
-Jacob contrasted the greatness of Heavenly Father’s plan of salvation and the cunning plan of the devil.
-
-Doctrine or Principle
-
-The learned often take pride in their own wisdom and set aside the counsel of God. To obtain knowledge is good if we continue to obey God.
-
-Application
-
-How does obedience to the counsel of God help you keep a proper perspective concerning the wisdom of the world?
-_____ 
-
-2 Nephi 25:23, 26 For we 
-labor diligently to write, to 
-persuade our children, and 
-also our brethren, to believe 
-in Christ, and to be reconciled 
-to God; for we know that it is 
-by grace that we are saved, 
-after all we can do. 
-26 And we talk of Christ, we 
-rejoice in Christ, we preach 
-of Christ, we prophesy of 
-Christ, and we write 
-according to our prophecies, 
-that our children may know 
-to what source they may look 
-for a remission of their sins. 
-
-
-By grace we are saved.
-
-Context
-
-Nephi explained some of the reasons why it is only through Jesus Christ that a person can be saved.
-
-Doctrine or Principle
-
-Through Jesus Christ, we can receive a remission of sins and be saved by grace after doing all we can do.
-
-Application
-
-What personal feelings and testimony would you share with a person who questioned whether Latter-day Saints believe in Jesus Christ?
- 
-_____ 
-2 Nephi 28:7-9 Yea, and 
-there shall be many which 
-shall say: Eat, drink, and be 
-merry, for tomorrow we die; 
-and it shall be well with us. 
- 8 And there shall also be 
-many which shall say: Eat, 
-drink, and be merry; 
-nevertheless, fear God--he 
-will justify in committing a 
-little sin; yea, lie a little, take 
-the advantage of one because 
-of his words, dig a pit for thy 
-neighbor; there is no harm in 
-this; and do all these things, 
-for tomorrow we die; and if it 
-so be that we are guilty, God 
-will beat us with a few 
-stripes, and at last we shall be 
-saved in the kingdom of God. 
- 9 Yea, and there shall be 
-many which shall teach after 
-this manner, false and vain 
-and foolish doctrines, and 
-shall be puffed up in their 
-hearts, and shall seek deep to 
-hide their counsels from the 
-Lord; and their works shall be 
-in the dark. 
-
- We cannot justify any sin.
-
-Context
-
-The prophet Nephi taught his people of the great wickedness that would abound in the latter days.
-
-Doctrine or Principle
-
-In the last days, many will teach false, vain, and foolish doctrines.
-
-Application
-
-How can you recognize the foolish doctrines of the world?
-_____ 
-
-2 Nephi 31:19-20 And now, 
-my beloved brethren, after ye 
-have gotten into this strait and 
-narrow path, I would ask if all 
-is done? Behold, I say unto 
-you, Nay; for ye have not 
-come thus far save it were by 
-the word of Christ with 
-unshaken faith in him, relying 
-wholly upon the merits of him 
-who is mighty to save. 
- 20 Wherefore, ye must press 
-forward with a steadfastness in 
-Christ, having a perfect 
-brightness of hope, and a love 
-of God and of all men. 
-Wherefore, if ye shall press 
-forward, feasting upon the 
-word of Christ, and endure to 
-the end, behold, thus saith the 
-Father: Ye shall have eternal 
-life. 
-
-
-Endure to the end.
-
-Context
-
-Near the end of his ministry, Nephi wrote that all people must follow Jesus Christ’s example to inherit eternal life.
-
-Doctrine or Principle
-
-After we exercise faith, repent of our sins, are baptized, and receive the gift of the Holy Ghost, we must press forward in righteousness and endure to the end to receive eternal life.
-
-Application
-
-What counsel would you give a newly baptized member of the Church? What are you doing to “press forward with a steadfastness in Christ”?
-
-_____ 
-2 Nephi 32:3 Angels speak 
-by the power of the Holy 
-Ghost; wherefore, they speak 
-the words of Christ. 
-Wherefore, I said unto you, 
-feast upon the words of Christ; 
-for behold, the words of Christ 
-will tell you all things what ye 
-should do. 
-
- Feast on the words of Christ.
-
-Context
-
-Near the end of his ministry, Nephi wrote what all people must do to understand and live the doctrine of Jesus Christ.
-
-Doctrine or Principle
-
-If we study the words of Christ and of His inspired servants, we will receive the direction we need to make correct choices.
-
-Application
-
-How have the words of Christ helped you know what to do? What will you do to “feast” on the words of Christ?
-_____ 
-2 Nephi 32:8-9 And now, my 
-beloved brethren, I perceive 
-that ye ponder still in your 
-hearts; and it grieveth me that I 
-must speak concerning this 
-thing. For if ye would hearken 
-unto the Spirit which teacheth 
-a man to pray ye would know 
-that ye must pray; for the evil 
-spirit teacheth not a man to 
-pray, but teacheth him that he 
-must not pray. 
- 9 But behold, I say unto you 
-that ye must pray always, and 
-not faint; that ye must not 
-perform any thing unto the 
-Lord save in the first place ye 
-shall pray unto the Father in 
-the name of Christ, that he will 
-consecrate thy performance 
-unto thee, that thy 
-performance may be for the 
-welfare of thy soul. 
-
-Ye must pray always.
-
-Context
-
-Near the end of his ministry, Nephi wrote what all people must do to understand and live the doctrine of Jesus Christ.
-
-Doctrine or Principle
-
-The Spirit teaches us to pray.
-
-Application
-
-How can you remember to pray night and day? How can you seek the influence of the Holy Ghost in your prayers?
- 
-_____  
-
-Mosiah 2:17 And behold, I 
-tell you these things that ye 
-may learn wisdom; that ye 
-may learn that when ye are in 
-the service of your fellow 
-beings ye are only in the 
-service of your God. 
- 
- Serving others serves God.
-
-Context
-
-King Benjamin addressed his people, preparing them to take upon themselves the name of Jesus Christ.
-
-Doctrine or Principle
-
-When we serve our fellow beings, we serve God.
-
-Application
-
-What specific things can you do for those around you that the Savior would do if He were here?
- 
-_____ 
 Mosiah 3:19 For the natural 
 man is an enemy to God, and 
 has been from the fall of 

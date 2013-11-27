@@ -1,0 +1,94 @@
+/*
+Syntax error: Invalid CSS after "...nd (max-width: ": expected expression (e.g. 1px, bold), was "$minWidth / $wi..."
+        on line 29 of ./vendor/mmenu-4.0.3/scss/addons/../inc/_sizing.scss
+        from line 13 of ./vendor/mmenu-4.0.3/scss/addons/../inc/_variables.scss
+        from line 3 of ./vendor/mmenu-4.0.3/scss/addons/jquery.mmenu.searchfield.scss
+
+24: 	}
+25: 	.mm-menu#{$cls}
+26: 	{
+27: 		width: percentage( $width );
+28: 	}
+29: 	@media all and (max-width: $minWidth / $width ) {
+30: 		.mm-menu#{$cls}
+31: 		{
+32: 			width: $minWidth;
+33: 		}
+34: 		html.mm-opened.mm-opening#{$cls}
+
+Backtrace:
+./vendor/mmenu-4.0.3/scss/addons/../inc/_sizing.scss:29
+./vendor/mmenu-4.0.3/scss/addons/../inc/_variables.scss:13
+./vendor/mmenu-4.0.3/scss/addons/jquery.mmenu.searchfield.scss:3
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:928:in `expected'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:874:in `expected'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:856:in `expr!'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:334:in `media_expr'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:855:in `send'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:855:in `expr!'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:320:in `media_query'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:295:in `media_query_list'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:789:in `str'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:295:in `media_query_list'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:289:in `media_directive'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:145:in `send'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:145:in `special_directive'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:124:in `directive'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:398:in `block_child'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:390:in `block_contents'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:379:in `block'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:152:in `mixin_directive'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:145:in `send'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:145:in `special_directive'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:124:in `directive'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:397:in `block_child'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:390:in `block_contents'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:58:in `stylesheet'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/scss/parser.rb:27:in `parse'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/engine.rb:326:in `_to_tree'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/engine.rb:258:in `to_tree'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/perform.rb:144:in `visit_import'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/perform.rb:146:in `visit_import'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/perform.rb:146:in `map'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/perform.rb:146:in `visit_import'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/perform.rb:47:in `visit_root'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/tree/root_node.rb:20:in `render'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/engine.rb:299:in `_render'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/engine.rb:246:in `render'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/plugin/compiler.rb:339:in `update_stylesheet'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/plugin/compiler.rb:202:in `update_stylesheets'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `each'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `update_stylesheets'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/plugin/compiler.rb:234:in `watch'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/plugin.rb:107:in `send'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/exec.rb:431:in `watch_or_update'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/exec.rb:302:in `process_result'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/exec.rb:41:in `parse'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
+/Users/Calico/.gem/ruby/1.8/gems/sass-3.1.15/bin/sass:8
+/usr/bin/sass:19:in `load'
+/usr/bin/sass:19
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"...nd (max-width: \": expected expression (e.g. 1px, bold), was \"$minWidth / $wi...\"\A         on line 29 of ./vendor/mmenu-4.0.3/scss/addons/../inc/_sizing.scss\A         from line 13 of ./vendor/mmenu-4.0.3/scss/addons/../inc/_variables.scss\A         from line 3 of ./vendor/mmenu-4.0.3/scss/addons/jquery.mmenu.searchfield.scss\A \A 24: 	}\A 25: 	.mm-menu#{$cls}\A 26: 	{\A 27: 		width: percentage( $width );\A 28: 	}\A 29: 	@media all and (max-width: $minWidth / $width ) {\A 30: 		.mm-menu#{$cls}\A 31: 		{\A 32: 			width: $minWidth;\A 33: 		}\A 34: 		html.mm-opened.mm-opening#{$cls}"; }

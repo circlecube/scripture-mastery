@@ -1,4 +1,143 @@
 
+/*
+		OLD TESTAMENT
+*/
+var sm_nt = [
+	{ 
+		index: 1,
+		reference: "Moses 1:39",
+		title: "This is God’s work and glory.",
+		context: "While on a high mountain, God spoke with Moses face-to-face and explained His eternal purpose for mankind.",
+		principle: "Heavenly Father’s plan provides a way for us to live forever and become like Him.",
+		application: "How can you assist God in His work? How can you help others seek eternal life?",
+		verse: "For behold, this is my work and my glory—to bring to pass the immortality and eternal life of man.",
+	},
+	{ 
+		index: 2,
+		reference: "Moses 7:18",
+		title: "Zion—one heart and one mind in righteousness",
+		context: "Enoch taught the gospel and estab- lished a city of righteousness during a time of great wickedness.",
+		principle: "The Lord’s people are united, live righteously, and care for one another.",
+		application: "What can you do to build unity, promote righteousness, and assist those in need in your family, ward, or branch?",
+		verse: "And the Lord called his people Zion, because they were of one heart and one mind, and dwelt in righteousness; and there was no poor among them.",
+	},
+	{ 
+		index: 3,
+		reference: "Abraham 3:22–23",
+		title: "Abraham was chosen before he was born.",
+		context: "God taught Abraham about premortal spirits.",
+		principle: "We lived with God before birth, and He chose His noble and great children to become rulers and leaders here upon the earth.",
+		application: "How does the truth that God knew you before you were born inspire you to follow Him during mortality?",
+		verse: "Now the Lord had shown unto me, Abraham, the intelligences that were organized before the world was; and among all these there were many of the noble and great ones;  And God saw these souls that they were good, and he stood in the midst of them, and he said: These I will make my rulers; for he stood among those that were spirits, and he saw that they were good; and he said unto me: Abraham, thou art one of them; thou wast chosen before thou wast born.",
+	},
+	{ 
+		index: 4,
+		reference: "Genesis 1:26–27",
+		title: "God created man in His own image.",
+		context: "The Creation account sets forth the placing of Adam and Eve on the earth.",
+		principle: "Men and women are created in God’s image and given dominion over all animals and creatures on the earth.",
+		application: "You are a child of God, made in His image. When you pray to Heavenly Father, remember that He is a loving Father.",
+		verse: "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.  So God created man in his own image, in the image of God created he him; male and female created he them.",
+	},
+	{ 
+		index: 5,
+		reference: "Genesis 2:24",
+		title: "Husbands and wives should be one.",
+		context: "Following the creation of Eve, God taught Adam and Eve that unity should exist in their marriage.",
+		principle: "Marriage between a man and a woman is ordained of God.",
+		application: "What will you do now to prepare for marriage in the future? What standards will you follow to honor the union with your future spouse?",
+		verse: "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+	},
+	{ 
+		index: 6,
+		reference: "Genesis 39:9",
+		title: "Joseph resisted temptation.",
+		context: "Joseph was repeatedly approached by Potiphar’s wife to commit adultery.",
+		principle: "Sexual immorality is a sin against God.",
+		application: "Identify specific standards in the For the Strength of Youth pamphlet that can help you stay morally pure.",
+		verse: "There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?",
+	},
+	{ 
+		index: 7,
+		reference: "Exodus 19:5–6",
+		title: "Ye shall be a holy nation.",
+		context: "At Mount Sinai, the Lord invited the children of Israel to become His cov- enant people.",
+		principle: "If we obey the Lord’s voice and keep His covenants, then we will become His holy people.",
+		application: "What will you do to better keep the covenants you have made with the Lord?",
+		verse: "Now therefore, if ye will obey my voice indeed, and keep my covenant, then ye shall be a peculiar treasure unto me above all people: for all the earth is mine:  And ye shall be unto me a kingdom of priests, and an holy nation. These are the words which thou shalt speak unto the children of Israel.",
+	},
+	{ 
+		index: 8,
+		reference: "Exodus 20:3–17",
+		title: "The Ten Commandments",
+		context: "Near Mount Sinai, the Lord gave the children of Israel commandments through His servant Moses.",
+		principle: "As we keep the Ten Commandments, we live in harmony with God and man.",
+		application: "Consider each of the Ten Commandments and how well you are following it. Commit to obey them more fully.",
+		verse: "Thou shalt have no other gods before me.  Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth:  Thou shalt not bow down thyself to them, nor serve them: for I the Lord thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me;  And shewing mercy unto thousands of them that love me, and keep my commandments.  Thou shalt not take the name of the Lord thy God in vain; for the Lord will not hold him guiltless that taketh his name in vain.  Remember the sabbath day, to keep it holy.  Six days shalt thou labour, and do all thy work:  But the seventh day is the sabbath of the Lord thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates:  For in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the Lord blessed the sabbath day, and hallowed it.  Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee.  Thou shalt not kill.  Thou shalt not commit adultery.  Thou shalt not steal.  Thou shalt not bear false witness against thy neighbour.  Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour's.",
+	},
+	{ 
+		index: 9,
+		reference: "Joshua 24:15",
+		title: "Choose to serve the Lord.",
+		context: "Joshua taught the children of Israel what the Lord had done to preserve them. He encouraged them to serve the Lord.",
+		principle: "We can choose whether or not we will serve the Lord and follow Him.",
+		application: "What actions in your life demonstrate your choice to serve the Lord?",
+		verse: "And if it seem evil unto you to serve the Lord, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my house, we will serve the Lord.",
+	},
+	{ 
+		index: 10,
+		reference: "1 Samuel 16:7",
+		title: "The Lord looks on the heart.",
+		context: "Samuel assumed that Eliab, the eldest son of Jesse, was the one the Lord had selected to be Israel’s new king because of his strong physical appearance.",
+		principle: "God judges us by our thoughts and desires rather than by our outward appearance.",
+		application: "Rather than focus on outward appear- ance, pray to see yourself and others as God sees you.",
+		verse: "But the Lord said unto Samuel, Look not on his countenance, or on the height of his stature; because I have refused him: for the Lord seeth not as man seeth; for man looketh on the outward appearance, but the Lord looketh on the heart.",
+	},
+	{ 
+		index: 11,
+		reference: "Psalm 24:3–4",
+		title: "Clean hands, pure heart",
+		context: "In a psalm (song) of praise to God, the psalmist asked who would be worthy to stand in holy places such as temples.",
+		principle: "If we repent and live pure lives, then we are worthy to receive temple ordi- nances and enter the celestial kingdom.",
+		application: "What can you do to be clean and pure as you interact with media and tech- nology? If you are able, make plans to attend the temple regularly.",
+		verse: "Who shall ascend into the hill of the Lord? or who shall stand in his holy place?  He that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully.",
+	},
+	{ 
+		index: 1,
+		reference: "",
+		title: "",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "",
+	},
+	{ 
+		index: 1,
+		reference: "",
+		title: "",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "",
+	},
+	{ 
+		index: 1,
+		reference: "",
+		title: "",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "",
+	},
+	{ 
+		index: 1,
+		reference: "",
+		title: "",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "",
+	},
 
 
 /*
@@ -31,24 +170,6 @@
 
 Old Testament
 
-Moses 1:39
-For behold, this is my work and my glory—to bring to pass the immortality and eternal life of man.
-
-Moses 7:18
-And the Lord called his people Zion, because they were of one heart and one mind, and dwelt in righteousness; and there was no poor among them.
-
-Abraham 3:22-23
-Now the Lord had shown unto me, Abraham, the intelligences that were organized before the world was; and among all these there were many of the noble and great ones;  And God saw these souls that they were good, and he stood in the midst of them, and he said: These I will make my rulers; for he stood among those that were spirits, and he saw that they were good; and he said unto me: Abraham, thou art one of them; thou wast chosen before thou wast born.
-
-Genesis 1:26-27
-And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.  So God created man in his own image, in the image of God created he him; male and female created he them.
-
-Genesis 39:9
-There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?
-
-Exodus 20:3-17
-Thou shalt have no other gods before me.  Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth:  Thou shalt not bow down thyself to them, nor serve them: for I the Lord thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me;  And shewing mercy unto thousands of them that love me, and keep my commandments.  Thou shalt not take the name of the Lord thy God in vain; for the Lord will not hold him guiltless that taketh his name in vain.  Remember the sabbath day, to keep it holy.  Six days shalt thou labour, and do all thy work:  But the seventh day is the sabbath of the Lord thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates:  For in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the Lord blessed the sabbath day, and hallowed it.  Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee.  Thou shalt not kill.  Thou shalt not commit adultery.  Thou shalt not steal.  Thou shalt not bear false witness against thy neighbour.  Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour's.
-
 Exodus 33:11
 And the Lord spake unto Moses face to face, as a man speaketh unto his friend. And he turned again into the camp: but his servant Joshua, the son of Nun, a young man, departed not out of the tabernacle.
 
@@ -61,17 +182,11 @@ Neither shalt thou make marriages with them; thy daughter thou shalt not give un
 Joshua 1:8
 This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night, that thou mayest observe to do according to all that is written therein: for then thou shalt make thy way prosperous, and then thou shalt have good success.
 
-Joshua 24:15
-And if it seem evil unto you to serve the Lord, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my house, we will serve the Lord.
-
-1 Samuel 16:7
-But the Lord said unto Samuel, Look not on his countenance, or on the height of his stature; because I have refused him: for the Lord seeth not as man seeth; for man looketh on the outward appearance, but the Lord looketh on the heart.
 
 Job 19:25-26
 For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth:  And though after my skin worms destroy this body, yet in my flesh shall I see God
 
-Psalm 24:3-4
-Who shall ascend into the hill of the Lord? or who shall stand in his holy place?  He that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully.
+
 
 Proverbs 3:5-6
 Trust in the Lord with all thine heart; and lean not unto thine own understanding.  In all thy ways acknowledge him, and he shall direct thy paths.
@@ -111,71 +226,12 @@ Behold, I will send you Elijah the prophet before the coming of the great and dr
 
 
 
-Moses 1:39
-This is God’s work and glory.
-While on a high mountain, God spoke with Moses face-to-face and explained His eternal purpose for mankind.
-Heavenly Father’s plan provides a way for us to live forever and become like Him.
-How can you assist God in His work? How can you help others seek eternal life?
 
-Moses 7:18
-Zion—one heart and one mind in righteousness
-Enoch taught the gospel and estab- lished a city of righteousness during a time of great wickedness.
-The Lord’s people are united, live righ- teously, and care for one another.
-What can you do to build unity, pro- mote righteousness, and assist those in need in your family, ward, or branch?
 
-Abraham 3:22–23
-Abraham was chosen before he was born.
-God taught Abraham about premortal spirits.
-We lived with God before birth, and He chose His noble and great children to become rulers and leaders here upon the earth.
-How does the truth that God knew you before you were born inspire you to follow Him during mortality?
 
-Genesis 1:26–27
-God created man in His own image.
-The Creation account sets forth the placing of Adam and Eve on the earth.
-Men and women are created in God’s image and given dominion over all animals and creatures on the earth.
-You are a child of God, made in His image. When you pray to Heavenly Father, remember that He is a loving Father.
 
-Genesis 2:24
-Husbands and wives should be one.
-Following the creation of Eve, God taught Adam and Eve that unity should exist in their marriage.
-Marriage between a man and a woman is ordained of God.
-What will you do now to prepare for marriage in the future? What standards will you follow to honor the union with your future spouse?
 
-Genesis 39:9
-Joseph resisted temptation.
-Joseph was repeatedly approached by Potiphar’s wife to commit adultery.
-Sexual immorality is a sin against God.
-Identify specific standards in the For the Strength of Youth pamphlet that can help you stay morally pure.
 
-Exodus 19:5–6
-Ye shall be a holy nation.
-At Mount Sinai, the Lord invited the children of Israel to become His cov- enant people.
-If we obey the Lord’s voice and keep His covenants, then we will become His holy people.
-What will you do to better keep the covenants you have made with the Lord?
-
-Exodus 20:3–17
-The Ten Commandments
-Near Mount Sinai, the Lord gave the children of Israel commandments through His servant Moses.
-As we keep the Ten Commandments, we live in harmony with God and man.
-Consider each of the Ten Commandments and how well you are following it. Commit to obey them more fully.
-
-Joshua 24:15
-Choose to serve the Lord.
-Joshua taught the children of Israel what the Lord had done to preserve them. He encouraged them to serve the Lord.
-We can choose whether or not we will serve the Lord and follow Him.
-What actions in your life demonstrate your choice to serve the Lord?
-
-1 Samuel 16:7
-The Lord looks on the heart.
-Samuel assumed that Eliab, the eldest son of Jesse, was the one the Lord had selected to be Israel’s new king because of his strong physical appearance.
-God judges us by our thoughts and desires rather than by our outward appearance.
-Rather than focus on outward appear- ance, pray to see yourself and others as God sees you.
-
-Psalm 24:3–4
-Clean hands, pure heart
-In a psalm (song) of praise to God, the psalmist asked who would be worthy to stand in holy places such as temples.
-If we repent and live pure lives, then we are worthy to receive temple ordi- nances and enter the celestial kingdom.
-What can you do to be clean and pure as you interact with media and tech- nology? If you are able, make plans to attend the temple regularly.
 
 Psalm 119:105
 God’s word is a lamp unto my feet.

@@ -5,7 +5,7 @@ var sm_bom = [
 		title: "I will go and do.",
 		context: "The Lord commanded Nephi and his brothers to return to Jerusalem to get the brass plates.",
 		principle: "The Lord prepares a way for us to keep His commandments.",
-		application: "What has the Lord commanded you to do that some might consider to be difficult? How did He prepare a way for you to accomplish it?"
+		application: "What has the Lord commanded you to do that some might consider to be difficult? How did He prepare a way for you to accomplish it?",
 		verse: "And it came to pass that I, Nephi, said unto my father: I will go and do the things which the Lord hath commanded, for I know that the Lord giveth no commandments unto the children of men, save he shall prepare a way for them that they may accomplish the thing which he commandeth them.",
 	},
 	{
@@ -91,460 +91,366 @@ var sm_bom = [
 	},
 	{
 		index: 11,
-		reference: "",
-		title: "",
-		context: "",
-		principle: "",
-		application: "",
-		verse: "",
+		reference: "Mosiah 3:19",
+		title: "Natural man is God’s enemy.",
+		context: "King Benjamin addressed his people, preparing them to take upon themselves the name of Jesus Christ.",
+		principle: "We overcome the natural man by yielding to the Holy Spirit and becoming a Saint through the Atonement of Jesus Christ.",
+		application: "What does it mean to “yield to the enticings of the Holy Spirit”? What are some of the promptings the Holy Ghost has been giving you?",
+		verse: "For the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever, unless he yields to the enticings of the Holy Spirit, and putteth off the natural man and becometh a saint through the atonement of Christ the Lord, and becometh as a child, submissive, meek, humble, patient, full of love, willing to submit to all things which the Lord seeth fit to inflict upon him, even as a child doth submit to his father. ",
 	},
 	{
-		index: 10,
-		reference: "",
-		title: "",
-		context: "",
-		principle: "",
-		application: "",
-		verse: "",
+		index: 12,
+		reference: "Mosiah 4:30",
+		title: "Watch your thoughts, words, and deeds.",
+		context: "King Benjamin addressed his people, preparing them to take upon themselves the name of Jesus Christ.",
+		principle: "We will be judged and held accountable for our thoughts, words, and deeds.",
+		application: "What are some specific actions you have taken to maintain clean and virtuous thoughts, words, and actions throughout the day?",
+		verse: "But this much I can tell you, that if ye do not watch yourselves, and your thoughts, and your words, and your deeds, and observe the commandments of God, and continue in the faith of what ye have heard concerning the coming of our Lord, even unto the end of your lives, ye must perish. And now, O man, remember, and perish not. ",
+	},
+	{
+		index: 13,
+		reference: "Alma 7:11-13",
+		title: "Jesus Christ overcame sin and death.",
+		context: "Alma prophesied to the people of Gideon that the Savior would come into the world and that they must prepare themselves.",
+		principle: "Jesus Christ took upon himself the pains, sicknesses, and infirmities of His people; He delivered mankind from death and provided a way to overcome sin.",
+		application: "When have you felt the healing power of the Atonement? Write in your journal or share with a friend your testimony of the Atonement’s healing power.",
+		verse: "And he shall go forth, suffering pains and afflictions and temptations of every kind; and this that the word might be fulfilled which saith he will take upon him the pains and the sicknesses of his people.  And he will take upon him death, that he may loose the bands of death which bind his people; and he will take upon him their infirmities, that his bowels may be filled with mercy, according to the flesh, that he may know according to the flesh how to succor his people according to their infirmities.  Now the Spirit knoweth all things; nevertheless the Son of God suffereth according to the flesh that he might take upon him the sins of his people, that he might blot out their transgressions according to the power of his deliverance; and now behold, this is the testimony which is in me.",
+	},
+	{
+		index: 14,
+		reference: "Alma 32:21",
+		title: "Faith is not a perfect knowledge.",
+		context: "Alma taught the humble among the Zoramites regarding worship and faith.",
+		principle: "Faith requires a person to believe things that are true but that may not be seen.",
+		application: "How would you explain to a friend how something that cannot be seen can still be true?",
+		verse: "And now as I said concerning faith--faith is not to have a perfect knowledge of things; therefore if ye have faith ye hope for things which are not seen, which are true. ",
+	},
+	{
+		index: 15,
+		reference: "Alma 37:35",
+		title: "Learn in thy youth to keep the commandments.",
+		context: "Alma counseled Helaman to prepare him for leadership responsibilities.",
+		principle: "It is wise to learn in our youth to keep God’s commandments.",
+		application: "What experiences have you had that have strengthened your desire to obey the commandments?",
+		verse: "O, remember, my son, and learn wisdom in thy youth; yea, learn in thy youth to keep the commandments of God.",
+	},
+	{
+		index: 16,
+		reference: "Alma 39:9",
+		title: "Go no more after the lust of your eyes.",
+		context: "Alma corrected the behavior of Corianton, who had committed serious sins.",
+		principle: "Those who give in to lust and immorality cannot be saved in the kingdom of God unless they repent.",
+		application: "What do you do to overcome lustful thoughts and forsake your sins?",
+		verse: "Now my son, I would that ye should repent and forsake your sins, and go no more after the lusts of your eyes, but cross yourself in all these things; for except ye do this ye can in nowise inherit the kingdom of God. Oh, remember, and take it upon you, and cross yourself in these things. ",
+	},
+	{
+		index: 17,
+		reference: "Alma 41:10",
+		title: "Wickedness never was happiness.",
+		context: "Alma taught his son Corianton about the eternal consequences of wickedness and righteousness.",
+		principle: "Sin cannot bring lasting happiness.",
+		application: "How has your happiness increased by following the example and teachings of Jesus Christ?",
+		verse: "Do not suppose, because it has been spoken concerning restoration, that ye shall be restored from sin to happiness. Behold, I say unto you, wickedness never was happiness. ",
+	},
+	{
+		index: 18,
+		reference: "Helaman 5:12",
+		title: "Build your foundation on Christ.",
+		context: "Nephi and Lehi recalled the counsel of their father Helaman and devoted themselves to preaching to the wicked Nephites.",
+		principle: "Only by basing our lives on Jesus Christ can we withstand Satan’s temptations.",
+		application: "How has the gospel of Jesus Christ fortified you against temptations? How can you consistently base your choices on the life and teachings of the Savior?",
+		verse: "And now, my sons, remember, remember that it is upon the rock of our Redeemer, who is Christ, the Son of God, that ye must build your foundation; that when the devil shall send forth his mighty winds, yea, his shafts in the whirlwind, yea, when all his hail and his mighty storm shall beat upon you, it shall have no power over you to drag you down to the gulf of misery and endless wo, because of the rock upon which ye are built, which is a sure foundation, a foundation whereon if men build they cannot fall. ",
+	},
+	{
+		index: 19,
+		reference: "3 Nephi 12:48",
+		title: "Ye should be perfect.",
+		context: "Jesus Christ taught the Nephites the higher law and prepared them to be members of God’s kingdom.",
+		principle: "We are commanded to be like Heavenly Father and Jesus Christ, who are perfect.",
+		application: "What can you do right now to become more like Jesus Christ?",
+		verse: "Therefore I would that ye should be perfect even as I, or your Father who is in heaven is perfect. ",
+	},
+	{
+		index: 20,
+		reference: "3 Nephi 18:15, 20-21",
+		title: "Watch and pray always ",
+		context: "Jesus taught the Nephites how to withstand the temptations of the devil.",
+		principle: "Through prayer we can be given strength to resist temptation, receive our righteous desires, and be blessed in our families.",
+		application: "What can you do to be more consistent in your personal and family prayers?",
+		verse: "Verily, verily, I say unto you, ye must watch and pray always, lest ye be tempted by the devil, and ye be led away captive by him.  And whatsoever ye shall ask the Father in my name, which is right, believing that ye shall receive, behold it shall be given unto you.  Pray in your families unto the Father, always in my name, that your wives and your children may be blessed.",
+	},
+	{
+		index: 21,
+		reference: "Ether 12:6",
+		title: "Witness comes after the trial of faith.",
+		context: "Moroni included his own testimony, counsel, and understanding about faith while abridging the prophet Ether’s words.",
+		principle: "The Lord blesses us with a spiritual confirmation after we have endured in faith.",
+		application: "When have you demonstrated faith in Jesus Christ? What blessings did you receive?",
+		verse: "And now, I, Moroni, would speak somewhat concerning these things; I would show unto the world that faith is things which are hoped for and not seen; wherefore, dispute not because ye see not, for ye receive no witness until after the trial of your faith. ",
+	},
+	{
+		index: 22,
+		reference: "Ether 12:27",
+		title: "Weak things become strong.",
+		context: "Moroni was concerned about the weakness of his writing. The Lord instructed him about overcoming weakness.",
+		principle: "God gives us weakness to humble us. If we humble ourselves, our weakness can be made strong through faith in Jesus Christ.",
+		application: "What weakness could you ask God to make strong? How can you humble yourself and have greater faith in Jesus Christ?",
+		verse: "And if men come unto me I will show unto them their weakness. I give unto men weakness that they may be humble; and my grace is sufficient for all men that humble themselves before me; for if they humble themselves before me, and have faith in me, then will I make weak things become strong unto them. ",
+	},
+	{
+		index: 23,
+		reference: "Moroni 7:41",
+		title: "Have hope through the Atonement of Christ.",
+		context: "Mormon taught during a time of great wickedness how faith, hope, and charity help us become like Jesus Christ.",
+		principle: "Our hope should be centered on Jesus Christ and His Atonement because of our faith in Him.",
+		application: "How has your hope in the Atonement of Jesus Christ changed your outlook on the future? How can this hope influence the way you live?",
+		verse: "And what is it that ye shall hope for? Behold I say unto you that ye shall have hope through the atonement of Christ and the power of his resurrection, to be raised unto life eternal, and this because of your faith in him according to the promise.",
+	},
+	{
+		index: 24,
+		reference: "Moroni 7:45, 47-48",
+		title: "Charity suffereth long.",
+		context: "Mormon taught during a time of great wickedness how faith, hope, and charity help us become like Jesus Christ.",
+		principle: "We must have charity to be true followers of Jesus Christ. We should pray to the Father to be filled with this love.",
+		application: "Consider the description of charity taught in Moroni 7, and ask your Heavenly Father how you can show that kind of love to family, friends, and others.",
+		verse: "And charity suffereth long, and is kind, and envieth not, and is not puffed up, seeketh not her own, is not easily provoked, thinketh no evil, and rejoiceth not in iniquity but rejoiceth in the truth, beareth all things, believeth all things, hopeth all things, endureth all things.  But charity is the pure love of Christ, and it endureth forever; and whoso is found possessed of it at the last day, it shall be well with him.  Wherefore, my beloved brethren, pray unto the Father with all the energy of heart, that ye may be filled with this love, which he hath bestowed upon all who are true followers of his Son, Jesus Christ; that ye may become the sons of God; that when he shall appear we shall be like him, for we shall see him as he is; that we may have this hope; that we may be purified even as he is pure. Amen.",
+	},
+	{
+		index: 25,
+		reference: "Moroni 10:4-5",
+		title: "The Holy Ghost reveals truth.",
+		context: "Moroni closed his record with an invitation for all mankind to learn the truth of all things, including the Book of Mormon.",
+		principle: "The Holy Ghost will reveal the truth of the Book of Mormon to those who ask God in faith with real intent.",
+		application: "Explain to a friend how he or she can come to know the truthfulness of the Book of Mormon, and “the truth of all things.”",
+		verse: "And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost.  And by the power of the Holy Ghost ye may know the truth of all things. ",
 	}
-];   
-
-/*
-
-Mosiah 3:19 For the natural 
-man is an enemy to God, and 
-has been from the fall of 
-Adam, and will be, forever and 
-ever, unless he yields to the 
-enticings of the Holy Spirit, 
-and putteth off the natural man 
-and becometh a saint through 
-the atonement of Christ the 
-Lord, and becometh as a child, 
-submissive, meek, humble, 
-patient, full of love, willing to 
-submit to all things which the 
-Lord seeth fit to inflict upon 
-him, even as a child doth 
-submit to his father. 
-
- Natural man is God’s enemy.
-
-Context
-
-King Benjamin addressed his people, preparing them to take upon themselves the name of Jesus Christ.
-
-Doctrine or Principle
-
-We overcome the natural man by yielding to the Holy Spirit and becoming a Saint through the Atonement of Jesus Christ.
-
-Application
-
-What does it mean to “yield to the enticings of the Holy Spirit”? What are some of the promptings the Holy Ghost has been giving you?
-
-_____ 
-Mosiah 4:30 But this much I 
-can tell you, that if ye do not 
-watch yourselves, and your 
-thoughts, and your words, and 
-your deeds, and observe the 
-commandments of God, and 
-continue in the faith of what ye 
-have heard concerning the 
-coming of our Lord, even unto 
-the end of your lives, ye must 
-perish. And now, O man, 
-remember, and perish not. 
-
- Watch your thoughts, words, and deeds.
-
-Context
-
-King Benjamin addressed his people, preparing them to take upon themselves the name of Jesus Christ.
-
-Doctrine or Principle
-
-We will be judged and held accountable for our thoughts, words, and deeds.
-
-Application
-
-What are some specific actions you have taken to maintain clean and virtuous thoughts, words, and actions throughout the day?
-_____ 
-
-Alma 7:11-13 And he shall go 
-forth, suffering pains and 
-afflictions and temptations of 
-every kind; and this that the 
-word might be fulfilled which 
-saith he will take upon him the 
-pains and the sicknesses of his 
-people. 
- 12 And he will take upon him 
-death, that he may loose the 
-bands of death which bind his 
-people; and he will take upon 
-him their infirmities, that his 
-bowels may be filled with 
-mercy, according to the flesh, 
-that he may know according to 
-the flesh how to succor his 
-people according to their 
-infirmities. 
- 13 Now the Spirit knoweth all 
-things; nevertheless the Son of 
-God suffereth according to the 
-flesh that he might take upon 
-him the sins of his people, that 
-he might blot out their 
-transgressions according to the 
-power of his deliverance; and 
-now behold, this is the 
-testimony which is in me. 
-Jesus Took Upon Himself Our 
-Pains…And Overcame Sin And Death
-
- Jesus Christ overcame sin and death.
-
-Context
-
-Alma prophesied to the people of Gideon that the Savior would come into the world and that they must prepare themselves.
-
-Doctrine or Principle
-
-Jesus Christ took upon himself the pains, sicknesses, and infirmities of His people; He delivered mankind from death and provided a way to overcome sin.
-
-Application
-
-When have you felt the healing power of the Atonement? Write in your journal or share with a friend your testimony of the Atonement’s healing power.
-_____ 
-Alma 32:21 And now as I 
-said concerning faith--faith is 
-not to have a perfect 
-knowledge of things; therefore 
-if ye have faith ye hope for 
-things which are not seen, 
-which are true. 
- 
- Faith is not a perfect knowledge.
-
-Context
-
-Alma taught the humble among the Zoramites regarding worship and faith.
-
-Doctrine or Principle
-
-Faith requires a person to believe things that are true but that may not be seen.
-
-Application
-
-How would you explain to a friend how something that cannot be seen can still be true?
-_____ 
-Alma 37:35 O, remember, my 
-son, and learn wisdom in thy 
-youth; yea, learn in thy youth 
-to keep the commandments of 
-God. 
- 
- Learn in thy youth to keep the commandments.
-
-Context
-
-Alma counseled Helaman to prepare him for leadership responsibilities.
-
-Doctrine or Principle
-
-It is wise to learn in our youth to keep God’s commandments.
-
-Application
-
-What experiences have you had that have strengthened your desire to obey the commandments?
-_____ 
-
-Alma 39:9 Now my son, I 
-would that ye should repent 
-and forsake your sins, and go 
-no more after the lusts of your 
-eyes, but cross yourself in all 
-these things; for except ye do 
-this ye can in nowise inherit 
-the kingdom of God. Oh, 
-remember, and take it upon 
-you, and cross yourself in 
-these things. 
-
- Go no more after the lust of your eyes.
-
-Context
-
-Alma corrected the behavior of Corianton, who had committed serious sins.
-
-Doctrine or Principle
-
-Those who give in to lust and immorality cannot be saved in the kingdom of God unless they repent.
-
-Application
-
-What do you do to overcome lustful thoughts and forsake your sins?
-_____ 
-Alma 41:10 Do not suppose, 
-because it has been spoken 
-concerning restoration, that ye 
-shall be restored from sin to 
-happiness. Behold, I say unto 
-you, wickedness never was 
-happiness. 
- 
- Wickedness never was happiness.
-
-Context
-
-Alma taught his son Corianton about the eternal consequences of wickedness and righteousness.
-
-Doctrine or Principle
-
-Sin cannot bring lasting happiness.
-
-Application
-
-How has your happiness increased by following the example and teachings of Jesus Christ?
-_____ 
-Helaman 5:12 And now, my 
-sons, remember, remember 
-that it is upon the rock of our 
-Redeemer, who is Christ, the 
-Son of God, that ye must build 
-your foundation; that when the 
-devil shall send forth his 
-mighty winds, yea, his shafts 
-in the whirlwind, yea, when all 
-his hail and his mighty storm 
-shall beat upon you, it shall 
-have no power over you to 
-drag you down to the gulf of 
-misery and endless wo, 
-because of the rock upon 
-which ye are built, which is a 
-sure foundation, a foundation 
-whereon if men build they 
-cannot fall. 
- 
- Build your foundation on Christ.
-
-Context
-
-Nephi and Lehi recalled the counsel of their father Helaman and devoted themselves to preaching to the wicked Nephites.
-
-Doctrine or Principle
-
-Only by basing our lives on Jesus Christ can we withstand Satan’s temptations.
-
-Application
-
-How has the gospel of Jesus Christ fortified you against temptations? How can you consistently base your choices on the life and teachings of the Savior?
- 
-_____ 
-
-3 Nephi 12:48 Therefore I 
-would that ye should be 
-perfect even as I, or your 
-Father who is in heaven is 
-perfect. 
-
- Ye should be perfect.
-
-Context
-
-Jesus Christ taught the Nephites the higher law and prepared them to be members of God’s kingdom.
-
-Doctrine or Principle
-
-We are commanded to be like Heavenly Father and Jesus Christ, who are perfect.
-
-Application
-
-What can you do right now to become more like Jesus Christ?
-_____ 
- 3 Nephi 18:15, 20-21 
-Verily, verily, I say unto you, 
-ye must watch and pray 
-always, lest ye be tempted by 
-the devil, and ye be led away 
-captive by him. 
- 20 And whatsoever ye shall 
-ask the Father in my name, 
-which is right, believing that 
-ye shall receive, behold it shall 
-be given unto you. 
- 21 Pray in your families unto 
-the Father, always in my 
-name, that your wives and 
-your children may be blessed. 
-Ye Must Watch And Pray Always 
-
- Watch and pray always.
-
-Context
-
-Jesus taught the Nephites how to withstand the temptations of the devil.
-
-Doctrine or Principle
-
-Through prayer we can be given strength to resist temptation, receive our righteous desires, and be blessed in our families.
-
-Application
-
-What can you do to be more consistent in your personal and family prayers?
-_____ 
-Ether 12:6 And now, I, 
-Moroni, would speak 
-somewhat concerning these 
-things; I would show unto the 
-world that faith is things which 
-are hoped for and not seen; 
-wherefore, dispute not because 
-ye see not, for ye receive no 
-witness until after the trial of 
-your faith. 
-
- Witness comes after the trial of faith.
-
-Context
-
-Moroni included his own testimony, counsel, and understanding about faith while abridging the prophet Ether’s words.
-
-Doctrine or Principle
-
-The Lord blesses us with a spiritual confirmation after we have endured in faith.
-
-Application
-
-When have you demonstrated faith in Jesus Christ? What blessings did you receive?
-_____ 
-Ether 12:27 And if men 
-come unto me I will show unto 
-them their weakness. I give 
-unto men weakness that they 
-may be humble; and my grace 
-is sufficient for all men that 
-humble themselves before me; 
-for if they humble themselves 
-before me, and have faith in 
-me, then will I make weak 
-things become strong unto 
-them. 
- 
- Weak things become strong.
-
-Context
-
-Moroni was concerned about the weakness of his writing. The Lord instructed him about overcoming weakness.
-
-Doctrine or Principle
-
-God gives us weakness to humble us. If we humble ourselves, our weakness can be made strong through faith in Jesus Christ.
-
-Application
-
-What weakness could you ask God to make strong? How can you humble yourself and have greater faith in Jesus Christ?
- 
-_____ 
- 
-Moroni 7:41 And what is it 
-that ye shall hope for? Behold 
-I say unto you that ye shall 
-have hope through the 
-atonement of Christ and the 
-power of his resurrection, to be 
-raised unto life eternal, and 
-this because of your faith in 
-him according to the promise. 
- 
-Have hope through the Atonement of Christ.
-
-Context
-
-Mormon taught during a time of great wickedness how faith, hope, and charity help us become like Jesus Christ.
-
-Doctrine or Principle
-
-Our hope should be centered on Jesus Christ and His Atonement because of our faith in Him.
-
-Application
-
-How has your hope in the Atonement of Jesus Christ changed your outlook on the future? How can this hope influence the way you live?
- 
-_____ 
-Moroni 7:45, 47-48 And 
-charity suffereth long, and is 
-kind, and envieth not, and is 
-not puffed up, seeketh not her 
-own, is not easily provoked, 
-thinketh no evil, and rejoiceth 
-not in iniquity but rejoiceth in 
-the truth, beareth all things, 
-believeth all things, hopeth all 
-things, endureth all things. 
-47 But charity is the pure love 
-of Christ, and it endureth 
-forever; and whoso is found 
-possessed of it at the last day, 
-it shall be well with him. 
- 48 Wherefore, my beloved 
-brethren, pray unto the Father 
-with all the energy of heart, 
-that ye may be filled with this 
-love, which he hath bestowed 
-upon all who are true 
-followers of his Son, Jesus 
-Christ; that ye may become the 
-sons of God; that when he 
-shall appear we shall be like 
-him, for we shall see him as he 
-is; that we may have this hope; 
-that we may be purified even 
-as he is pure. Amen. 
-
- Charity suffereth long.
-
-Context
-
-Mormon taught during a time of great wickedness how faith, hope, and charity help us become like Jesus Christ.
-
-Doctrine or Principle
-
-We must have charity to be true followers of Jesus Christ. We should pray to the Father to be filled with this love.
-
-Application
-
-Consider the description of charity taught in Moroni 7, and ask your Heavenly Father how you can show that kind of love to family, friends, and others. 
-_____ 
-Moroni 10:4-5 And when ye 
-shall receive these things, I 
-would exhort you that ye 
-would ask God, the Eternal 
-Father, in the name of Christ, 
-if these things are not true; and 
-if ye shall ask with a sincere 
-heart, with real intent, having 
-faith in Christ, he will manifest 
-the truth of it unto you, by the 
-power of the Holy Ghost. 
-5 And by the power of the 
-Holy Ghost ye may know the 
-truth of all things. 
-
-The Holy Ghost reveals truth.
-
-Context
-
-Moroni closed his record with an invitation for all mankind to learn the truth of all things, including the Book of Mormon.
-
-Doctrine or Principle
-
-The Holy Ghost will reveal the truth of the Book of Mormon to those who ask God in faith with real intent.
-
-Application
-
-Explain to a friend how he or she can come to know the truthfulness of the Book of Mormon, and “the truth of all things.”
-
-*/
+];
+
+
+var sm_nt = [
+	{ 
+		index: 1,
+		reference: "Matthew 5:14-16",
+		title: "Let your light so shine.",
+		context: "In the Sermon on the Mount, Jesus Christ taught His disciples about how living the gospel affects others.",
+		principle: "One’s example of living the gospel can encourage others to draw nearer to God.",
+		application: "When has someone’s example inspired you to live the gospel? In what ways could you be an example to others?",
+		verse: "Ye are the alight of the world. A city that is set on an hill cannot be hid.  Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house.  Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.",
+	},
+	{ 
+		index: 2,
+		reference: "Matthew 11:28–30",
+		title: "Come unto me.",
+		context: "As some people rejected Jesus, He offered promises to those who would accept Him.",
+		principle: "If we come unto Jesus Christ, He will ease our burdens.",
+		application: "When has the Lord helped you with a heavy burden? How can you draw nearer to Him? How could you use this verse to encourage a friend or family member who is feeling burdened?",
+		verse: "Come unto me, all ye that labour and are heavy laden, and I will give you rest.  Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls.  For my yoke is easy, and my burden is light.",
+	},
+	{ 
+		index: 3,
+		reference: "Matthew 16:15-19",
+		title: "The keys of the kingdom",
+		context: "In Caesarea Philippi, Jesus Christ instructed His Apostles about what is necessary to lead the Church.",
+		principle: "The Church of Jesus Christ is built upon revelation from God. Those who hold priesthood keys are authorized to govern the kingdom of God on the earth.",
+		application: "What eternal truths have been revealed to you? In what ways have Church leaders with priesthood keys blessed your life? What should you do to show that you sustain Church leaders who hold priesthood keys?",
+		verse: "He saith unto them, But whom say aye that I am?  And Simon Peter answered and said, Thou art the Christ, the Son of the living God.  And Jesus answered and said unto him, Blessed art thou, Simon Bar-jona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven.  And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it.  And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven.",
+	},
+	{ 
+		index: 4,
+		reference: "Matthew 22:36–39",
+		title: "Love the Lord; love thy neighbor.",
+		context: "Jesus Christ responded to a Pharisee who asked which commandment was the greatest.",
+		principle: "The two greatest commandments are to love God and to love our neighbor.",
+		application: "How can you show love for God with your heart, soul, and mind? How can you show love to His children?",
+		verse: "Master, which is the great commandment in the law?  Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind.  This is the first and great commandment.  And the second is like unto it, Thou shalt love thy neighbour as thyself.",
+	},
+	{ 
+		index: 5,
+		reference: "Matthew 28:19-20",
+		title: "Teach and baptize all nations.",
+		context: "After His Resurrection, Jesus Christ gave instructions to His disciples.",
+		principle: "As followers of Jesus Christ, we are to teach and baptize all nations.",
+		application: "What could you do to help someone learn the gospel or keep his or her baptismal covenant?  What could you do to prepare to serve a mission?",
+		verse: "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:  Teaching them to observe all things whatsoever I have ccommanded you: and, lo, I am with you alway, even unto the end of the world. Amen.",
+	},
+	{ 
+		index: 6,
+		reference: "Luke 24:36-39",
+		title: "A resurrected body has flesh and bones.",
+		context: "On the day of His Resurrection, Jesus Christ appeared to His disciples in Jerusalem and showed them His resur- rected body.",
+		principle: "Jesus Christ is a resurrected being. A resurrected body is a body of flesh and bones.",
+		application: "How is your testimony strengthened knowing that Jesus Christ was literally resurrected?",
+		verse: "And as they thus spake, Jesus himself stood in the midst of them, and saith unto them, Peace be unto you.  But they were terrified and affrighted, and supposed that they had seen a spirit.  And he said unto them, Why are ye troubled? and why do thoughts arise in your hearts?  Behold my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye see me have.",
+	},
+	{ 
+		index: 7,
+		reference: "John 3:5",
+		title: "Born of water and of the Spirit",
+		context: "A Pharisee named Nicodemus asked what Jesus Christ meant by being “born again.”",
+		principle: "Baptism and receiving the Holy Ghost are necessary ordinances for spiritual rebirth and entering the celestial kingdom.",
+		application: "How has your baptism and receiving the gift of the Holy Ghost made a difference in your life? What can you do to keep your baptismal covenant and seek the companionship of the Holy Ghost?",
+		verse: "Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.",
+	},
+	{ 
+		index: 8,
+		reference: "John 14:6",
+		title: "The way, the truth, and the life",
+		context: "During the Last Supper, Jesus Christ answered Thomas’s question about how the disciples could know the way to the Father.",
+		principle: "The only way to receive eternal life and dwell with Father in Heaven is through Jesus Christ.",
+		application: "What are you doing to rely upon Jesus Christ as you strive to come unto the Father?",
+		verse: "Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.",
+	},
+	{ 
+		index: 9,
+		reference: "John 14:15",
+		title: "If ye love me, keep my commandments.",
+		context: "During the Last Supper, Jesus Christ taught His disciples how they could show their love for Him.",
+		principle: "We manifest our love for the Lord by keeping His commandments.",
+		application: "Set a goal in an area in your life where you could show greater love for the Lord through increased obedience.",
+		verse: "If ye love me, keep my commandments.",
+	},
+	{ 
+		index: 10,
+		reference: "John 17:3",
+		title: "Knowing God and Jesus Christ is eternal life.",
+		context: "The night before His Crucifixion, Jesus Christ prayed for His followers.",
+		principle: "As we come to truly know Heavenly Father and Jesus Christ, we can obtain eternal life.",
+		application: "What can you do to better know Heavenly Father and Jesus Christ? What can you do to strengthen your relationship with Them?",
+		verse: "And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.",
+	},
+	{ 
+		index: 11,
+		reference: "Acts 2:36-38",
+		title: "Repent, be baptized, and receive the Holy Ghost.",
+		context: "Fifty days after the Savior’s Resurrection, the Apostle Peter taught a multitude in Jerusalem what they must do to be saved.",
+		principle: "Repentance and baptism for the remission of sins prepare us to receive the gift of the Holy Ghost.",
+		application: "How could you use this scripture to help a friend understand what each of us must do to be forgiven of our sins and receive the Holy Ghost?",
+		verse: "Therefore let all the house of Israel know assuredly, that God hath made that same Jesus, whom ye have crucified, both Lord and Christ.  Now when they heard this, they were pricked in their heart, and said unto Peter and to the rest of the apostles, Men and brethren, what shall we do?  Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.",
+	},
+	{ 
+		index: 12,
+		reference: "Acts 3:19–21",
+		title: "The times of restitution",
+		context: "The Apostle Peter testified to a multi- tude in Jerusalem concerning our day.",
+		principle: "Prophets in all ages have foretold the latter-day restitution (restoration) of all things.",
+		application: "What additional scriptures show that the Lord would restore the gospel before His Second Coming?",
+		verse: "Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord;  And he shall send Jesus Christ, which before was preached unto you:  Whom the heaven must receive until the times of restitution of all things, which God hath spoken by the mouth of all his holy prophets since the world began.",
+	},
+	{ 
+		index: 13,
+		reference: "1 Corinthians 6:19-20",
+		title: "Your body is a temple.",
+		context: "In a letter to members of the Church in Corinth, the Apostle Paul taught the Saints why sexual sins were so serious.",
+		principle: "Our bodies are sacred like temples and should be clean and holy.",
+		application: "How does the doctrine in this scripture help answer questions about modesty? Chastity? Tattoos and piercings? The Word of Wisdom?",
+		verse: "What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own?  For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God’s.",
+	},
+	{ 
+		index: 14,
+		reference: "1 Corinthians 15:20-22",
+		title: "In Christ shall all be resurrected.",
+		context: "When some Saints in Corinth taught that there is no resurrection of the dead, the Apostle Paul wrote to correct them.",
+		principle: "Because Jesus Christ overcame death and was resurrected, all mankind will also be resurrected.",
+		application: "Share your testimony of the Resurrection of Jesus Christ with someone. How does this doctrine provide comfort to someone who has lost a loved one?",
+		verse: "But now is Christ risen from the dead, and become the firstfruits of them that slept.  For since by man came death, by man came also the resurrection of the dead.  For as in Adam all die, even so in Christ shall all be made alive.",
+	},
+	{ 
+		index: 15,
+		reference: "1 Corinthians 15:40-42",
+		title: "Degrees of glory",
+		context: "In a letter to members of the Church in Corinth, the Apostle Paul answered questions about how the dead will be raised and what kind of body they will be resurrected with.",
+		principle: "Resurrected bodies differ in glory just as the sun, moon, and stars differ in their brightness.",
+		application: "Read Doctrine and Covenants 76:50–70. What must you do to inherit a resurrected body of celestial glory?",
+		verse: "There are also celestial bodies, and bodies terrestrial: but the glory of the celestial is one, and the glory of the terrestrial is another.  There is one glory of the sun, and another glory of the moon, and another glory of the stars: for one star differeth from another star in glory.  So also is the resurrection of the dead. It is sown in corruption; it is raised in incorruption:",
+	},
+	{ 
+		index: 16,
+		reference: "Galatians 5:22–23",
+		title: "Fruit of the Spirit",
+		context: "In a letter to the Saints in Galatia, the Apostle Paul taught about the qualities that the Spirit instills in those who seek to “walk in the Spirit.”",
+		principle: "Having the Holy Ghost often results in feelings of love, joy, peace, longsuf- fering, gentleness, goodness, faith, meekness, and temperance.",
+		application: "When have you experienced the fruits of the Spirit? What can you do to invite the companionship of the Holy Ghost and enjoy these fruits of the Spirit in your life?",
+		verse: "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith,  Meekness, temperance: against such there is no law.",
+	},
+	{ 
+		index: 17,
+		reference: "Ephesians 4:11-14",
+		title: "Apostles and prophets help perfect the Saints.",
+		context: "In an epistle to the Saints in Ephesus, the Apostle Paul taught about the organization and purpose of the Church.",
+		principle: "The Church organization is given by God for perfecting and edifying the Saints and accomplishing the work of the ministry.",
+		application: "In what ways do Church leaders keep us from being “carried about with every wind of doctrine”?  How can you best show appreciation for a local Church leader?",
+		verse: "And he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers;  For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ:  Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto the measure of the stature of the fulness of Christ:  That we henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine, by the sleight of men, and cunning craftiness, whereby they lie in wait to deceive;",
+	},
+	{
+		index: 18,
+		reference: "Philippians 4:13",
+		title: "I can do all things through Christ.",
+		context: "While imprisoned, the Apostle Paul wrote to encourage the Saints in Philippi.",
+		principle: "Jesus Christ can strengthen us to do whatever God requires of us.",
+		application: "Write in your journal about a time when the Lord gave you strength to meet a challenge.",
+		verse: "I can do all things through Christ which strengtheneth me."
+	}
+	{ 
+		index: 19,
+		reference: "2 Thessalonians 2:1-3",
+		title: "Apostasy foretold",
+		context: "Some of the Saints in Thessalonica believed the Second Coming of Jesus Christ would soon occur. In his letter to them, the Apostle Paul corrected this misunderstanding.",
+		principle: "It was foretold that a period of apostasy would precede the Second Coming of Jesus Christ.",
+		application: "How would you answer a friend who asked, “Hasn’t Christ’s Church been on the earth since He established it? Why would there need to be a Restoration?”",
+		verse: "Now we beseech you, brethren, by the coming of our Lord Jesus Christ, and by our gathering together unto him, That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand.  Let no man deceive you by any means: for that day shall not come, except there come a falling away first, and that man of sin be revealed, the son of perdition;",
+	},
+	{ 
+		index: 20,
+		reference: "2 Timothy 3:15-17",
+		title: "Scripture given for doctrine, reproof, and correction",
+		context: "The Apostle Paul wrote to Timothy and encouraged him as he faced challenges among Church members.",
+		principle: "The inspired doctrine, reproof, and correction found in scripture will help lead us to salvation.",
+		application: "When has scripture study helped you understand doctrine, feel reproof, or receive correction?",
+		verse: "And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus.  All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness:  That the man of God may be perfect, throughly furnished unto all good works.",
+	},
+	{ 
+		index: 21,
+		reference: "Hebrews 12:9",
+		title: "God is the Father of our spirits.",
+		context: "The Apostle Paul encouraged members of the Church to be faithful to their Heavenly Father.",
+		principle: "God is the Father of our spirits, and we should be obedient to Him.",
+		application: "How does your knowledge that God is the Father of your spirit influence how you view the commandments?",
+		verse: "Furthermore we have had fathers of our flesh which corrected us, and we gave them reverence: shall we not much rather be in subjection unto the Father of spirits, and live?",
+	},
+	{ 
+		index: 22,
+		reference: "James 1:5-6",
+		title: "If you lack wisdom, ask God.",
+		context: "James wrote to Church members about how to obtain divine guidance.",
+		principle: "God willingly gives wisdom to those who ask of Him in faith.",
+		application: "When has God given you guidance in answer to your prayers? What can you do to pray with greater faith?",
+		verse: "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him.  But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed.",
+	},
+	{ 
+		index: 23,
+		reference: "James 2:17-18",
+		title: "Faith without works is dead.",
+		context: "James wrote to Church members in response to some who claimed that works were not needed to express their faith.",
+		principle: "Faith without works is dead.",
+		application: "When have you seen faith manifested in the works of someone you know? What specific things could you do this week that would show you have faith in Jesus Christ?",
+		verse: "Even so faith, if it hath not works, is dead, being alone.  Yea, a man may say, Thou hast faith, and I have works: shew me thy faith without thy works, and I will shew thee my faith by my works.  Revelation 14:6-7And I saw another angel fly in the midst of heaven, having the everlasting gospel to preach unto them that dwell on the earth, and to every nation, and kindred, and tongue, and people,  Saying with a loud voice, Fear God, and give glory to him; for the hour of his judgment is come: and worship him that made heaven, and earth, and the sea, and the fountains of waters.",
+	},
+	{
+		index: 24,
+		refernce: "1 Peter 4:6",
+		title: "The gospel is preached to the dead.",
+		context: "When the Saints in Asia Minor were going through many trials, the Apostle Peter wrote and assured them that Jesus Christ was the Savior and judge of the living and the dead.",
+		principle: "The gospel is preached to those who have died so they may have the same opportunity as those who heard the gospel message in mortality.",
+		application: "Seek opportunities to do family history research about your ancestors and to participate in temple ordinances in their behalf.",
+		verse: ""
+	},
+	{ 
+		index: 25,
+		reference: "Revelation 20:12",
+		title: "Judged before God",
+		context: "While on the Isle of Patmos, the Apostle John saw a vision of all the dead being brought before God to be judged.",
+		principle: "Everyone will be judged by God according to their works out of the books that have been written.",
+		application: "How does knowing you will be judged according to your works affect the decisions you will make today?",
+		verse: "And I saw the dead, small and great, stand before God; and the books were opened: and another book was opened, which is the book of life: and the dead were judged out of those things which were written in the books, according to their works."
+	}
+];

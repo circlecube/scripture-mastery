@@ -1,3 +1,7 @@
+
+/*
+		BOOK OF MORMON
+*/
 var sm_bom = [
 	{ 
 		index: 1,
@@ -227,6 +231,14 @@ var sm_bom = [
 ];
 
 
+
+
+
+
+
+/*
+		NEW TESTAMENT
+*/
 var sm_nt = [
 	{ 
 		index: 1,
@@ -452,5 +464,243 @@ var sm_nt = [
 		principle: "Everyone will be judged by God according to their works out of the books that have been written.",
 		application: "How does knowing you will be judged according to your works affect the decisions you will make today?",
 		verse: "And I saw the dead, small and great, stand before God; and the books were opened: and another book was opened, which is the book of life: and the dead were judged out of those things which were written in the books, according to their works."
+	}
+];
+
+
+
+
+
+
+
+
+/*
+		OLD TESTAMENT
+*/
+var sm_ot = [
+	{ 
+		index: 1,
+		reference: "Moses 1:39",
+		title: "This is God’s work and glory.",
+		context: "While on a high mountain, God spoke with Moses face-to-face and explained His eternal purpose for mankind.",
+		principle: "Heavenly Father’s plan provides a way for us to live forever and become like Him.",
+		application: "How can you assist God in His work? How can you help others seek eternal life?",
+		verse: "For behold, this is my work and my glory—to bring to pass the immortality and eternal life of man.",
+	},
+	{ 
+		index: 2,
+		reference: "Moses 7:18",
+		title: "Zion—one heart and one mind in righteousness",
+		context: "Enoch taught the gospel and estab- lished a city of righteousness during a time of great wickedness.",
+		principle: "The Lord’s people are united, live righteously, and care for one another.",
+		application: "What can you do to build unity, promote righteousness, and assist those in need in your family, ward, or branch?",
+		verse: "And the Lord called his people Zion, because they were of one heart and one mind, and dwelt in righteousness; and there was no poor among them.",
+	},
+	{ 
+		index: 3,
+		reference: "Abraham 3:22–23",
+		title: "Abraham was chosen before he was born.",
+		context: "God taught Abraham about premortal spirits.",
+		principle: "We lived with God before birth, and He chose His noble and great children to become rulers and leaders here upon the earth.",
+		application: "How does the truth that God knew you before you were born inspire you to follow Him during mortality?",
+		verse: "Now the Lord had shown unto me, Abraham, the intelligences that were organized before the world was; and among all these there were many of the noble and great ones;  And God saw these souls that they were good, and he stood in the midst of them, and he said: These I will make my rulers; for he stood among those that were spirits, and he saw that they were good; and he said unto me: Abraham, thou art one of them; thou wast chosen before thou wast born.",
+	},
+	{ 
+		index: 4,
+		reference: "Genesis 1:26–27",
+		title: "God created man in His own image.",
+		context: "The Creation account sets forth the placing of Adam and Eve on the earth.",
+		principle: "Men and women are created in God’s image and given dominion over all animals and creatures on the earth.",
+		application: "You are a child of God, made in His image. When you pray to Heavenly Father, remember that He is a loving Father.",
+		verse: "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.  So God created man in his own image, in the image of God created he him; male and female created he them.",
+	},
+	{ 
+		index: 5,
+		reference: "Genesis 2:24",
+		title: "Husbands and wives should be one.",
+		context: "Following the creation of Eve, God taught Adam and Eve that unity should exist in their marriage.",
+		principle: "Marriage between a man and a woman is ordained of God.",
+		application: "What will you do now to prepare for marriage in the future? What standards will you follow to honor the union with your future spouse?",
+		verse: "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+	},
+	{ 
+		index: 6,
+		reference: "Genesis 39:9",
+		title: "Joseph resisted temptation.",
+		context: "Joseph was repeatedly approached by Potiphar’s wife to commit adultery.",
+		principle: "Sexual immorality is a sin against God.",
+		application: "Identify specific standards in the For the Strength of Youth pamphlet that can help you stay morally pure.",
+		verse: "There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?",
+	},
+	{ 
+		index: 7,
+		reference: "Exodus 19:5–6",
+		title: "Ye shall be a holy nation.",
+		context: "At Mount Sinai, the Lord invited the children of Israel to become His cov- enant people.",
+		principle: "If we obey the Lord’s voice and keep His covenants, then we will become His holy people.",
+		application: "What will you do to better keep the covenants you have made with the Lord?",
+		verse: "Now therefore, if ye will obey my voice indeed, and keep my covenant, then ye shall be a peculiar treasure unto me above all people: for all the earth is mine:  And ye shall be unto me a kingdom of priests, and an holy nation. These are the words which thou shalt speak unto the children of Israel.",
+	},
+	{ 
+		index: 8,
+		reference: "Exodus 20:3–17",
+		title: "The Ten Commandments",
+		context: "Near Mount Sinai, the Lord gave the children of Israel commandments through His servant Moses.",
+		principle: "As we keep the Ten Commandments, we live in harmony with God and man.",
+		application: "Consider each of the Ten Commandments and how well you are following it. Commit to obey them more fully.",
+		verse: "Thou shalt have no other gods before me.  Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth:  Thou shalt not bow down thyself to them, nor serve them: for I the Lord thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me;  And shewing mercy unto thousands of them that love me, and keep my commandments.  Thou shalt not take the name of the Lord thy God in vain; for the Lord will not hold him guiltless that taketh his name in vain.  Remember the sabbath day, to keep it holy.  Six days shalt thou labour, and do all thy work:  But the seventh day is the sabbath of the Lord thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates:  For in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the Lord blessed the sabbath day, and hallowed it.  Honour thy father and thy mother: that thy days may be long upon the land which the Lord thy God giveth thee.  Thou shalt not kill.  Thou shalt not commit adultery.  Thou shalt not steal.  Thou shalt not bear false witness against thy neighbour.  Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour's.",
+	},
+	{ 
+		index: 9,
+		reference: "Joshua 24:15",
+		title: "Choose to serve the Lord.",
+		context: "Joshua taught the children of Israel what the Lord had done to preserve them. He encouraged them to serve the Lord.",
+		principle: "We can choose whether or not we will serve the Lord and follow Him.",
+		application: "What actions in your life demonstrate your choice to serve the Lord?",
+		verse: "And if it seem evil unto you to serve the Lord, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my house, we will serve the Lord.",
+	},
+	{ 
+		index: 10,
+		reference: "1 Samuel 16:7",
+		title: "The Lord looks on the heart.",
+		context: "Samuel assumed that Eliab, the eldest son of Jesse, was the one the Lord had selected to be Israel’s new king because of his strong physical appearance.",
+		principle: "God judges us by our thoughts and desires rather than by our outward appearance.",
+		application: "Rather than focus on outward appear- ance, pray to see yourself and others as God sees you.",
+		verse: "But the Lord said unto Samuel, Look not on his countenance, or on the height of his stature; because I have refused him: for the Lord seeth not as man seeth; for man looketh on the outward appearance, but the Lord looketh on the heart.",
+	},
+	{ 
+		index: 11,
+		reference: "Psalm 24:3–4",
+		title: "Clean hands, pure heart",
+		context: "In a psalm (song) of praise to God, the psalmist asked who would be worthy to stand in holy places such as temples.",
+		principle: "If we repent and live pure lives, then we are worthy to receive temple ordi- nances and enter the celestial kingdom.",
+		application: "What can you do to be clean and pure as you interact with media and tech- nology? If you are able, make plans to attend the temple regularly.",
+		verse: "Who shall ascend into the hill of the Lord? or who shall stand in his holy place?  He that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully.",
+	},
+	{ 
+		index: 12,
+		reference: "Psalm 119:105",
+		title: "God’s word is a lamp unto my feet.",
+		context: "In a psalm (song) about God’s law, the psalmist compared God’s word to a light that guides us on the path of life.",
+		principle: "The word of God gives direction for our lives.",
+		application: "Seek answers to your questions and guidance for your life as you study the scriptures and the words of living prophets.",
+		verse: "Thy word is a lamp unto my feet, and a light unto my path.",
+	},
+	{ 
+		index: 13,
+		reference: "Psalm 127:3",
+		title: "Children are an heritage of the Lord.",
+		context: "A psalm (song) about God’s blessings teaches that children are a precious gift from God.",
+		principle: "Children are to be cherished as gifts from God.",
+		application: "In what ways are you preparing your- self now for the sacred responsibility of raising and caring for your own children?",
+		verse: "Lo, children are an heritage of the Lord: and the fruit of the womb is his reward.",
+	},
+	{ 
+		index: 14,
+		reference: "Proverbs 3:5–6",
+		title: "Trust in the Lord.",
+		context: "The book of Proverbs contains gospel principles, poems, and parables that encourage righteous living.",
+		principle: "If we place our complete trust in God, He will guide us in our lives.",
+		application: "How can you rely more on the Lord and less on your own understanding? As you learn to increase your trust in the Lord, how will your life have more divine direction and purpose?",
+		verse: "Trust in the Lord with all thine heart; and lean not unto thine own understanding.  In all thy ways acknowledge him, and he shall direct thy paths.",
+	},
+	{ 
+		index: 15,
+		reference: "Isaiah 1:18",
+		title: "Though your sins be as scarlet",
+		context: "Through the prophet Isaiah, the Lord encouraged His children to repent and become clean.",
+		principle: "When we repent, the blood of Jesus Christ cleanses us from our sins and we can be completely forgiven.",
+		application: "If you have unresolved sin, exercise your faith to move forward in the repentance process.",
+		verse: "Come now, and let us reason together, saith the Lord: though your sins be as scarlet, they shall be as white as snow; though they be red like crimson, they shall be as wool.",
+	},
+	{ 
+		index: 16,
+		reference: "Isaiah 5:20",
+		title: "Woe unto them that call evil good.",
+		context: "Isaiah warned the children of Israel of the sorrow and suffering that would come upon them because of their unrighteousness.",
+		principle: "Unhappiness results when people pro- mote evil as good and call good evil.",
+		application: "When have you seen the media portray evil as good and good as evil? How can you avoid being deceived by the false philosophies of the world?",
+		verse: "Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness; that put bitter for sweet, and sweet for bitter!",
+	},
+	{ 
+		index: 17,
+		reference: "Isaiah 29:13–14",
+		title: "A marvelous work and a wonder",
+		context: "Isaiah prophesied that the Lord would restore the gospel in the latter days, following a time of apostasy.",
+		principle: "The Restoration of the gospel is a marvelous work that corrects false doctrines and counters the wisdom of the world.",
+		application: "How has the restored gospel helped you draw nearer to the Lord?",
+		verse: "Wherefore the Lord said, Forasmuch as this people draw near me with their mouth, and with their lips do honour me, but have removed their heart far from me, and their fear toward me is taught by the precept of men:  Therefore, behold, I will proceed to do a marvellous work among this people, even a marvellous work and a wonder: for the wisdom of their wise men shall perish, and the understanding of their prudent men shall be hid.",
+	},
+	{ 
+		index: 18,
+		reference: "Isaiah 53:3–5",
+		title: "Jesus Christ bore our griefs and suf- fered for our sins.",
+		context: "Isaiah prophesied of the life and aton- ing mission of Jesus Christ approxi- mately 700 years before His birth.",
+		principle: "Jesus Christ suffered for our sins and sorrows; we can be forgiven and healed through the Atonement.",
+		application: "When have you felt the healing power of the Atonement? Write in your journal or share with someone your feelings for Jesus Christ and His Atonement.",
+		verse: "He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not.  Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted.  But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.",
+	},
+	{ 
+		index: 19,
+		reference: "Isaiah 58:6–7",
+		title: "The law of the fast",
+		context: "After the prophet Isaiah identified ways the people were failing to live the law of the fast, he taught them about the true purposes and blessings of fasting.",
+		principle: "Fasting helps relieve the burdens of ourselves and others and helps us care for the poor.",
+		application: "When have you received blessings from a fast? When fasting, plan to fast with a specific purpose.",
+		verse: "Is not this the fast that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and to let the oppressed go free, and that ye break every yoke?  Is it not to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house? when thou seest the naked, that thou cover him; and that thou hide not thyself from thine own flesh?",
+	},
+	{ 
+		index: 20,
+		reference: "Isaiah 58:13–14",
+		title: "The Sabbath is the Lord’s holy day.",
+		context: "The prophet Isaiah instructed the peo- ple to keep the Sabbath day holy and taught about the blessings that come from Sabbath-day observance.",
+		principle: "If we honor God by seeking to do His will on the Sabbath day, then we will prosper.",
+		application: "Evaluate your Sabbath-day observance and determine whether your Sabbath- day activities honor God. Strive to better serve and honor God on His holy day.",
+		verse: "If thou turn away thy foot from the sabbath, from doing thy pleasure on my holy day; and call the sabbath a delight, the holy of the Lord, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words:  Then shalt thou delight thyself in the Lord; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of the Lord hath spoken it.",
+	},
+	{ 
+		index: 21,
+		reference: "Jeremiah 1:4–5",
+		title: "Jeremiah was foreordained before birth.",
+		context: "As the Lord called Jeremiah to proph- esy to the people of Judah, He revealed that Jeremiah had been ordained to be a prophet before he was born.",
+		principle: "God knew us before we were born and foreordained us for earthly missions.",
+		application: "Examine your patriarchal blessing to gain insights into your purposes on earth. If you have not yet received a patriarchal blessing, prepare to receive one.",
+		verse: "Then the word of the Lord came unto me, saying,  Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations.",
+	},
+	{ 
+		index: 22,
+		reference: "Ezekiel 37:15–17",
+		title: "The Bible and the Book of Mormon are joined together.",
+		context: "Ezekiel prophesied that as part of the gathering of Israel in the last days, the Bible and the Book of Mormon would be joined together.",
+		principle: "The Bible and the Book of Mormon have come together to witness of Jesus Christ in our day.",
+		application: "As you study the scriptures, look for truths that are supported in both the Bible and the Book of Mormon.",
+		verse: "The word of the Lord came again unto me, saying,  Moreover, thou son of man, take thee one stick, and write upon it, For Judah, and for the children of Israel his companions: then take another stick, and write upon it, For Joseph, the stick of Ephraim, and for all the house of Israel his companions:  And join them one to another into one stick; and they shall become one in thine hand.",
+	},
+	{ 
+		index: 23,
+		reference: "Amos 3:7",
+		title: "God reveals His secret to His prophets.",
+		context: "As the prophet Amos warned of com- ing judgments of the Lord, he testified that God reveals knowledge to His prophets.",
+		principle: "The Lord reveals His will through prophets.",
+		application: "How have you come to know that God speaks through prophets today? What are the current prophets counseling you to do?",
+		verse: "Surely the Lord God will do nothing, but he revealeth his secret unto his servants the prophets.",
+	},
+	{ 
+		index: 24,
+		reference: "Malachi 3:8–10",
+		title: "Paying tithing brings blessings.",
+		context: "Through the prophet Malachi, the Lord taught wayward Israel to return to Him by living the law of tithing.",
+		principle: "If we pay tithes and offerings, then God will open the windows of heaven and pour out blessings upon us.",
+		application: "What blessings have you received as a result of obeying the law of tithing?",
+		verse: "Will a man rob God? Yet ye have robbed me. But ye say, Wherein have we robbed thee? In tithes and offerings.  Ye are acursed with a curse: for ye have robbed me, even this whole nation.",
+	},
+	{ 
+		index: 25,
+		reference: "Malachi 4:5–6",
+		title: "Elijah will turn the hearts of fathers and children.",
+		context: "Malachi prophesied that before the Second Coming of Jesus Christ, the prophet Elijah would restore the authority to perform ordinance work for the dead.",
+		principle: "Because Elijah came and restored priesthood keys, we can perform ordinance work for our kindred dead.",
+		application: "Learn how to use the family history tools that the church provides. Prepare the name of at least one of your ancestors for temple ordinances.",
+		verse: "Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the Lord:  And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.",
 	}
 ];

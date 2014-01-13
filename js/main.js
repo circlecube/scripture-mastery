@@ -46,7 +46,11 @@ var langs = {
 		normal: "Normal",
 		large: "Large",
 		small: "Small",
-		language_string: "Language"
+		language_string: "Language",
+		sm_bom: "Book of Mormon",
+		sm_nt: "New Testament",
+		sm_ot: "Old Testament",
+		sm_dc: "Doctrine & Covenants"
 	}
 };
 var difficulty = langs['english'].difficulty_all;
@@ -60,8 +64,8 @@ difficulty levels
 'odd_words',
 'first_letter'
 */
-
-var active_canon = sm_bom;
+var cannon = [sm_ot, sm_nt, sm_bom, sm_dc];
+var active_cannon = cannon[0];
 
 jQuery(document).ready(function($) {
 
@@ -129,11 +133,27 @@ jQuery(document).ready(function($) {
 	function update_language(){
 		//console.log('update_language!', language);
 
-		$('.quiz_begin').text(	langs[language].quiz );
-		$('.quiz_jump li').remove();
-		for ( var i = 0; i < active_canon.length; i++){
-			$('.quiz_jump').append('<li><a href="#" class="quiz_begin_jump" data-value="' + (i+1) + '">' + active_canon[i].reference  + '</a></li>');
-		}	
+		$('.quiz_ot .quiz_begin').text(	langs[language].sm_ot + ' ' + langs[language].quiz );
+		$('.quiz_ot .quiz_jump li').remove();
+		for ( var i = 0; i < sm_ot.length; i++){
+			$('.quiz_ot .quiz_jump').append('<li><a href="#" class="quiz_begin_jump" data-value="' + (i+1) + '" data-active-cannon="0">' + sm_ot[i].reference  + '</a></li>');
+		}
+		$('.quiz_nt .quiz_begin').text(	langs[language].sm_nt + ' ' + langs[language].quiz );
+		$('.quiz_nt .quiz_jump li').remove();
+		for ( var i = 0; i < sm_nt.length; i++){
+			$('.quiz_nt .quiz_jump').append('<li><a href="#" class="quiz_begin_jump" data-value="' + (i+1) + '" data-active-cannon="1">' + sm_nt[i].reference  + '</a></li>');
+		}
+		$('.quiz_bom .quiz_begin').text(	langs[language].sm_bom + ' ' + langs[language].quiz );
+		$('.quiz_bom .quiz_jump li').remove();
+		for ( var i = 0; i < sm_bom.length; i++){
+			$('.quiz_bom .quiz_jump').append('<li><a href="#" class="quiz_begin_jump" data-value="' + (i+1) + '" data-active-cannon="2">' + sm_bom[i].reference  + '</a></li>');
+		}
+		$('.quiz_dc .quiz_begin').text(	langs[language].sm_dc + ' ' + langs[language].quiz );
+		$('.quiz_dc .quiz_jump li').remove();
+		for ( var i = 0; i < sm_dc.length; i++){
+			$('.quiz_dc .quiz_jump').append('<li><a href="#" class="quiz_begin_jump" data-value="' + (i+1) + '" data-active-cannon="3">' + sm_dc[i].reference  + '</a></li>');
+		}
+
 
 		$('.list_all').text(	langs[language].list );
 		$('.about').text( 		langs[language].about );
@@ -180,10 +200,10 @@ jQuery(document).ready(function($) {
 	function list_aofs(){
 		var aofs = '';//'<h2 class="sub-title">' + langs[language].title_plural + '</h2>';
 
-		for(var i=0; i<active_canon.length; i++){
+		for(var i=0; i<active_cannon.length; i++){
 			aofs += "<article class='aof_" + i + "'>";
-			aofs += "<dt>" + active_canon[i].reference + "</dt>";
-			aofs += "<dd>" + active_canon[i].verse;
+			aofs += "<dt>" + active_cannon[i].reference + "</dt>";
+			aofs += "<dd>" + active_cannon[i].verse;
 			//aofs += "<div class='button button_game' data-id='" + i + "'>" + langs[language].quiz + "</div></dd>";
 			aofs += "</article>";
 		}
@@ -245,6 +265,7 @@ jQuery(document).ready(function($) {
 		game_aofs();
 	});
 	$('.quiz_jump').on('click touch', '.quiz_begin_jump', function(e){
+		active_cannon = cannon[$(this).data('active-cannon')];
 		quiz_article = $(this).data('value') - 2;
 		game_aofs();
 	});
@@ -297,7 +318,7 @@ jQuery(document).ready(function($) {
 			console.log(activity_log[i]);
 			if ( activity_log[i].s != undefined ) {
 				content += '<dd>' + activity_log[i].s + '% - ';
-				content += active_canon[ activity_log[i].i ].reference + ' ';
+				content += active_cannon[ activity_log[i].i ].reference + ' ';
 				// content += ' (' + activity_log[i].d + ') ';
 				content += relative_time(activity_log[i].t) + '.</dd>';
 			}
@@ -314,7 +335,7 @@ jQuery(document).ready(function($) {
 		//var random_article = Math.floor( aof.length * Math.random() );
 		var random_article_words = randomize_aof( quiz_article );
 		var content = '';//<h2 class="sub-title">' + langs[language].quiz + ': ' + langs[language].ordinals[quiz_article] + ' ' + langs[language].title + '</h2>';
-		content += '<dt>' + langs[language].title + ' ' + langs[language].quiz + ': ' + active_canon[quiz_article].reference + '</dt><dd class="ordered"></dd><dd class="unordered">';
+		content += '<dt>' + langs[language].title + ' ' + langs[language].quiz + ': ' + active_cannon[quiz_article].reference + '</dt><dd class="ordered"></dd><dd class="unordered">';
 
 		//place unordred words
 		if (difficulty == langs['english'].difficulty_long ){
@@ -601,7 +622,7 @@ To track an event, call (oddly enough) trackEvent(). trackEvent takes 6 argument
 		//split article into array of words in correct order
 
 		//split array into verses first to seperate the verses for easier scrambles
-		var article_word = active_canon[article].verse.split(' ');
+		var article_word = active_cannon[article].verse.split(' ');
 		var article_words = [];
 		//copy words into array with correct order vars
 		for (var i = 0; i < article_word.length; i++){

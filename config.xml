@@ -2,13 +2,24 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.circlecube.scripturemastery"
-        versionCode="001" 
-        version   = "0.0.1">
+        versionCode="003" 
+        version   = "0.0.3">
 
     <name>LDS Scripture Mastery</name>
 
     <description>
-        An easy to use tool to learn or memorize or rememorize all Scriptuer Mastery verses of the Church of Jesus Christ of Latter-Day Saints. Review the scriptures in a clean list view, and quiz yourself on each of them in multiple ways. Quiz presents you words from the verses scrambled, you select the words in the correct order. Many different levels: all words scrambled, random words scrambled, only long words or short words scrambled, all words with a first letter displayed as a hint... etc. Suggest more levels if you can think of them.
+✔All 100 Scripture Mastery verses in one place! 
+✔Great study companion for seminary students. 
+
+This app will help you learn these scripture verses in the 
+★Old Testament
+★New Testament
+★Book of Mormon
+★Doctrine and Covenants LDS Church History. 
+
+✔Easy and fun to use tool to learn or memorize or even re-memorize all Scripture Mastery verses of the Church of Jesus Christ of Latter-Day Saints. 
+
+Review all the scripture mastery verses in a clean list on one page, quiz yourself on each of them in multiple ways. This app presents you words from each verse all scrambled, then you tap words in the correct order. Multiple settings for difficulty levels, such as: all words scrambled, only long words, only short words scrambled. Suggest more levels if you can think of them. 
     </description>
 
     <author href="http://circlecube.com" email="evan@circlecube.com">
@@ -21,6 +32,5 @@
     <gap:splash src="splash.png" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="true" />
-    <icon src="apple-touch-icon-precomposed.png" />
     <preference name="permissions" value="none"/>
 </widget>

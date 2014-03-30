@@ -316,8 +316,10 @@ textarea {
 /*
 
 Colors
-green: #339944;
+green: #1166aa;
 blue : #3366ee;
+
+blue: #1166aa;
 
 
 */
@@ -332,7 +334,7 @@ body,
 .header{
     width: 100%;
     z-index: 100;
-    background: #339944;
+    background: #1166aa;
     /*background: #3366ee;*/
     padding: 0;
     margin: 0;
@@ -433,7 +435,7 @@ body,
     position:absolute;
     top:-100%;
     width:100%;
-    background: #339944;
+    background: #1166aa;
     padding: 2em;
     z-index:1;
     color:#fff;
@@ -465,7 +467,7 @@ body,
     cursor: pointer;
     padding: 1em;
     background: #eee;
-    border-bottom: 1px solid #339944;
+    border-bottom: 1px solid #1166aa;
     font-family:'Trajan','Georgia',serif;
 }
 .content dt:hover,
@@ -478,7 +480,7 @@ body,
     background: #fff;
     padding: 1em 1em 2em;
     display:block;
-    border-bottom: 8px solid #339944;
+    border-bottom: 8px solid #1166aa;
     font-family: 'Arial', sans-serif;
     overflow:hidden;
 }
@@ -510,7 +512,7 @@ body.font-small {
     padding: .5em 2em;
     display: block;
     width:auto;
-    margin: 1em;
+    margin: 2em 1em 1em;
     float:left;
     cursor: pointer;
     clear:both;
@@ -524,7 +526,7 @@ body.font-small {
     background: #fff;
     display: inline-block;
     padding: .5em 1em;
-    border: 1px solid #339944;
+    border: 1px solid #1166aa;
     border-radius: 1em;
     margin: .5em;
     -webkit-touch-callout: none;
@@ -535,13 +537,13 @@ body.font-small {
     user-select: none;
 }
 .content .ordered {
-    background: #339944;
+    background: #1166aa;
     padding:.5em;
     overflow:hidden;
     line-height:.66em;
 }
 .ordered .word {
-    background: #339944;
+    background: #1166aa;
     color: #fff;
     margin: 0;
     border-radius:0;
@@ -555,10 +557,33 @@ body.font-small {
 }
 .unordered.empty {
     padding:0;
+    height:0;
+    border: 0;
+    margin: -.5em 0;
 }
 .word:active,
 .word:focus,
 .word.hint {
-    background:#339944;
+    background:#1166aa;
     color:#fff;
+}
+.sub-title{
+    font-family:'Trajan','Georgia',serif;
+    padding: .66em;
+    font-weight: normal;
+    margin: 0;
+}
+.verse_label {
+    /*background: #1166aa;*/
+    border-radius: 1em;
+    display: inline-block;
+    padding: .5em 0em;
+    margin: .5em .25em;
+    text-align:center;
+    color:#1166aa;
+}
+.ordered .verse_label {
+    /*background: #eee;*/
+    color: #fff;
+    padding: .5em 0;
 }

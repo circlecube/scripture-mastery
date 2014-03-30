@@ -5,7 +5,8 @@ var gaPlugin;
 var activity_log = [];
 var touching = false;
 var keep_log = true;
-var show_hints = true;
+var hints_on = true;
+var verses_on = true;
 var language = 'english';
 var font_size = 'normal';
 var long_word_length = 3;
@@ -22,7 +23,7 @@ var langs = {
 		language_native: "English", 
 		language_english: "English",
 		title: "Scripture", 
-		title_plural: "Scripture Masteries", 
+		title_plural: "Scripture Mastery", 
 		church: "The Church of Jesus Christ of Latter-day Saints",
 		about_text: "<p>Seminaries and Institutes of Religion has selected 25 scripture mastery passages for each of the four seminary courses. These passages provide an important scriptural foundation for understanding and sharing the gospel and for strengthening faith. Seminary students are encouraged to develop a “mastery” of these passages as described below. Institute students should be encouraged to build upon the foundation of these 100 scripture mastery passages and develop a depth of understanding of other key passages of scripture. Mastery of scripture passages includes:</p><ul><li>Locating the verses by knowing the associated scriptural references.</li><li>Understanding the context and content of the scripture passages.</li><li>Applying the gospel principles and doctrines taught in the scripture passages.</li><li>Memorizing the passages.</li></ul><p>Memorization can be a wonderful tool to help students know and love selected passages of scripture. As Elder Richard G. Scott explained, “When scriptures are used as the Lord has caused them to be recorded, they have intrinsic power that is not communicated when paraphrased” (“He Lives,” Ensign, Nov. 1999, 88). Care should be taken, however, to tailor expectations to each student’s capabilities and circumstances. Students should not be made to feel embarrassed or overwhelmed if they are unable to memorize.</p><p>Teachers will be better able to help their students if they master these passages themselves. When teachers refer to scripture mastery passages with consistency, maintain appropriate expectations, and use methods that appeal to different learning styles, they will be more successful in helping students to master these key passages. During lessons, scripture mastery passages should be used to clarify related doctrines and principles. They may be used as the theme for devotionals or displayed somewhere in the classroom. Students should also be encouraged to study and apply them outside of class.</p><p>In locations where multiple teachers serve together on a faculty, student learning will be enhanced when faculty members take a unified approach to scripture mastery. Periodically teachers may choose to review scripture mastery references from previous years so that students can maintain mastery of all of the selected passages.</p><p>While scripture mastery is an important part of the curriculum, it should supplement, not overshadow, daily sequential study of the scriptures. Teachers should be wise in the time they allot to scripture mastery. Home-study teachers must be particularly careful that the weekly class does not become a weekly scripture mastery activity. Teachers should choose methods, activities, and music that are in keeping with the dignity, purpose, and spirit of the scriptures and that avoid contention.</p>",
 		skip: "Skip",
@@ -33,8 +34,11 @@ var langs = {
 		log: "Activity",
 		clear_log: "Clear Activity Log",
 		hints: "Hints",
-		hints_show: "Show Hints",
-		hints_hide: "Do Not Show Hints",
+		hints_on_label: "Show Hints",
+		hints_off_label: "Do Not Show Hints",
+		verses: "Verses",
+		verses_on_label: "Seperate Verses",
+		verses_off_label: "Combine verses",
 		difficulty: "Difficulty",
 		difficulty_all: "All Words",
 		difficulty_long: "Long Words",
@@ -84,8 +88,11 @@ jQuery(document).ready(function($) {
 		if (localStorage.language){
 			language = localStorage.language;
 		}
-		if (localStorage.show_hints){
-			show_hints = localStorage.show_hints;
+		if (localStorage.hints_on){
+			hints_on = localStorage.hints_on;
+		}
+		if (localStorage.verses_on){
+			verses_on = localStorage.verses_on;
 		}
 		if (localStorage.activity_log){
 			activity_log = JSON.parse(localStorage.activity_log);
@@ -104,9 +111,9 @@ jQuery(document).ready(function($) {
 	function onDeviceReady() {
 		//https://github.com/phonegap-build/GAPlugin/blob/c928e353feb1eb75ca3979b129b10b216a27ad59/README.md
 		//gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Button", "Click", "event only", 1);
-	    //gaPlugin = window.plugins.gaPlugin;
-	    //gaPlugin.init(nativePluginResultHandler, nativePluginErrorHandler, "UA-1466312-11", 10);
-		//gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "Begin", quiz_article);
+	    gaPlugin = window.plugins.gaPlugin;
+	    gaPlugin.init(nativePluginResultHandler, nativePluginErrorHandler, "UA-1466312-12", 10);
+		gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "Begin", quiz_article);
 
 	}
 	
@@ -133,22 +140,22 @@ jQuery(document).ready(function($) {
 	function update_language(){
 		//console.log('update_language!', language);
 
-		$('.quiz_ot .quiz_begin').text(	langs[language].sm_ot + ' ' + langs[language].quiz );
+		$('.quiz_ot .quiz_begin').text(	langs[language].sm_ot );
 		$('.quiz_ot .quiz_jump li').remove();
 		for ( var i = 0; i < sm_ot.length; i++){
 			$('.quiz_ot .quiz_jump').append('<li><a href="#" class="quiz_begin_jump" data-value="' + (i+1) + '" data-active-cannon="0">' + sm_ot[i].reference  + '</a></li>');
 		}
-		$('.quiz_nt .quiz_begin').text(	langs[language].sm_nt + ' ' + langs[language].quiz );
+		$('.quiz_nt .quiz_begin').text(	langs[language].sm_nt );
 		$('.quiz_nt .quiz_jump li').remove();
 		for ( var i = 0; i < sm_nt.length; i++){
 			$('.quiz_nt .quiz_jump').append('<li><a href="#" class="quiz_begin_jump" data-value="' + (i+1) + '" data-active-cannon="1">' + sm_nt[i].reference  + '</a></li>');
 		}
-		$('.quiz_bom .quiz_begin').text(	langs[language].sm_bom + ' ' + langs[language].quiz );
+		$('.quiz_bom .quiz_begin').text( langs[language].sm_bom );
 		$('.quiz_bom .quiz_jump li').remove();
 		for ( var i = 0; i < sm_bom.length; i++){
 			$('.quiz_bom .quiz_jump').append('<li><a href="#" class="quiz_begin_jump" data-value="' + (i+1) + '" data-active-cannon="2">' + sm_bom[i].reference  + '</a></li>');
 		}
-		$('.quiz_dc .quiz_begin').text(	langs[language].sm_dc + ' ' + langs[language].quiz );
+		$('.quiz_dc .quiz_begin').text(	langs[language].sm_dc );
 		$('.quiz_dc .quiz_jump li').remove();
 		for ( var i = 0; i < sm_dc.length; i++){
 			$('.quiz_dc .quiz_jump').append('<li><a href="#" class="quiz_begin_jump" data-value="' + (i+1) + '" data-active-cannon="3">' + sm_dc[i].reference  + '</a></li>');
@@ -182,29 +189,55 @@ jQuery(document).ready(function($) {
 		$('.font_size-small').text( 	langs[language].small );
 
 		$('.hints_option').text( 		langs[language].hints );
-		$('.hints_option-show').text( 	langs[language].hints_show );
-		$('.hints_option-hide').text( 	langs[language].hints_hide );
+		$('.hints_option-on').text( 	langs[language].hints_on_label );
+		$('.hints_option-off').text( 	langs[language].hints_off_label );
+
+		$('.verses_option').text( 		langs[language].hints );
+		$('.verses_option-on').text( 	langs[language].verses_on_label );
+		$('.verses_option-off').text( 	langs[language].verses_off_label );
 
 
 		$('.title').text(	langs[language].title_plural );
 
 		//set active from local storage vars
-		console.log(font_size, difficulty, language);
-		$('.difficulty_option, .language_option, .font_size_option, .hints_option').parent().removeClass('active');
+		// console.log(font_size, difficulty, language, hints_on, verses_on);
+		$('.font_size_option, .language_option, .difficulty_option, .hints_option, .verses_option').parent().removeClass('active');
 		$('.font_size_option[data-value="' + font_size + '"]').parent().addClass('active');
 		$('.language_option[data-value="' + language + '"]').parent().addClass('active');
 		$('.difficulty_option[data-value="' + difficulty + '"]').parent().addClass('active');
-		$('.hints_option[data-value="' + show_hints + '"]').parent().addClass('active');
+		$('.hints_option[data-value="' + hints_on + '"]').parent().addClass('active');
+		$('.verses_option[data-value="' + verses_on + '"]').parent().addClass('active');
 	}	
 
 	function list_aofs(){
 		var aofs = '';//'<h2 class="sub-title">' + langs[language].title_plural + '</h2>';
 
-		for(var i=0; i<active_cannon.length; i++){
+		aofs += "<h2 class='sub-title'>" + langs[language].sm_ot + "</h2>";
+		for ( var i = 0; i < sm_ot.length; i++){
 			aofs += "<article class='aof_" + i + "'>";
-			aofs += "<dt>" + active_cannon[i].reference + "</dt>";
-			aofs += "<dd>" + active_cannon[i].verse;
-			//aofs += "<div class='button button_game' data-id='" + i + "'>" + langs[language].quiz + "</div></dd>";
+			aofs += "<dt>" + sm_ot[i].reference + "</dt>";
+			aofs += "<dd style='display:none;'>" + sm_ot[i].verse;
+			aofs += "</article>";
+		}
+		aofs += "<h2 class='sub-title'>" + langs[language].sm_nt + "</h2>";
+		for ( var i = 0; i < sm_nt.length; i++){
+			aofs += "<article class='aof_" + i + "'>";
+			aofs += "<dt>" + sm_nt[i].reference + "</dt>";
+			aofs += "<dd style='display:none;'>" + sm_nt[i].verse;
+			aofs += "</article>";
+		}
+		aofs += "<h2 class='sub-title'>" + langs[language].sm_bom + "</h2>";
+		for ( var i = 0; i < sm_bom.length; i++){
+			aofs += "<article class='aof_" + i + "'>";
+			aofs += "<dt>" + sm_bom[i].reference + "</dt>";
+			aofs += "<dd style='display:none;'>" + sm_bom[i].verse;
+			aofs += "</article>";
+		}
+		aofs += "<h2 class='sub-title'>" + langs[language].sm_dc + "</h2>";
+		for ( var i = 0; i < sm_dc.length; i++){
+			aofs += "<article class='aof_" + i + "'>";
+			aofs += "<dt>" + sm_dc[i].reference + "</dt>";
+			aofs += "<dd style='display:none;'>" + sm_dc[i].verse;
 			aofs += "</article>";
 		}
 		$('.title').text( langs[language].title_plural );
@@ -261,11 +294,12 @@ jQuery(document).ready(function($) {
 		touching = false;
 	});
 	$('.quiz_begin').on('click touch', function(e){
+		active_cannon = cannon[$(this).parent('.quiz').data('active-cannon')];
 		quiz_article = -1;
 		game_aofs();
 	});
 	$('.quiz_jump').on('click touch', '.quiz_begin_jump', function(e){
-		active_cannon = cannon[$(this).data('active-cannon')];
+		active_cannon = cannon[$(this).parents('.quiz').data('active-cannon')];
 		quiz_article = $(this).data('value') - 2;
 		game_aofs();
 	});
@@ -282,10 +316,19 @@ jQuery(document).ready(function($) {
 		}
 	});
 	$('.hints_option').on('click touch', function(e){
-		show_hints = $(this).data('value');
-		localStorage.show_hints = show_hints;
+		hints_on = $(this).data('value');
+		localStorage.hints_on = hints_on;
 		$(this).parent().siblings().removeClass('active');
 		$(this).parent().addClass('active');
+	});
+	$('.verses_option').on('click touch', function(e){
+		verses_on = $(this).data('value');
+		localStorage.verses_on = verses_on;
+		$(this).parent().siblings().removeClass('active');
+		$(this).parent().addClass('active');
+		quiz_article--;
+		game_aofs();
+		//console.log('verses_on', verses_on, localStorage.verses_on);
 	});
 	$('.activity_log').on('click touch', function(e){
 		show_activity_log();
@@ -315,7 +358,7 @@ jQuery(document).ready(function($) {
 	function show_activity_log(){
 		var content = '<dt>' + langs[language].log + '</dt>';
 		for( var i=0; i<activity_log.length;i++){
-			console.log(activity_log[i]);
+			//console.log(activity_log[i]);
 			if ( activity_log[i].s != undefined ) {
 				content += '<dd>' + activity_log[i].s + '% - ';
 				content += active_cannon[ activity_log[i].i ].reference + ' ';
@@ -334,40 +377,84 @@ jQuery(document).ready(function($) {
 		}
 		//var random_article = Math.floor( aof.length * Math.random() );
 		var random_article_words = randomize_aof( quiz_article );
-		var content = '';//<h2 class="sub-title">' + langs[language].quiz + ': ' + langs[language].ordinals[quiz_article] + ' ' + langs[language].title + '</h2>';
-		content += '<dt>' + langs[language].title + ' ' + langs[language].quiz + ': ' + active_cannon[quiz_article].reference + '</dt><dd class="ordered"></dd><dd class="unordered">';
 
 		//place unordred words
+		//if verses_on - seperate verses 
+		//sort words by verse
+		//console.log('verses_on', verses_on, localStorage.verses_on);
+		if (verses_on){
+			//console.log('verse sorting');
+			random_article_words.sort(
+				function compare(a,b) {
+				  if (parseInt(a.verse) < parseInt(b.verse))
+				     return -1;
+				  if (parseInt(a.verse) > parseInt(b.verse))
+				    return 1;
+				  return 0;
+				}
+			);
+		}
+		var verse_index = 0;
+		//at end of verse add an hr or break.
+		if (verse_index < random_article_words[0].verse ){
+			verse_index = random_article_words[0].verse;
+		}
+
+		var content = '';//<h2 class="sub-title">' + langs[language].quiz + ': ' + langs[language].ordinals[quiz_article] + ' ' + langs[language].title + '</h2>';
+		content += '<dt>' + langs[language].title + ' ' + langs[language].quiz + ': ' + active_cannon[quiz_article].reference + '</dt>';
+		content += split_verse(verse_index, true);
+
+
 		if (difficulty == langs['english'].difficulty_long ){
 			for (var i = 0; i < random_article_words.length; i++){
 				if (random_article_words[i].length > long_word_length) {
-					content += '<span class="word" data-absolute_order="' + random_article_words[i].absolute_order + '" data-order="' + random_article_words[i].order + '">' + random_article_words[i].word + '</span>';
+					if (verses_on && verse_index < random_article_words[i].verse ){
+						verse_index = random_article_words[i].verse;
+						content += split_verse(verse_index);
+					}
+					content += '<span class="word" data-absolute_order="' + random_article_words[i].absolute_order + '" data-order="' + random_article_words[i].order + '" data-verse="' + random_article_words[i].verse + '">' + random_article_words[i].word + '</span>';
 				}
 			}
 		}
 		else if (difficulty == langs['english'].difficulty_short ){
 			for (var i = 0; i < random_article_words.length; i++){
 				if (random_article_words[i].length < short_word_length) {
-					content += '<span class="word" data-absolute_order="' + random_article_words[i].absolute_order + '" data-order="' + random_article_words[i].order + '">' + random_article_words[i].word + '</span>';
+					if (verses_on && verse_index < random_article_words[i].verse ){
+						verse_index = random_article_words[i].verse;
+						content += split_verse(verse_index);
+					}
+					content += '<span class="word" data-absolute_order="' + random_article_words[i].absolute_order + '" data-order="' + random_article_words[i].order + '" data-verse="' + random_article_words[i].verse + '">' + random_article_words[i].word + '</span>';
 				}
 			}
 		}
 		else if (difficulty == langs['english'].difficulty_random ){
 			for (var i = 0; i < random_article_words.length; i++){
 				if (i < random_article_words.length/2) {
-					content += '<span class="word" data-absolute_order="' + random_article_words[i].absolute_order + '" data-order="' + random_article_words[i].order + '">' + random_article_words[i].word + '</span>';
+					if (verses_on && verse_index < random_article_words[i].verse ){
+						verse_index = random_article_words[i].verse;
+						content += split_verse(verse_index);
+					}
+					content += '<span class="word" data-absolute_order="' + random_article_words[i].absolute_order + '" data-order="' + random_article_words[i].order + '" data-verse="' + random_article_words[i].verse + '">' + random_article_words[i].word + '</span>';
 				}
 			}
 		}
 		else if (difficulty == langs['english'].difficulty_first_letter ){
 			for (var i = 0; i < random_article_words.length; i++){
-				content += '<span class="word" data-absolute_order="' + random_article_words[i].absolute_order + '" data-order="' + random_article_words[i].order + '">' + random_article_words[i].word + '</span>';
+					if (verses_on && verse_index < random_article_words[i].verse ){
+						verse_index = random_article_words[i].verse;
+						content += split_verse(verse_index);
+					}
+				content += '<span class="word" data-absolute_order="' + random_article_words[i].absolute_order + '" data-order="' + random_article_words[i].order + '" data-verse="' + random_article_words[i].verse + '">' + random_article_words[i].word + '</span>';
 			}
 		}
 		//default - normal - all words
 		else{
 			for (var i = 0; i < random_article_words.length; i++){
-				content += '<span class="word" data-order="' + random_article_words[i].order + '">' + random_article_words[i].word + '</span>';
+					if (verses_on && verse_index < random_article_words[i].verse ){
+						verse_index = random_article_words[i].verse;
+						content += split_verse(verse_index);
+					}
+				content += '<span class="word" data-order="' + random_article_words[i].order + '" data-verse="' + random_article_words[i].verse + '">' + random_article_words[i].word + '</span>';
 			}
 		}
 
@@ -377,40 +464,58 @@ jQuery(document).ready(function($) {
 		$('.content').html( content );
 		$('.options').removeClass('active');
 
+		verse_index = 0;
+		if (verse_index < random_article_words[0].verse ){
+			verse_index = random_article_words[0].verse;
+		}
 		//place ordered words
 		if (difficulty == langs['english'].difficulty_long ){
 			for (var i = 0; i < random_article_words.length; i++){
-				if (random_article_words[i].length > long_word_length) {
-					add_to_ordered_dd(random_article_words[i].absolute_order, random_article_words[i].order);
+				if (verses_on && verse_index < random_article_words[i].verse ) {
+					verse_index = random_article_words[i].verse;
 				}
+				//if long enough add the blank space word to the ordered list
+				if (random_article_words[i].length > long_word_length) {
+					add_to_ordered_dd(verse_index, random_article_words[i].absolute_order, random_article_words[i].order);
+				}
+				//if not long enough, just add the word
 				else {
-					add_to_ordered_dd(random_article_words[i].absolute_order, random_article_words[i].order, random_article_words[i].word);
+					add_to_ordered_dd(verse_index, random_article_words[i].absolute_order, random_article_words[i].order, random_article_words[i].word);
 				}
 			}
 		}
 		else if (difficulty == langs['english'].difficulty_short ){
 			for (var i = 0; i < random_article_words.length; i++){
+				if (verses_on && verse_index < random_article_words[i].verse ) {
+					verse_index = random_article_words[i].verse;
+				}
 				if (random_article_words[i].length < short_word_length) {
-					add_to_ordered_dd(random_article_words[i].absolute_order, random_article_words[i].order);
+					add_to_ordered_dd(verse_index, random_article_words[i].absolute_order, random_article_words[i].order);
 				}
 				else {
-					add_to_ordered_dd(random_article_words[i].absolute_order, random_article_words[i].order, random_article_words[i].word);
+					add_to_ordered_dd(verse_index, random_article_words[i].absolute_order, random_article_words[i].order, random_article_words[i].word);
 				}
 			}
 		}
 		else if (difficulty == langs['english'].difficulty_random ){
+				if (verses_on && verse_index < random_article_words[i].verse ) {
+					verse_index = random_article_words[i].verse;
+				}
 			for (var i = 0; i < random_article_words.length; i++){
 				if (i < random_article_words.length/2) {
-					add_to_ordered_dd(random_article_words[i].absolute_order, random_article_words[i].order);
+					add_to_ordered_dd(verse_index, random_article_words[i].absolute_order, random_article_words[i].order);
 				}
 				else {
-					add_to_ordered_dd(random_article_words[i].absolute_order, random_article_words[i].order, random_article_words[i].word);
+					add_to_ordered_dd(verse_index, random_article_words[i].absolute_order, random_article_words[i].order, random_article_words[i].word);
 				}
 			}
 		}
 		else if (difficulty == langs['english'].difficulty_first_letter ){
+				if (verses_on && verse_index < random_article_words[i].verse ) {
+					verse_index = random_article_words[i].verse;
+				}
 			for (var i = 0; i < random_article_words.length; i++){
-				add_to_ordered_dd(random_article_words[i].absolute_order, random_article_words[i].order, random_article_words[i].word, true);
+				add_to_ordered_dd(verse_index, random_article_words[i].absolute_order, random_article_words[i].order, random_article_words[i].word, true);
 			}
 		}
 		else {
@@ -422,6 +527,22 @@ jQuery(document).ready(function($) {
 		quiz_guesses_correct = 0;
 		quiz_guesses_incorrect_streak = 0;
 		update_clicked();
+	}
+	function split_verse(v, dont_close){
+		var c = '';
+		if (dont_close == undefined || dont_close == null) {
+			c = '</dd>';
+		}
+		if (verses_on){
+			c += '<dd class="ordered" data-verse="' + v + '"><span class="verse_label">' + v + '</span></dd>';
+			c += '<dd class="unordered" data-verse="' + v + '">';
+			c += '<span class="verse_label">' + v + '</span>';
+		}
+		else {
+			c += '<dd class="ordered" data-verse="' + v + '"></dd>';
+			c += '<dd class="unordered" data-verse="' + v + '">';
+		}
+		return c;
 	}
 	function update_clicked(){
 		$('.ordered .current').removeClass('current');
@@ -446,15 +567,15 @@ jQuery(document).ready(function($) {
 			clicked = 0;
 		}
 
-		console.log( clicked );
+		//console.log( clicked );
 	}
 	function show_hint(){
-		if ( show_hints ) {
+		if ( hints_on ) {
 			$('.word').removeClass('hint');
 			$('.unordered .word[data-absolute_order="'+clicked+'"]').addClass('hint');
 			if ( $('.hint').length < 1 ){
 				//find all right answers
-				console.log('none hinted');
+				//console.log('none hinted');
 				$('.unordered .word').each(function(i,e){
 					var this_order = $(this).data('order');
 					if( this_order.indexOf("," + clicked + ",") != -1 ) {
@@ -464,29 +585,32 @@ jQuery(document).ready(function($) {
 			}
 		}
 	}
-	function add_to_ordered_dd(absolute_order, order, word, letter_only){
+	function add_to_ordered_dd(verse, absolute_order, order, word, letter_only){
 		var blank_class = '';
-		//console.log('before', $('.ordered').text() );
+		// console.log('before', $('.ordered').text() );
+		//console.log('adding to verse', verse );
+		// console.log(verse, absolute_order, order, word, letter_only);
 		if ( word == undefined || word == null || word == blank_string ) {
 			word = blank_string;
-			blank_class='blank';
+			blank_class = 'blank';
 		}
 		if ( letter_only != undefined || letter_only != null || letter_only == true ) {
 			var letter = word.charAt(0);
 			word = letter + blank_string;
-			blank_class='blank';
+			blank_class = 'blank';
 		}
 		word_html = '<span class="word ' + blank_class + '" data-absolute_order="' + absolute_order + '" data-order="' + order + '">' + word + '</span>';
 		var added = false;
 		var order_ar = order.split(',');
+		//remove last and first ','
 		order_ar.shift();
 		order_ar.pop();
-		if ($('.ordered .word').length > 0) {
-			//for (var j = 0; j < order_ar.length; j++){
+		if ($('.ordered[data-verse="' + verse + '"] .word').length > 0) {
+			//for (var j = 0; j < order_ar.length; j++){ /* BUG IS HERE TODO: BUGFIX */
 				//console.log('order array', j, order_ar[j]);
 				//order = parseInt(order_ar[j]);
 				order = absolute_order;
-				$('.ordered .word').each(function(i,e){
+				$('.ordered[data-verse="' + verse + '"] .word').each(function(i,e){
 					/* order is an array of each value. use first one and if it already exists check the next one. check each order value */
 
 					//console.log(i, order, $(this).data('order'));
@@ -527,14 +651,14 @@ jQuery(document).ready(function($) {
 			//no place to insert, add it to the end - the order is after the last word 
 			if (!added) {
 				//console.log(word, order, 'appended to end');
-				$('.ordered').append(word_html);
+				$('.ordered[data-verse="' + verse + '"]').append(word_html);
 		//console.log('after', $('.ordered').text() );
 				return true;
 			}
 		}
 		//no words yet, add this first one
 		else {
-			$('.ordered').html(word_html)
+			$('.ordered[data-verse="' + verse + '"]').append(word_html)
 			//console.log(word, 'added first one', absolute_order, order);
 		//console.log('after', $('.ordered').text() );
 			return true;
@@ -543,9 +667,9 @@ jQuery(document).ready(function($) {
 
 
 	$('.content').on('click touchstart', '.unordered .word', function(e){
-		//if (!touching) {
+		if (!touching) {
 		//uncomment for desktop testing
-		if (true){
+		// if (true){
 			touching = true;
 			quiz_guesses_total++;
 			var this_order = $(this).data('order');
@@ -562,9 +686,16 @@ jQuery(document).ready(function($) {
 				//$(this).addClass('clicked');
 				//remove clicked word and append to a preceding div
 				//$('.ordered').append( $(this) );
-				add_to_ordered_dd( clicked, $(this).data('order'), $(this).text() );
+				add_to_ordered_dd( $(this).data('verse'), clicked, $(this).data('order'), $(this).text() );
 				$(this).remove();
 				//clicked++;
+				//remove empty verse dd
+				$('.unordered').each(function(i,e){
+					//console.log($(this).find('.word').length );
+					if ( $(this).find('.word').length <= 0 ){
+						$(this).addClass('empty');
+					}
+				});
 				//remove hints (in case more than one match)
 				$('.word').removeClass('hint');
 			}
@@ -610,31 +741,39 @@ To track an event, call (oddly enough) trackEvent(). trackEvent takes 6 argument
 5)  eventLabel - A label that describes the event such as Button title or Menu Item name.
 6)  eventValue - An application defined integer value that can mean whatever you want it to mean.
 */
-				//gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Level", "Finish", quiz_article, score);
+				gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Level", "Finish", quiz_article, score);
 			}
 			//console.log('score :', quiz_guesses_correct / quiz_guesses_total);
 		}
 	});
 
-
+var article_words
 	function randomize_aof(article){
 		//console.log('randomize_aof()');
 		//split article into array of words in correct order
 
 		//split array into verses first to seperate the verses for easier scrambles
-		var article_word = active_cannon[article].verse.split(' ');
-		var article_words = [];
-		//copy words into array with correct order vars
-		for (var i = 0; i < article_word.length; i++){
-			article_words.push({ 
-				word: article_word[i], 
-				order: i,
-				absolute_order: i,
-				odd: i % 2,
-				length: article_word[i].length
-			});
+		var article_verse_words = active_cannon[article].verse.split('  ');
+		var article_verses = active_cannon[article].digits.split(' ');
+		article_words = [];
+		global_order = 0;
+		for (var j = 0; j < article_verse_words.length; j++){
+			var article_word = article_verse_words[j].split(' ');
+			//copy words into array with correct order vars
+			for (var i = 0; i < article_word.length; i++){
+				article_words.push({ 
+					word: article_word[i], 
+					order: global_order,
+					absolute_order: global_order,
+					odd: i % 2,
+					length: article_word[i].length,
+					verse: article_verses[j]
+				});
+				global_order++;
+			}
 		}
 		//console.log(article_words);
+		//alphabetize
 		article_words.sort(
 			function compare(a,b) {
 			  if (a.word < b.word)
@@ -692,8 +831,8 @@ To track an event, call (oddly enough) trackEvent(). trackEvent takes 6 argument
 		//console.log('nativePluginErrorHandler', 'fail');
 	}
 	function goingAway() {
-		//gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "End", quiz_article);
-	    //gaPlugin.exit(nativePluginResultHandler, nativePluginErrorHandler);
+		gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "End", quiz_article);
+	    gaPlugin.exit(nativePluginResultHandler, nativePluginErrorHandler);
 	}
 
 

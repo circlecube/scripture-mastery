@@ -6,6 +6,7 @@ var sm_bom = [
 	{ 
 		index: 1,
 		reference: "1 Nephi 3:7",
+		digits: "7",
 		title: "I will go and do.",
 		context: "The Lord commanded Nephi and his brothers to return to Jerusalem to get the brass plates.",
 		principle: "The Lord prepares a way for us to keep His commandments.",
@@ -15,6 +16,7 @@ var sm_bom = [
 	{
 		index: 2,
 		reference: "2 Nephi 2:25",
+		digits: "25",
 		title: "Adam fell that men might be.",
 		context: "Lehi taught his sons about the necessity of the Fall and its consequences.",
 		principle: "The Fall was a necessary part of Heavenly Father’s plan and allowed for our mortal existence.",
@@ -24,6 +26,7 @@ var sm_bom = [
 	{
 		index: 3,
 		reference: "2 Nephi 2:27",
+		digits: "27",
 		title: "We are free to choose.",
 		context: "Lehi taught his sons about the role of agency in the plan of salvation.",
 		principle: "We are free to follow Jesus Christ, which leads to liberty and eternal life, or the devil, which leads to captivity and death.",
@@ -33,6 +36,7 @@ var sm_bom = [
 	{
 		index: 4,
 		reference: "2 Nephi 9:28-29",
+		digits: "28 29",
 		title: "Learning is good if we follow God’s counsel.",
 		context: "Jacob contrasted the greatness of Heavenly Father’s plan of salvation and the cunning plan of the devil.",
 		principle: "The learned often take pride in their own wisdom and set aside the counsel of God. To obtain knowledge is good if we continue to obey God.",
@@ -42,6 +46,7 @@ var sm_bom = [
 	{
 		index: 5,
 		reference: "2 Nephi 25:23, 26",
+		digits: "23 26",
 		title: "By grace we are saved.",
 		context: "Nephi explained some of the reasons why it is only through Jesus Christ that a person can be saved.",
 		principle: "Through Jesus Christ, we can receive a remission of sins and be saved by grace after doing all we can do.",
@@ -51,6 +56,7 @@ var sm_bom = [
 	{
 		index: 6,
 		reference: "2 Nephi 28:7-9",
+		digits: "7 8 9",
 		title: "We cannot justify any sin.",
 		context: "The prophet Nephi taught his people of the great wickedness that would abound in the latter days.",
 		principle: "In the last days, many will teach false, vain, and foolish doctrines.",
@@ -60,6 +66,7 @@ var sm_bom = [
 	{
 		index: 7,
 		reference: "2 Nephi 31:19-20",
+		digits: "19 20",
 		title: "Endure to the end.",
 		context: "Near the end of his ministry, Nephi wrote that all people must follow Jesus Christ’s example to inherit eternal life.",
 		principle: "After we exercise faith, repent of our sins, are baptized, and receive the gift of the Holy Ghost, we must press forward in righteousness and endure to the end to receive eternal life.",
@@ -69,6 +76,7 @@ var sm_bom = [
 	{
 		index: 8,
 		reference: "2 Nephi 32:3",
+		digits: "3",
 		title: "Feast on the words of Christ.",
 		context: "Near the end of his ministry, Nephi wrote what all people must do to understand and live the doctrine of Jesus Christ.",
 		principle: "If we study the words of Christ and of His inspired servants, we will receive the direction we need to make correct choices.",
@@ -78,6 +86,7 @@ var sm_bom = [
 	{
 		index: 9,
 		reference: "2 Nephi 32:8-9",
+		digits: "8 9",
 		title: "Ye must pray always.",
 		context: "Near the end of his ministry, Nephi wrote what all people must do to understand and live the doctrine of Jesus Christ.",
 		principle: "The Spirit teaches us to pray.",
@@ -87,6 +96,7 @@ var sm_bom = [
 	{
 		index: 10,
 		reference: "Mosiah 2:17",
+		digits: "17",
 		title: "Serving others serves God.",
 		context: "King Benjamin addressed his people, preparing them to take upon themselves the name of Jesus Christ.",
 		principle: "When we serve our fellow beings, we serve God.",
@@ -96,6 +106,7 @@ var sm_bom = [
 	{
 		index: 11,
 		reference: "Mosiah 3:19",
+		digits: "19",
 		title: "Natural man is God’s enemy.",
 		context: "King Benjamin addressed his people, preparing them to take upon themselves the name of Jesus Christ.",
 		principle: "We overcome the natural man by yielding to the Holy Spirit and becoming a Saint through the Atonement of Jesus Christ.",
@@ -105,6 +116,7 @@ var sm_bom = [
 	{
 		index: 12,
 		reference: "Mosiah 4:30",
+		digits: "30",
 		title: "Watch your thoughts, words, and deeds.",
 		context: "King Benjamin addressed his people, preparing them to take upon themselves the name of Jesus Christ.",
 		principle: "We will be judged and held accountable for our thoughts, words, and deeds.",
@@ -114,6 +126,7 @@ var sm_bom = [
 	{
 		index: 13,
 		reference: "Alma 7:11-13",
+		digits: "11 12 13",
 		title: "Jesus Christ overcame sin and death.",
 		context: "Alma prophesied to the people of Gideon that the Savior would come into the world and that they must prepare themselves.",
 		principle: "Jesus Christ took upon himself the pains, sicknesses, and infirmities of His people; He delivered mankind from death and provided a way to overcome sin.",
@@ -123,6 +136,7 @@ var sm_bom = [
 	{
 		index: 14,
 		reference: "Alma 32:21",
+		digits: "21",
 		title: "Faith is not a perfect knowledge.",
 		context: "Alma taught the humble among the Zoramites regarding worship and faith.",
 		principle: "Faith requires a person to believe things that are true but that may not be seen.",
@@ -132,6 +146,7 @@ var sm_bom = [
 	{
 		index: 15,
 		reference: "Alma 37:35",
+		digits: "35",
 		title: "Learn in thy youth to keep the commandments.",
 		context: "Alma counseled Helaman to prepare him for leadership responsibilities.",
 		principle: "It is wise to learn in our youth to keep God’s commandments.",
@@ -141,6 +156,7 @@ var sm_bom = [
 	{
 		index: 16,
 		reference: "Alma 39:9",
+		digits: "9",
 		title: "Go no more after the lust of your eyes.",
 		context: "Alma corrected the behavior of Corianton, who had committed serious sins.",
 		principle: "Those who give in to lust and immorality cannot be saved in the kingdom of God unless they repent.",
@@ -150,6 +166,7 @@ var sm_bom = [
 	{
 		index: 17,
 		reference: "Alma 41:10",
+		digits: "10",
 		title: "Wickedness never was happiness.",
 		context: "Alma taught his son Corianton about the eternal consequences of wickedness and righteousness.",
 		principle: "Sin cannot bring lasting happiness.",
@@ -159,6 +176,7 @@ var sm_bom = [
 	{
 		index: 18,
 		reference: "Helaman 5:12",
+		digits: "12",
 		title: "Build your foundation on Christ.",
 		context: "Nephi and Lehi recalled the counsel of their father Helaman and devoted themselves to preaching to the wicked Nephites.",
 		principle: "Only by basing our lives on Jesus Christ can we withstand Satan’s temptations.",
@@ -168,6 +186,7 @@ var sm_bom = [
 	{
 		index: 19,
 		reference: "3 Nephi 12:48",
+		digits: "48",
 		title: "Ye should be perfect.",
 		context: "Jesus Christ taught the Nephites the higher law and prepared them to be members of God’s kingdom.",
 		principle: "We are commanded to be like Heavenly Father and Jesus Christ, who are perfect.",
@@ -177,6 +196,7 @@ var sm_bom = [
 	{
 		index: 20,
 		reference: "3 Nephi 18:15, 20-21",
+		digits: "15 20 21",
 		title: "Watch and pray always ",
 		context: "Jesus taught the Nephites how to withstand the temptations of the devil.",
 		principle: "Through prayer we can be given strength to resist temptation, receive our righteous desires, and be blessed in our families.",
@@ -186,6 +206,7 @@ var sm_bom = [
 	{
 		index: 21,
 		reference: "Ether 12:6",
+		digits: "6",
 		title: "Witness comes after the trial of faith.",
 		context: "Moroni included his own testimony, counsel, and understanding about faith while abridging the prophet Ether’s words.",
 		principle: "The Lord blesses us with a spiritual confirmation after we have endured in faith.",
@@ -195,6 +216,7 @@ var sm_bom = [
 	{
 		index: 22,
 		reference: "Ether 12:27",
+		digits: "27",
 		title: "Weak things become strong.",
 		context: "Moroni was concerned about the weakness of his writing. The Lord instructed him about overcoming weakness.",
 		principle: "God gives us weakness to humble us. If we humble ourselves, our weakness can be made strong through faith in Jesus Christ.",
@@ -204,6 +226,7 @@ var sm_bom = [
 	{
 		index: 23,
 		reference: "Moroni 7:41",
+		digits: "41",
 		title: "Have hope through the Atonement of Christ.",
 		context: "Mormon taught during a time of great wickedness how faith, hope, and charity help us become like Jesus Christ.",
 		principle: "Our hope should be centered on Jesus Christ and His Atonement because of our faith in Him.",
@@ -213,6 +236,7 @@ var sm_bom = [
 	{
 		index: 24,
 		reference: "Moroni 7:45, 47-48",
+		digits: "47 48",
 		title: "Charity suffereth long.",
 		context: "Mormon taught during a time of great wickedness how faith, hope, and charity help us become like Jesus Christ.",
 		principle: "We must have charity to be true followers of Jesus Christ. We should pray to the Father to be filled with this love.",
@@ -222,6 +246,7 @@ var sm_bom = [
 	{
 		index: 25,
 		reference: "Moroni 10:4-5",
+		digits: "4 5",
 		title: "The Holy Ghost reveals truth.",
 		context: "Moroni closed his record with an invitation for all mankind to learn the truth of all things, including the Book of Mormon.",
 		principle: "The Holy Ghost will reveal the truth of the Book of Mormon to those who ask God in faith with real intent.",
@@ -243,15 +268,17 @@ var sm_nt = [
 	{ 
 		index: 1,
 		reference: "Matthew 5:14-16",
+		digits: "14 15 16",
 		title: "Let your light so shine.",
 		context: "In the Sermon on the Mount, Jesus Christ taught His disciples about how living the gospel affects others.",
 		principle: "One’s example of living the gospel can encourage others to draw nearer to God.",
 		application: "When has someone’s example inspired you to live the gospel? In what ways could you be an example to others?",
-		verse: "Ye are the alight of the world. A city that is set on an hill cannot be hid.  Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house.  Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.",
+		verse: "Ye are the light of the world. A city that is set on an hill cannot be hid.  Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house.  Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.",
 	},
 	{ 
 		index: 2,
 		reference: "Matthew 11:28–30",
+		digits: "28 29 30",
 		title: "Come unto me.",
 		context: "As some people rejected Jesus, He offered promises to those who would accept Him.",
 		principle: "If we come unto Jesus Christ, He will ease our burdens.",
@@ -261,15 +288,17 @@ var sm_nt = [
 	{ 
 		index: 3,
 		reference: "Matthew 16:15-19",
+		digits: "15 16 17 18 19",
 		title: "The keys of the kingdom",
 		context: "In Caesarea Philippi, Jesus Christ instructed His Apostles about what is necessary to lead the Church.",
 		principle: "The Church of Jesus Christ is built upon revelation from God. Those who hold priesthood keys are authorized to govern the kingdom of God on the earth.",
 		application: "What eternal truths have been revealed to you? In what ways have Church leaders with priesthood keys blessed your life? What should you do to show that you sustain Church leaders who hold priesthood keys?",
-		verse: "He saith unto them, But whom say aye that I am?  And Simon Peter answered and said, Thou art the Christ, the Son of the living God.  And Jesus answered and said unto him, Blessed art thou, Simon Bar-jona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven.  And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it.  And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven.",
+		verse: "He saith unto them, But whom say ye that I am?  And Simon Peter answered and said, Thou art the Christ, the Son of the living God.  And Jesus answered and said unto him, Blessed art thou, Simon Bar-jona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven.  And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it.  And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven.",
 	},
 	{ 
 		index: 4,
 		reference: "Matthew 22:36–39",
+		digits: "36 37 38 39",
 		title: "Love the Lord; love thy neighbor.",
 		context: "Jesus Christ responded to a Pharisee who asked which commandment was the greatest.",
 		principle: "The two greatest commandments are to love God and to love our neighbor.",
@@ -279,6 +308,7 @@ var sm_nt = [
 	{ 
 		index: 5,
 		reference: "Matthew 28:19-20",
+		digits: "19 20",
 		title: "Teach and baptize all nations.",
 		context: "After His Resurrection, Jesus Christ gave instructions to His disciples.",
 		principle: "As followers of Jesus Christ, we are to teach and baptize all nations.",
@@ -288,6 +318,7 @@ var sm_nt = [
 	{ 
 		index: 6,
 		reference: "Luke 24:36-39",
+		digits: "36 37 38 39",
 		title: "A resurrected body has flesh and bones.",
 		context: "On the day of His Resurrection, Jesus Christ appeared to His disciples in Jerusalem and showed them His resurrected body.",
 		principle: "Jesus Christ is a resurrected being. A resurrected body is a body of flesh and bones.",
@@ -297,6 +328,7 @@ var sm_nt = [
 	{ 
 		index: 7,
 		reference: "John 3:5",
+		digits: "5",
 		title: "Born of water and of the Spirit",
 		context: "A Pharisee named Nicodemus asked what Jesus Christ meant by being “born again.”",
 		principle: "Baptism and receiving the Holy Ghost are necessary ordinances for spiritual rebirth and entering the celestial kingdom.",
@@ -306,6 +338,7 @@ var sm_nt = [
 	{ 
 		index: 8,
 		reference: "John 14:6",
+		digits: "6",
 		title: "The way, the truth, and the life",
 		context: "During the Last Supper, Jesus Christ answered Thomas’s question about how the disciples could know the way to the Father.",
 		principle: "The only way to receive eternal life and dwell with Father in Heaven is through Jesus Christ.",
@@ -315,6 +348,7 @@ var sm_nt = [
 	{ 
 		index: 9,
 		reference: "John 14:15",
+		digits: "15",
 		title: "If ye love me, keep my commandments.",
 		context: "During the Last Supper, Jesus Christ taught His disciples how they could show their love for Him.",
 		principle: "We manifest our love for the Lord by keeping His commandments.",
@@ -324,6 +358,7 @@ var sm_nt = [
 	{ 
 		index: 10,
 		reference: "John 17:3",
+		digits: "3",
 		title: "Knowing God and Jesus Christ is eternal life.",
 		context: "The night before His Crucifixion, Jesus Christ prayed for His followers.",
 		principle: "As we come to truly know Heavenly Father and Jesus Christ, we can obtain eternal life.",
@@ -333,6 +368,7 @@ var sm_nt = [
 	{ 
 		index: 11,
 		reference: "Acts 2:36-38",
+		digits: "36 37 38",
 		title: "Repent, be baptized, and receive the Holy Ghost.",
 		context: "Fifty days after the Savior’s Resurrection, the Apostle Peter taught a multitude in Jerusalem what they must do to be saved.",
 		principle: "Repentance and baptism for the remission of sins prepare us to receive the gift of the Holy Ghost.",
@@ -342,6 +378,7 @@ var sm_nt = [
 	{ 
 		index: 12,
 		reference: "Acts 3:19–21",
+		digits: "19 20 21",
 		title: "The times of restitution",
 		context: "The Apostle Peter testified to a multitude in Jerusalem concerning our day.",
 		principle: "Prophets in all ages have foretold the latter-day restitution (restoration) of all things.",
@@ -351,6 +388,7 @@ var sm_nt = [
 	{ 
 		index: 13,
 		reference: "1 Corinthians 6:19-20",
+		digits: "19 20",
 		title: "Your body is a temple.",
 		context: "In a letter to members of the Church in Corinth, the Apostle Paul taught the Saints why sexual sins were so serious.",
 		principle: "Our bodies are sacred like temples and should be clean and holy.",
@@ -360,6 +398,7 @@ var sm_nt = [
 	{ 
 		index: 14,
 		reference: "1 Corinthians 15:20-22",
+		digits: "20 21 22",
 		title: "In Christ shall all be resurrected.",
 		context: "When some Saints in Corinth taught that there is no resurrection of the dead, the Apostle Paul wrote to correct them.",
 		principle: "Because Jesus Christ overcame death and was resurrected, all mankind will also be resurrected.",
@@ -369,6 +408,7 @@ var sm_nt = [
 	{ 
 		index: 15,
 		reference: "1 Corinthians 15:40-42",
+		digits: "40 41 42",
 		title: "Degrees of glory",
 		context: "In a letter to members of the Church in Corinth, the Apostle Paul answered questions about how the dead will be raised and what kind of body they will be resurrected with.",
 		principle: "Resurrected bodies differ in glory just as the sun, moon, and stars differ in their brightness.",
@@ -378,6 +418,7 @@ var sm_nt = [
 	{ 
 		index: 16,
 		reference: "Galatians 5:22–23",
+		digits: "22 23",
 		title: "Fruit of the Spirit",
 		context: "In a letter to the Saints in Galatia, the Apostle Paul taught about the qualities that the Spirit instills in those who seek to “walk in the Spirit.”",
 		principle: "Having the Holy Ghost often results in feelings of love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, and temperance.",
@@ -387,6 +428,7 @@ var sm_nt = [
 	{ 
 		index: 17,
 		reference: "Ephesians 4:11-14",
+		digits: "11 12 13 14",
 		title: "Apostles and prophets help perfect the Saints.",
 		context: "In an epistle to the Saints in Ephesus, the Apostle Paul taught about the organization and purpose of the Church.",
 		principle: "The Church organization is given by God for perfecting and edifying the Saints and accomplishing the work of the ministry.",
@@ -396,6 +438,7 @@ var sm_nt = [
 	{
 		index: 18,
 		reference: "Philippians 4:13",
+		digits: "13",
 		title: "I can do all things through Christ.",
 		context: "While imprisoned, the Apostle Paul wrote to encourage the Saints in Philippi.",
 		principle: "Jesus Christ can strengthen us to do whatever God requires of us.",
@@ -405,6 +448,7 @@ var sm_nt = [
 	{ 
 		index: 19,
 		reference: "2 Thessalonians 2:1-3",
+		digits: "1 2 3",
 		title: "Apostasy foretold",
 		context: "Some of the Saints in Thessalonica believed the Second Coming of Jesus Christ would soon occur. In his letter to them, the Apostle Paul corrected this misunderstanding.",
 		principle: "It was foretold that a period of apostasy would precede the Second Coming of Jesus Christ.",
@@ -414,6 +458,7 @@ var sm_nt = [
 	{ 
 		index: 20,
 		reference: "2 Timothy 3:15-17",
+		digits: "15 16 17",
 		title: "Scripture given for doctrine, reproof, and correction",
 		context: "The Apostle Paul wrote to Timothy and encouraged him as he faced challenges among Church members.",
 		principle: "The inspired doctrine, reproof, and correction found in scripture will help lead us to salvation.",
@@ -423,6 +468,7 @@ var sm_nt = [
 	{ 
 		index: 21,
 		reference: "Hebrews 12:9",
+		digits: "9",
 		title: "God is the Father of our spirits.",
 		context: "The Apostle Paul encouraged members of the Church to be faithful to their Heavenly Father.",
 		principle: "God is the Father of our spirits, and we should be obedient to Him.",
@@ -432,6 +478,7 @@ var sm_nt = [
 	{ 
 		index: 22,
 		reference: "James 1:5-6",
+		digits: "5 6",
 		title: "If you lack wisdom, ask God.",
 		context: "James wrote to Church members about how to obtain divine guidance.",
 		principle: "God willingly gives wisdom to those who ask of Him in faith.",
@@ -441,6 +488,7 @@ var sm_nt = [
 	{ 
 		index: 23,
 		reference: "James 2:17-18",
+		digits: "17 18",
 		title: "Faith without works is dead.",
 		context: "James wrote to Church members in response to some who claimed that works were not needed to express their faith.",
 		principle: "Faith without works is dead.",
@@ -449,16 +497,18 @@ var sm_nt = [
 	},
 	{
 		index: 24,
-		refernce: "1 Peter 4:6",
+		reference: "1 Peter 4:6",
+		digits: "6",
 		title: "The gospel is preached to the dead.",
 		context: "When the Saints in Asia Minor were going through many trials, the Apostle Peter wrote and assured them that Jesus Christ was the Savior and judge of the living and the dead.",
 		principle: "The gospel is preached to those who have died so they may have the same opportunity as those who heard the gospel message in mortality.",
 		application: "Seek opportunities to do family history research about your ancestors and to participate in temple ordinances in their behalf.",
-		verse: ""
+		verse: "For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit."
 	},
 	{ 
 		index: 25,
 		reference: "Revelation 20:12",
+		digits: "12",
 		title: "Judged before God",
 		context: "While on the Isle of Patmos, the Apostle John saw a vision of all the dead being brought before God to be judged.",
 		principle: "Everyone will be judged by God according to their works out of the books that have been written.",
@@ -481,6 +531,7 @@ var sm_ot = [
 	{ 
 		index: 1,
 		reference: "Moses 1:39",
+		digits: "39",
 		title: "This is God’s work and glory.",
 		context: "While on a high mountain, God spoke with Moses face-to-face and explained His eternal purpose for mankind.",
 		principle: "Heavenly Father’s plan provides a way for us to live forever and become like Him.",
@@ -490,6 +541,7 @@ var sm_ot = [
 	{ 
 		index: 2,
 		reference: "Moses 7:18",
+		digits: "18",
 		title: "Zion—one heart and one mind in righteousness",
 		context: "Enoch taught the gospel and established a city of righteousness during a time of great wickedness.",
 		principle: "The Lord’s people are united, live righteously, and care for one another.",
@@ -499,6 +551,7 @@ var sm_ot = [
 	{ 
 		index: 3,
 		reference: "Abraham 3:22–23",
+		digits: "22 23",
 		title: "Abraham was chosen before he was born.",
 		context: "God taught Abraham about premortal spirits.",
 		principle: "We lived with God before birth, and He chose His noble and great children to become rulers and leaders here upon the earth.",
@@ -508,6 +561,7 @@ var sm_ot = [
 	{ 
 		index: 4,
 		reference: "Genesis 1:26–27",
+		digits: "26 27",
 		title: "God created man in His own image.",
 		context: "The Creation account sets forth the placing of Adam and Eve on the earth.",
 		principle: "Men and women are created in God’s image and given dominion over all animals and creatures on the earth.",
@@ -517,6 +571,7 @@ var sm_ot = [
 	{ 
 		index: 5,
 		reference: "Genesis 2:24",
+		digits: "24",
 		title: "Husbands and wives should be one.",
 		context: "Following the creation of Eve, God taught Adam and Eve that unity should exist in their marriage.",
 		principle: "Marriage between a man and a woman is ordained of God.",
@@ -526,6 +581,7 @@ var sm_ot = [
 	{ 
 		index: 6,
 		reference: "Genesis 39:9",
+		digits: "9",
 		title: "Joseph resisted temptation.",
 		context: "Joseph was repeatedly approached by Potiphar’s wife to commit adultery.",
 		principle: "Sexual immorality is a sin against God.",
@@ -535,6 +591,7 @@ var sm_ot = [
 	{ 
 		index: 7,
 		reference: "Exodus 19:5–6",
+		digits: "5 6",
 		title: "Ye shall be a holy nation.",
 		context: "At Mount Sinai, the Lord invited the children of Israel to become His covenant people.",
 		principle: "If we obey the Lord’s voice and keep His covenants, then we will become His holy people.",
@@ -544,6 +601,7 @@ var sm_ot = [
 	{ 
 		index: 8,
 		reference: "Exodus 20:3–17",
+		digits: "3 4 5 6 7 8 9 10 11 12 13 14 15 16 17",
 		title: "The Ten Commandments",
 		context: "Near Mount Sinai, the Lord gave the children of Israel commandments through His servant Moses.",
 		principle: "As we keep the Ten Commandments, we live in harmony with God and man.",
@@ -553,6 +611,7 @@ var sm_ot = [
 	{ 
 		index: 9,
 		reference: "Joshua 24:15",
+		digits: "15",
 		title: "Choose to serve the Lord.",
 		context: "Joshua taught the children of Israel what the Lord had done to preserve them. He encouraged them to serve the Lord.",
 		principle: "We can choose whether or not we will serve the Lord and follow Him.",
@@ -562,6 +621,7 @@ var sm_ot = [
 	{ 
 		index: 10,
 		reference: "1 Samuel 16:7",
+		digits: "7",
 		title: "The Lord looks on the heart.",
 		context: "Samuel assumed that Eliab, the eldest son of Jesse, was the one the Lord had selected to be Israel’s new king because of his strong physical appearance.",
 		principle: "God judges us by our thoughts and desires rather than by our outward appearance.",
@@ -571,6 +631,7 @@ var sm_ot = [
 	{ 
 		index: 11,
 		reference: "Psalm 24:3–4",
+		digits: "3 4",
 		title: "Clean hands, pure heart",
 		context: "In a psalm (song) of praise to God, the psalmist asked who would be worthy to stand in holy places such as temples.",
 		principle: "If we repent and live pure lives, then we are worthy to receive temple ordinances and enter the celestial kingdom.",
@@ -580,6 +641,7 @@ var sm_ot = [
 	{ 
 		index: 12,
 		reference: "Psalm 119:105",
+		digits: "105",
 		title: "God’s word is a lamp unto my feet.",
 		context: "In a psalm (song) about God’s law, the psalmist compared God’s word to a light that guides us on the path of life.",
 		principle: "The word of God gives direction for our lives.",
@@ -589,6 +651,7 @@ var sm_ot = [
 	{ 
 		index: 13,
 		reference: "Psalm 127:3",
+		digits: "3",
 		title: "Children are an heritage of the Lord.",
 		context: "A psalm (song) about God’s blessings teaches that children are a precious gift from God.",
 		principle: "Children are to be cherished as gifts from God.",
@@ -598,6 +661,7 @@ var sm_ot = [
 	{ 
 		index: 14,
 		reference: "Proverbs 3:5–6",
+		digits: "5 6",
 		title: "Trust in the Lord.",
 		context: "The book of Proverbs contains gospel principles, poems, and parables that encourage righteous living.",
 		principle: "If we place our complete trust in God, He will guide us in our lives.",
@@ -607,6 +671,7 @@ var sm_ot = [
 	{ 
 		index: 15,
 		reference: "Isaiah 1:18",
+		digits: "18",
 		title: "Though your sins be as scarlet",
 		context: "Through the prophet Isaiah, the Lord encouraged His children to repent and become clean.",
 		principle: "When we repent, the blood of Jesus Christ cleanses us from our sins and we can be completely forgiven.",
@@ -616,6 +681,7 @@ var sm_ot = [
 	{ 
 		index: 16,
 		reference: "Isaiah 5:20",
+		digits: "20",
 		title: "Woe unto them that call evil good.",
 		context: "Isaiah warned the children of Israel of the sorrow and suffering that would come upon them because of their unrighteousness.",
 		principle: "Unhappiness results when people promote evil as good and call good evil.",
@@ -625,6 +691,7 @@ var sm_ot = [
 	{ 
 		index: 17,
 		reference: "Isaiah 29:13–14",
+		digits: "13 14",
 		title: "A marvelous work and a wonder",
 		context: "Isaiah prophesied that the Lord would restore the gospel in the latter days, following a time of apostasy.",
 		principle: "The Restoration of the gospel is a marvelous work that corrects false doctrines and counters the wisdom of the world.",
@@ -634,6 +701,7 @@ var sm_ot = [
 	{ 
 		index: 18,
 		reference: "Isaiah 53:3–5",
+		digits: "3 4 5",
 		title: "Jesus Christ bore our griefs and suffered for our sins.",
 		context: "Isaiah prophesied of the life and atoning mission of Jesus Christ approximately 700 years before His birth.",
 		principle: "Jesus Christ suffered for our sins and sorrows; we can be forgiven and healed through the Atonement.",
@@ -643,6 +711,7 @@ var sm_ot = [
 	{ 
 		index: 19,
 		reference: "Isaiah 58:6–7",
+		digits: "6 7",
 		title: "The law of the fast",
 		context: "After the prophet Isaiah identified ways the people were failing to live the law of the fast, he taught them about the true purposes and blessings of fasting.",
 		principle: "Fasting helps relieve the burdens of ourselves and others and helps us care for the poor.",
@@ -652,6 +721,7 @@ var sm_ot = [
 	{ 
 		index: 20,
 		reference: "Isaiah 58:13–14",
+		digits: "13 14",
 		title: "The Sabbath is the Lord’s holy day.",
 		context: "The prophet Isaiah instructed the people to keep the Sabbath day holy and taught about the blessings that come from Sabbath-day observance.",
 		principle: "If we honor God by seeking to do His will on the Sabbath day, then we will prosper.",
@@ -661,6 +731,7 @@ var sm_ot = [
 	{ 
 		index: 21,
 		reference: "Jeremiah 1:4–5",
+		digits: "4 5",
 		title: "Jeremiah was foreordained before birth.",
 		context: "As the Lord called Jeremiah to prophesy to the people of Judah, He revealed that Jeremiah had been ordained to be a prophet before he was born.",
 		principle: "God knew us before we were born and foreordained us for earthly missions.",
@@ -670,6 +741,7 @@ var sm_ot = [
 	{ 
 		index: 22,
 		reference: "Ezekiel 37:15–17",
+		digits: "15 16 17",
 		title: "The Bible and the Book of Mormon are joined together.",
 		context: "Ezekiel prophesied that as part of the gathering of Israel in the last days, the Bible and the Book of Mormon would be joined together.",
 		principle: "The Bible and the Book of Mormon have come together to witness of Jesus Christ in our day.",
@@ -679,6 +751,7 @@ var sm_ot = [
 	{ 
 		index: 23,
 		reference: "Amos 3:7",
+		digits: "7",
 		title: "God reveals His secret to His prophets.",
 		context: "As the prophet Amos warned of coming judgments of the Lord, he testified that God reveals knowledge to His prophets.",
 		principle: "The Lord reveals His will through prophets.",
@@ -688,6 +761,7 @@ var sm_ot = [
 	{ 
 		index: 24,
 		reference: "Malachi 3:8–10",
+		digits: "8 9 10",
 		title: "Paying tithing brings blessings.",
 		context: "Through the prophet Malachi, the Lord taught wayward Israel to return to Him by living the law of tithing.",
 		principle: "If we pay tithes and offerings, then God will open the windows of heaven and pour out blessings upon us.",
@@ -697,6 +771,7 @@ var sm_ot = [
 	{ 
 		index: 25,
 		reference: "Malachi 4:5–6",
+		digits: "5 6",
 		title: "Elijah will turn the hearts of fathers and children.",
 		context: "Malachi prophesied that before the Second Coming of Jesus Christ, the prophet Elijah would restore the authority to perform ordinance work for the dead.",
 		principle: "Because Elijah came and restored priesthood keys, we can perform ordinance work for our kindred dead.",
@@ -715,6 +790,7 @@ var sm_dc = [
 	{ 
 		index: 1,
 		reference: "D&C 1:37–38",
+		digits: "37 38",
 		title: "Jesus Christ’s words shall all be fulfilled.",
 		context: "The Lord revealed section 1 as a preface to the other revelations in the Doctrine and Covenants and warned all people of His coming judgments.",
 		principle: "The prophecies and promises spoken by the voice of Jesus Christ or His servants will all be fulfilled.",
@@ -724,6 +800,7 @@ var sm_dc = [
 	{ 
 		index: 2,
 		reference: "D&C 6:36",
+		digits: "36",
 		title: "Look unto Christ in every thought.",
 		context: "Joseph Smith and Oliver Cowdery were given this revelation while translating the Book of Mormon.",
 		principle: "As we look to Jesus Christ, we can overcome doubt and fear.",
@@ -733,6 +810,7 @@ var sm_dc = [
 	{ 
 		index: 3,
 		reference: "D&C 8:2–3",
+		digits: "2 3",
 		title: "Revelation comes to your mind and heart.",
 		context: "The Lord taught Oliver Cowdery how he could receive and recognize revelation by asking in faith.",
 		principle: "The Holy Ghost reveals truth to our minds and hearts.",
@@ -742,6 +820,7 @@ var sm_dc = [
 	{ 
 		index: 4,
 		reference: "D&C 10:5",
+		digits: "5",
 		title: "Pray always.",
 		context: "After Martin Harris lost 116 pages of the Book of Mormon manuscript, the Lord taught Joseph Smith one way to overcome the designs of Satan.",
 		principle: "If we pray always, God will help us conquer Satan and his servants.",
@@ -751,24 +830,27 @@ var sm_dc = [
 	{ 
 		index: 5,
 		reference: "D&C 13:1",
+		digits: "1",
 		title: "The Aaronic Priesthood was restored.",
 		context: "As Joseph Smith and Oliver Cowdery prayed to know about authority to baptize, John the Baptist appeared and conferred the Aaronic Priesthood upon them.",
 		principle: "The Aaronic Priesthood holds the keys of the ministering of angels, and of the gospel of repentance, and of baptism by immersion for the remission of sins.",
 		application: "How can your life be blessed by the Aaronic Priesthood?",
-		verse: "",
+		verse: "Upon you my fellow servants, in the name of Messiah I confer the Priesthood of Aaron, which holds the keys of the ministering of angels, and of the gospel of repentance, and of baptism by immersion for the remission of sins; and this shall never be taken again from the earth, until the sons of Levi do offer again an offering unto the Lord in righteousness.",
 	},
 	{ 
 		index: 6,
 		reference: "D&C 18:10–11",
+		digits: "10 11",
 		title: "The worth of souls is great.",
 		context: "After describing the need for all people to repent, the Lord called Oliver Cowdery and David Whitmer to teach repentance to others.",
 		principle: "An evidence of each soul’s great worth to God is that Jesus Christ took upon Himself the pains of all mankind.",
 		application: "How does knowing that Jesus Christ atoned for you help you understand your worth in the sight of God?",
-		verse: "",
+		verse: "Remember the worth of souls is great in the sight of God;  For, behold, the Lord your Redeemer suffered death in the flesh; wherefore he suffered the pain of all men, that all men might repent and come unto him.",
 	},
 	{ 
 		index: 7,
 		reference: "D&C 18:15–16",
+		digits: "15 16",
 		title: "Great joy comes from bringing souls unto Jesus Christ.",
 		context: "The Lord taught Oliver Cowdery and David Whitmer about the worth of souls and called them to teach repentance to others.",
 		principle: "As we help others come unto Jesus Christ, we experience great joy.",
@@ -778,6 +860,7 @@ var sm_dc = [
 	{ 
 		index: 8,
 		reference: "D&C 19:16–19",
+		digits: "16 17 18 19",
 		title: "Jesus Christ suffered for all of us.",
 		context: "After teaching about the Day of Judgment and testifying of His atoning sacrifice, the Lord commanded Martin Harris to repent of his sins.",
 		principle: "Jesus Christ suffered for the sins of all mankind so that we would not have to suffer for our sins if we would repent.",
@@ -787,33 +870,37 @@ var sm_dc = [
 	{ 
 		index: 9,
 		reference: "D&C 19:23",
+		digits: "23",
 		title: "Learn of the Savior, and listen to His words.",
 		context: "Martin Harris was commanded to repent, sell a portion of his land so that the Book of Mormon could be published, and seek the Lord.",
 		principle: "We are blessed with peace as we listen to the Savior and follow Him.",
 		application: "Set a goal to improve in each of the areas mentioned in D&C 19:23.",
-		verse: "",
+		verse: "Learn of me, and listen to my words; walk in the meekness of my Spirit, and you shall have peace in me.",
 	},
 	{ 
 		index: 10,
 		reference: "D&C 25:13",
+		digits: "13",
 		title: "Cleave to your covenants.",
 		context: "During a time of persecution and worry, the Lord comforted and advised Emma Smith.",
 		principle: "We can find joy and comfort in keeping the covenants we have made with God.",
 		application: "What divine covenants have you made? How can you “cleave” to these covenants?",
-		verse: "",
+		verse: "Wherefore, lift up thy heart and rejoice, and cleave unto the covenants which thou hast made.",
 	},
 	{ 
 		index: 11,
 		reference: "D&C 46:33",
+		digits: "33",
 		title: "Practice virtue and holiness continually.",
 		context: "The Lord revealed gifts of the Holy Spirit and taught the importance of doing all things according to His will.",
 		principle: "We must strive to be virtuous and holy at all times.",
 		application: "What will you do today to maintain virtuous thoughts and actions continually?",
-		verse: "",
+		verse: "And ye must practice virtue and holiness before me continually. Even so. Amen.",
 	},
 	{ 
 		index: 12,
 		reference: "D&C 58:27",
+		digits: "27",
 		title: "Be anxiously engaged in a good cause.",
 		context: "The Lord instructed those who had gathered to Independence, Missouri, to counsel among themselves and do good rather than waiting to be commanded in all things.",
 		principle: "We should be anxiously engaged in choosing to do good things and in bringing to pass righteousness.",
@@ -823,6 +910,7 @@ var sm_dc = [
 	{ 
 		index: 13,
 		reference: "D&C 58:42–43",
+		digits: "42 43",
 		title: "To repent we must confess and forsake sin.",
 		context: "The Lord taught the Saints who had just arrived in Missouri how they could build up Zion and be forgiven of their sins.",
 		principle: "If we will confess and forsake our sins, the Lord will forgive us and remember our sins no more.",
@@ -832,6 +920,7 @@ var sm_dc = [
 	{ 
 		index: 14,
 		reference: "D&C 64:9–11",
+		digits: "9 10 11",
 		title: "We should forgive all men.",
 		context: "The Lord taught the Saints in Kirtland, Ohio, to stop being critical of Joseph Smith and start to forgive one another.",
 		principle: "If we do not follow the commandment to forgive all men, then God will not forgive us of our sins.",
@@ -841,6 +930,7 @@ var sm_dc = [
 	{ 
 		index: 15,
 		reference: "D&C 76:22–24",
+		digits: "22 23 24",
 		title: "Jesus Christ lives.",
 		context: "While receiving a vision of the three degrees of glory, Joseph Smith and Sidney Rigdon saw Jesus Christ.",
 		principle: "Jesus Christ lives and is the Only Begotten Son of God the Father.",
@@ -850,24 +940,27 @@ var sm_dc = [
 	{ 
 		index: 16,
 		reference: "D&C 76:40–41",
+		digits: "40 41",
 		title: "Jesus Christ was crucified and bore our sins.",
 		context: "While receiving a vision of the three degrees of glory, Joseph Smith and Sidney Rigdon learned that all of God’s children will eventually inherit a kingdom of glory—except the sons of perdition.",
 		principle: "The gospel is the glad tidings that Jesus Christ came to bear the sins of the world so that we could be cleansed from all unrighteousness.",
 		application: "In what ways is the gospel of Jesus Christ glad tidings in your life? How would you help someone understand why the gospel is referred to as glad tidings?",
-		verse: "",
+		verse: "And this is the gospel, the glad tidings, which the voice out of the heavens bore record unto us—  That he came into the world, even Jesus, to be crucified for the world, and to bear the sins of the world, and to sanctify the world, and to cleanse it from all unrighteousness;",
 	},
 	{ 
 		index: 17,
 		reference: "D&C 78:19",
+		digits: "19",
 		title: "Receive all things with thankfulness.",
 		context: "The Lord commanded Church leaders to establish storehouses and to enter a covenant to care for the poor among them.",
 		principle: "If we receive all things from God with thankfulness, He will give us additional blessings.",
 		application: "What blessings are you grateful for? What are some ways you will show your thankfulness to God today?",
-		verse: "",
+		verse: "And he who receiveth all things with thankfulness shall be made glorious; and the things of this earth shall be added unto him, even an hundred fold, yea, more.",
 	},
 	{ 
 		index: 18,
 		reference: "D&C 82:10",
+		digits: "10",
 		title: "The Lord is bound to bless the obedient.",
 		context: "At a general conference of the Church, the Lord chastised His servants for their sins and their failure to obey revelations He had previously given.",
 		principle: "If we will obey the Lord, He will always keep His promises to bless us.",
@@ -877,6 +970,7 @@ var sm_dc = [
 	{ 
 		index: 19,
 		reference: "D&C 88:124",
+		digits: "124",
 		title: "Cease to be idle and unclean.",
 		context: "The Lord gave His servants specific commandments to prepare them for their missions and to eventually meet the Savior.",
 		principle: "If we will cease to sleep longer than needed, retire to bed early, and arise early, we are promised that our bodies and minds can be invigorated.",
@@ -886,6 +980,7 @@ var sm_dc = [
 	{ 
 		index: 20,
 		reference: "D&C 89:18–21",
+		digits: "18 19 20 21",
 		title: "Blessings of the Word of Wisdom",
 		context: "After instructing the Saints to avoid harmful substances and to partake of those that are healthy, the Lord promised blessings for obedience.",
 		principle: "If we will obey the Word of Wisdom, we will receive blessings of health, treasures of knowledge, strength, and protection.",
@@ -895,24 +990,27 @@ var sm_dc = [
 	{ 
 		index: 21,
 		reference: "D&C 107:8",
+		digits: "8",
 		title: "The Melchizedek Priesthood administers in spiritual things.",
 		context: "The Lord revealed that the Melchizedek Priesthood is called after a great high priest from ancient days. The Lord described the offices and duties of the priesthood.",
 		principle: "The Melchizedek Priesthood is the greater priesthood and administers in spiritual things.",
 		application: "How have you been blessed from the service of those who hold the Melchizedek Priesthood?",
-		verse: "",
+		verse: "The Melchizedek Priesthood holds the right of presidency, and has power and authority over all the offices in the church in all ages of the world, to administer in spiritual things.",
 	},
 	{ 
 		index: 22,
 		reference: "D&C 121:36, 41–42",
+		digits: "41 42",
 		title: "The principles of righteousness give power to the priesthood.",
 		context: "In a letter from Liberty Jail, Joseph Smith recorded the Lord’s words of comfort to the righteous and the consequences that would come to priesthood holders who had been unrighteous.",
 		principle: "The power of the priesthood can only be controlled on the principles of righteousness.",
 		application: "How have priesthood holders that you know demonstrated the characteristics in D&C 121? How can remembering these characteristics help you as you interact with others?",
-		verse: "",
+		verse: "That the rights of the priesthood are inseparably connected with the powers of heaven, and that the powers of heaven cannot be controlled nor handled only upon the principles of righteousness.  No apower or influence can or ought to be maintained by virtue of the priesthood, only by persuasion, by long-suffering, by gentleness and meekness, and by love unfeigned;  By kindness, and pure knowledge, which shall greatly enlarge the soul without hypocrisy, and without guile—",
 	},
 	{ 
 		index: 23,
 		reference: "D&C 130:22–23",
+		digits: "22 23",
 		title: "The Father and Son have bodies of flesh and bones.",
 		context: "Responding to questions, Joseph Smith clarified and expounded several points of doctrine.",
 		principle: "The Father and the Son have physical bodies of flesh and bone, and the Holy Ghost is a personage of spirit.",
@@ -922,6 +1020,7 @@ var sm_dc = [
 	{ 
 		index: 24,
 		reference: "D&C 131:1–4",
+		digits: "1 2 3 4",
 		title: "The new and everlasting covenant of marriage",
 		context: "While visiting Saints in Ramus, Illinois, Joseph Smith taught the importance of celestial marriage.",
 		principle: "To obtain exaltation in the highest degree of the celestial kingdom, we must enter into the new and everlasting covenant of marriage.",
@@ -931,6 +1030,7 @@ var sm_dc = [
 	{ 
 		index: 25,
 		reference: "JS—H 1:15–20",
+		digits: "15 16 17 18 19 20",
 		title: "The First Vision",
 		context: "As a young man in 1820, Joseph Smith studied and prayed to know which church to join.",
 		principle: "God the Father and His Son, Jesus Christ, appeared to Joseph Smith in response to his prayer.",

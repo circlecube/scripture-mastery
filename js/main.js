@@ -18,6 +18,7 @@ var quiz_guesses_correct = 0;
 var quiz_guesses_incorrect_streak = 0;
 var quiz_guesses_incorrect_streak_for_hint = 2;
 var blank_string = '___';
+var has_class_no_touch = false;
 var langs = {
 	english: { 
 		language_native: "English", 
@@ -105,7 +106,7 @@ jQuery(document).ready(function($) {
 		if(localStorage.quiz_article){
 			quiz_article = localStorage.quiz_article;
 		}
-
+		has_class_no_touch = $('html').hasClass('no-touch');
 		//reset log
 		//activity_log = [];
 
@@ -123,7 +124,6 @@ jQuery(document).ready(function($) {
 	    gaPlugin.init(nativePluginResultHandler, nativePluginErrorHandler, "UA-1466312-12", 10);
 
 		gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "Begin", quiz_article);
-
 	}
 	
 
@@ -688,9 +688,7 @@ jQuery(document).ready(function($) {
 
 
 	$('.content').on('click touchstart', '.unordered .word', function(e){
-		// if (!touching) {
-		//uncomment for desktop testing
-		if (true){
+		if (!touching || has_class_no_touch ) {
 			touching = true;
 			quiz_guesses_total++;
 			var this_order = $(this).data('order');

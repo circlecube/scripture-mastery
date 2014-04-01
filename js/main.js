@@ -113,6 +113,7 @@ jQuery(document).ready(function($) {
 		//gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Button", "Click", "event only", 1);
 	    gaPlugin = window.plugins.gaPlugin;
 	    gaPlugin.init(nativePluginResultHandler, nativePluginErrorHandler, "UA-1466312-12", 10);
+
 		gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "Begin", quiz_article);
 
 	}
@@ -171,11 +172,6 @@ jQuery(document).ready(function($) {
 		$('.difficulty-long_words').text( 	langs[language].difficulty_long );
 		$('.difficulty-short_words').text( 	langs[language].difficulty_short );
 		$('.difficulty-first_letter').text( langs[language].difficulty_first_letter );
-		// $('.difficulty-all_words').data( 'value', 	langs['english'].difficulty_all );
-		// $('.difficulty-random_words').data( 'value', 	langs['english'].difficulty_random );
-		// $('.difficulty-long_words').data( 'value', 	langs['english'].difficulty_long );
-		// $('.difficulty-short_words').data( 'value', 	langs['english'].difficulty_short );
-		// $('.difficulty-first_letter').data( 'value', 	langs['english'].difficulty_first_letter );
 
 		// $('.language').text( 			langs[language].language_string );
 		// $('.language-english').text( 	langs['english'].language_native );
@@ -212,6 +208,14 @@ jQuery(document).ready(function($) {
 	function list_aofs(){
 		var aofs = '';//'<h2 class="sub-title">' + langs[language].title_plural + '</h2>';
 
+		//aofs += "<h2 class='sub-title'>" + langs[language].active_cannon + "</h2>";
+		for ( var i = 0; i < active_cannon.length; i++){
+			aofs += "<article class='aof_" + i + "'>";
+			aofs += "<dt>" + active_cannon[i].reference + "</dt>";
+			aofs += "<dd>" + active_cannon[i].verse;
+			aofs += "</article>";
+		}
+		/*
 		aofs += "<h2 class='sub-title'>" + langs[language].sm_ot + "</h2>";
 		for ( var i = 0; i < sm_ot.length; i++){
 			aofs += "<article class='aof_" + i + "'>";
@@ -239,7 +243,8 @@ jQuery(document).ready(function($) {
 			aofs += "<dt>" + sm_dc[i].reference + "</dt>";
 			aofs += "<dd style='display:none;'>" + sm_dc[i].verse;
 			aofs += "</article>";
-		}
+		}*/
+
 		$('.title').text( langs[language].title_plural );
 		$('.content').html(aofs);
 
@@ -667,9 +672,9 @@ jQuery(document).ready(function($) {
 
 
 	$('.content').on('click touchstart', '.unordered .word', function(e){
-		if (!touching) {
+		// if (!touching) {
 		//uncomment for desktop testing
-		// if (true){
+		if (true){
 			touching = true;
 			quiz_guesses_total++;
 			var this_order = $(this).data('order');
@@ -741,7 +746,7 @@ To track an event, call (oddly enough) trackEvent(). trackEvent takes 6 argument
 5)  eventLabel - A label that describes the event such as Button title or Menu Item name.
 6)  eventValue - An application defined integer value that can mean whatever you want it to mean.
 */
-				gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Level", "Finish", quiz_article, score);
+				gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Level", "Finish", active_cannon[ quiz_article ].reference, score);
 			}
 			//console.log('score :', quiz_guesses_correct / quiz_guesses_total);
 		}

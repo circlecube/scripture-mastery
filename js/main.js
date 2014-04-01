@@ -69,7 +69,8 @@ difficulty levels
 'first_letter'
 */
 var cannon = [sm_ot, sm_nt, sm_bom, sm_dc];
-var active_cannon = cannon[0];
+var active_cannon_index = 0;
+var active_cannon = cannon[active_cannon_index];
 
 jQuery(document).ready(function($) {
 
@@ -96,6 +97,13 @@ jQuery(document).ready(function($) {
 		}
 		if (localStorage.activity_log){
 			activity_log = JSON.parse(localStorage.activity_log);
+		}
+		if(localStorage.active_cannon_index){
+			active_cannon_index = localStorage.active_cannon_index;
+			active_cannon = cannon[active_cannon_index];
+		}
+		if(localStorage.quiz_article){
+			quiz_article = localStorage.quiz_article;
 		}
 
 		//reset log
@@ -299,12 +307,16 @@ jQuery(document).ready(function($) {
 		touching = false;
 	});
 	$('.quiz_begin').on('click touch', function(e){
-		active_cannon = cannon[$(this).parent('.quiz').data('active-cannon')];
+		active_cannon_index = $(this).parent('.quiz').data('active-cannon');
+		localStorage.active_cannon_index = active_cannon_index;
+		active_cannon = cannon[active_cannon_index];
 		quiz_article = -1;
 		game_aofs();
 	});
 	$('.quiz_jump').on('click touch', '.quiz_begin_jump', function(e){
-		active_cannon = cannon[$(this).parents('.quiz').data('active-cannon')];
+		active_cannon_index = $(this).parents('.quiz').data('active-cannon');
+		localStorage.active_cannon_index = active_cannon_index;
+		active_cannon = cannon[active_cannon_index];
 		quiz_article = $(this).data('value') - 2;
 		game_aofs();
 	});
@@ -380,6 +392,7 @@ jQuery(document).ready(function($) {
 		if (quiz_article > 24 || quiz_article < 0 ){
 			quiz_article = 0;
 		}
+		localStorage.quiz_article = quiz_article - 1;
 		//var random_article = Math.floor( aof.length * Math.random() );
 		var random_article_words = randomize_aof( quiz_article );
 
@@ -434,7 +447,7 @@ jQuery(document).ready(function($) {
 		}
 		else if (difficulty == langs['english'].difficulty_random ){
 			for (var i = 0; i < random_article_words.length; i++){
-				if (i < random_article_words.length/2) {
+				if (random_article_words[i].random < 1) {
 					if (verses_on && verse_index < random_article_words[i].verse ){
 						verse_index = random_article_words[i].verse;
 						content += split_verse(verse_index);
@@ -503,11 +516,13 @@ jQuery(document).ready(function($) {
 			}
 		}
 		else if (difficulty == langs['english'].difficulty_random ){
+
+			for (var i = 0; i < random_article_words.length; i++){
 				if (verses_on && verse_index < random_article_words[i].verse ) {
 					verse_index = random_article_words[i].verse;
 				}
-			for (var i = 0; i < random_article_words.length; i++){
-				if (i < random_article_words.length/2) {
+				//console.log(i, random_article_words.length, verse_index, random_article_words[i].absolute_order, random_article_words[i].order);
+				if (random_article_words[i].random < 1) {
 					add_to_ordered_dd(verse_index, random_article_words[i].absolute_order, random_article_words[i].order);
 				}
 				else {
@@ -516,10 +531,11 @@ jQuery(document).ready(function($) {
 			}
 		}
 		else if (difficulty == langs['english'].difficulty_first_letter ){
+			for (var i = 0; i < random_article_words.length; i++){
 				if (verses_on && verse_index < random_article_words[i].verse ) {
 					verse_index = random_article_words[i].verse;
 				}
-			for (var i = 0; i < random_article_words.length; i++){
+				//console.log(i, verse_index, random_article_words[i].absolute_order, random_article_words[i].order, random_article_words[i].word, true);
 				add_to_ordered_dd(verse_index, random_article_words[i].absolute_order, random_article_words[i].order, random_article_words[i].word, true);
 			}
 		}
@@ -772,7 +788,8 @@ var article_words
 					absolute_order: global_order,
 					odd: i % 2,
 					length: article_word[i].length,
-					verse: article_verses[j]
+					verse: article_verses[j],
+					random: Math.round( Math.random() )
 				});
 				global_order++;
 			}

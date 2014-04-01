@@ -41,7 +41,7 @@ var sm_bom = [
 		context: "Jacob contrasted the greatness of Heavenly Father’s plan of salvation and the cunning plan of the devil.",
 		principle: "The learned often take pride in their own wisdom and set aside the counsel of God. To obtain knowledge is good if we continue to obey God.",
 		application: "How does obedience to the counsel of God help you keep a proper perspective concerning the wisdom of the world?",
-		verse: "O that cunning plan of the evil one! O the vainness, and the frailties, and the foolishness of men! When they are learned they think they are wise, and they hearken not unto the counsel of God, for they set it aside, supposing they know of themselves, wherefore, their wisdom is foolishness and it profiteth them not. And they shall perish.  But to be learned is good if they hearken unto the counsels of God. ",
+		verse: "O that cunning plan of the evil one! O the vainness, and the frailties, and the foolishness of men! When they are learned they think they are wise, and they hearken not unto the counsel of God, for they set it aside, supposing they know of themselves, wherefore, their wisdom is foolishness and it profiteth them not. And they shall perish.  But to be learned is good if they hearken unto the counsels of God.",
 	},
 	{
 		index: 5,
@@ -71,7 +71,7 @@ var sm_bom = [
 		context: "Near the end of his ministry, Nephi wrote that all people must follow Jesus Christ’s example to inherit eternal life.",
 		principle: "After we exercise faith, repent of our sins, are baptized, and receive the gift of the Holy Ghost, we must press forward in righteousness and endure to the end to receive eternal life.",
 		application: "What counsel would you give a newly baptized member of the Church? What are you doing to “press forward with a steadfastness in Christ”?",
-		verse: "And now, my beloved brethren, after ye have gotten into this strait and narrow path, I would ask if all is done? Behold, I say unto you, Nay; for ye have not come thus far save it were by the word of Christ with unshaken faith in him, relying wholly upon the merits of him who is mighty to save.  Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men. Wherefore, if ye shall press forward, feasting upon the word of Christ, and endure to the end, behold, thus saith the Father: Ye shall have eternal life. ",
+		verse: "And now, my beloved brethren, after ye have gotten into this strait and narrow path, I would ask if all is done? Behold, I say unto you, Nay; for ye have not come thus far save it were by the word of Christ with unshaken faith in him, relying wholly upon the merits of him who is mighty to save.  Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men. Wherefore, if ye shall press forward, feasting upon the word of Christ, and endure to the end, behold, thus saith the Father: Ye shall have eternal life.",
 	},
 	{
 		index: 8,
@@ -81,7 +81,7 @@ var sm_bom = [
 		context: "Near the end of his ministry, Nephi wrote what all people must do to understand and live the doctrine of Jesus Christ.",
 		principle: "If we study the words of Christ and of His inspired servants, we will receive the direction we need to make correct choices.",
 		application: "How have the words of Christ helped you know what to do? What will you do to “feast” on the words of Christ?",
-		verse: "Angels speak by the power of the Holy Ghost; wherefore, they speak the words of Christ. Wherefore, I said unto you, feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do. ",
+		verse: "Angels speak by the power of the Holy Ghost; wherefore, they speak the words of Christ. Wherefore, I said unto you, feast upon the words of Christ; for behold, the words of Christ will tell you all things what ye should do.",
 	},
 	{
 		index: 9,
@@ -111,7 +111,7 @@ var sm_bom = [
 		context: "King Benjamin addressed his people, preparing them to take upon themselves the name of Jesus Christ.",
 		principle: "We overcome the natural man by yielding to the Holy Spirit and becoming a Saint through the Atonement of Jesus Christ.",
 		application: "What does it mean to “yield to the enticings of the Holy Spirit”? What are some of the promptings the Holy Ghost has been giving you?",
-		verse: "For the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever, unless he yields to the enticings of the Holy Spirit, and putteth off the natural man and becometh a saint through the atonement of Christ the Lord, and becometh as a child, submissive, meek, humble, patient, full of love, willing to submit to all things which the Lord seeth fit to inflict upon him, even as a child doth submit to his father. ",
+		verse: "For the natural man is an enemy to God, and has been from the fall of Adam, and will be, forever and ever, unless he yields to the enticings of the Holy Spirit, and putteth off the natural man and becometh a saint through the atonement of Christ the Lord, and becometh as a child, submissive, meek, humble, patient, full of love, willing to submit to all things which the Lord seeth fit to inflict upon him, even as a child doth submit to his father.",
 	},
 	{
 		index: 12,
@@ -121,7 +121,7 @@ var sm_bom = [
 		context: "King Benjamin addressed his people, preparing them to take upon themselves the name of Jesus Christ.",
 		principle: "We will be judged and held accountable for our thoughts, words, and deeds.",
 		application: "What are some specific actions you have taken to maintain clean and virtuous thoughts, words, and actions throughout the day?",
-		verse: "But this much I can tell you, that if ye do not watch yourselves, and your thoughts, and your words, and your deeds, and observe the commandments of God, and continue in the faith of what ye have heard concerning the coming of our Lord, even unto the end of your lives, ye must perish. And now, O man, remember, and perish not. ",
+		verse: "But this much I can tell you, that if ye do not watch yourselves, and your thoughts, and your words, and your deeds, and observe the commandments of God, and continue in the faith of what ye have heard concerning the coming of our Lord, even unto the end of your lives, ye must perish. And now, O man, remember, and perish not.",
 	},
 	{
 		index: 13,
@@ -141,7 +141,7 @@ var sm_bom = [
 		context: "Alma taught the humble among the Zoramites regarding worship and faith.",
 		principle: "Faith requires a person to believe things that are true but that may not be seen.",
 		application: "How would you explain to a friend how something that cannot be seen can still be true?",
-		verse: "And now as I said concerning faith--faith is not to have a perfect knowledge of things; therefore if ye have faith ye hope for things which are not seen, which are true. ",
+		verse: "And now as I said concerning faith--faith is not to have a perfect knowledge of things; therefore if ye have faith ye hope for things which are not seen, which are true.",
 	},
 	{
 		index: 15,
@@ -161,7 +161,7 @@ var sm_bom = [
 		context: "Alma corrected the behavior of Corianton, who had committed serious sins.",
 		principle: "Those who give in to lust and immorality cannot be saved in the kingdom of God unless they repent.",
 		application: "What do you do to overcome lustful thoughts and forsake your sins?",
-		verse: "Now my son, I would that ye should repent and forsake your sins, and go no more after the lusts of your eyes, but cross yourself in all these things; for except ye do this ye can in nowise inherit the kingdom of God. Oh, remember, and take it upon you, and cross yourself in these things. ",
+		verse: "Now my son, I would that ye should repent and forsake your sins, and go no more after the lusts of your eyes, but cross yourself in all these things; for except ye do this ye can in nowise inherit the kingdom of God. Oh, remember, and take it upon you, and cross yourself in these things.",
 	},
 	{
 		index: 17,
@@ -171,7 +171,7 @@ var sm_bom = [
 		context: "Alma taught his son Corianton about the eternal consequences of wickedness and righteousness.",
 		principle: "Sin cannot bring lasting happiness.",
 		application: "How has your happiness increased by following the example and teachings of Jesus Christ?",
-		verse: "Do not suppose, because it has been spoken concerning restoration, that ye shall be restored from sin to happiness. Behold, I say unto you, wickedness never was happiness. ",
+		verse: "Do not suppose, because it has been spoken concerning restoration, that ye shall be restored from sin to happiness. Behold, I say unto you, wickedness never was happiness.",
 	},
 	{
 		index: 18,
@@ -181,7 +181,7 @@ var sm_bom = [
 		context: "Nephi and Lehi recalled the counsel of their father Helaman and devoted themselves to preaching to the wicked Nephites.",
 		principle: "Only by basing our lives on Jesus Christ can we withstand Satan’s temptations.",
 		application: "How has the gospel of Jesus Christ fortified you against temptations? How can you consistently base your choices on the life and teachings of the Savior?",
-		verse: "And now, my sons, remember, remember that it is upon the rock of our Redeemer, who is Christ, the Son of God, that ye must build your foundation; that when the devil shall send forth his mighty winds, yea, his shafts in the whirlwind, yea, when all his hail and his mighty storm shall beat upon you, it shall have no power over you to drag you down to the gulf of misery and endless wo, because of the rock upon which ye are built, which is a sure foundation, a foundation whereon if men build they cannot fall. ",
+		verse: "And now, my sons, remember, remember that it is upon the rock of our Redeemer, who is Christ, the Son of God, that ye must build your foundation; that when the devil shall send forth his mighty winds, yea, his shafts in the whirlwind, yea, when all his hail and his mighty storm shall beat upon you, it shall have no power over you to drag you down to the gulf of misery and endless wo, because of the rock upon which ye are built, which is a sure foundation, a foundation whereon if men build they cannot fall.",
 	},
 	{
 		index: 19,
@@ -191,7 +191,7 @@ var sm_bom = [
 		context: "Jesus Christ taught the Nephites the higher law and prepared them to be members of God’s kingdom.",
 		principle: "We are commanded to be like Heavenly Father and Jesus Christ, who are perfect.",
 		application: "What can you do right now to become more like Jesus Christ?",
-		verse: "Therefore I would that ye should be perfect even as I, or your Father who is in heaven is perfect. ",
+		verse: "Therefore I would that ye should be perfect even as I, or your Father who is in heaven is perfect.",
 	},
 	{
 		index: 20,
@@ -211,7 +211,7 @@ var sm_bom = [
 		context: "Moroni included his own testimony, counsel, and understanding about faith while abridging the prophet Ether’s words.",
 		principle: "The Lord blesses us with a spiritual confirmation after we have endured in faith.",
 		application: "When have you demonstrated faith in Jesus Christ? What blessings did you receive?",
-		verse: "And now, I, Moroni, would speak somewhat concerning these things; I would show unto the world that faith is things which are hoped for and not seen; wherefore, dispute not because ye see not, for ye receive no witness until after the trial of your faith. ",
+		verse: "And now, I, Moroni, would speak somewhat concerning these things; I would show unto the world that faith is things which are hoped for and not seen; wherefore, dispute not because ye see not, for ye receive no witness until after the trial of your faith.",
 	},
 	{
 		index: 22,
@@ -221,7 +221,7 @@ var sm_bom = [
 		context: "Moroni was concerned about the weakness of his writing. The Lord instructed him about overcoming weakness.",
 		principle: "God gives us weakness to humble us. If we humble ourselves, our weakness can be made strong through faith in Jesus Christ.",
 		application: "What weakness could you ask God to make strong? How can you humble yourself and have greater faith in Jesus Christ?",
-		verse: "And if men come unto me I will show unto them their weakness. I give unto men weakness that they may be humble; and my grace is sufficient for all men that humble themselves before me; for if they humble themselves before me, and have faith in me, then will I make weak things become strong unto them. ",
+		verse: "And if men come unto me I will show unto them their weakness. I give unto men weakness that they may be humble; and my grace is sufficient for all men that humble themselves before me; for if they humble themselves before me, and have faith in me, then will I make weak things become strong unto them.",
 	},
 	{
 		index: 23,
@@ -251,7 +251,7 @@ var sm_bom = [
 		context: "Moroni closed his record with an invitation for all mankind to learn the truth of all things, including the Book of Mormon.",
 		principle: "The Holy Ghost will reveal the truth of the Book of Mormon to those who ask God in faith with real intent.",
 		application: "Explain to a friend how he or she can come to know the truthfulness of the Book of Mormon, and “the truth of all things.”",
-		verse: "And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost.  And by the power of the Holy Ghost ye may know the truth of all things. ",
+		verse: "And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost.  And by the power of the Holy Ghost ye may know the truth of all things.",
 	}
 ];
 

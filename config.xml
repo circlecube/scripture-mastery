@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.circlecube.scripturemastery"
-        versionCode="004" 
-        version   = "0.0.4">
+        versionCode="005" 
+        version   = "0.0.5">
 
     <name>LDS Scripture Mastery</name>
 

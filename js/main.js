@@ -300,7 +300,6 @@ jQuery(document).ready(function($) {
 		list_aofs();
 	});
 	$('body').on('touchstart', function(){
-		// commented for browser dev only??
 		//touching = true;
 	});
 	$('body').on('touchend', function(){

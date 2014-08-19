@@ -29,6 +29,7 @@ var langs = {
 		about_text: "<p>Seminaries and Institutes of Religion has selected 25 scripture mastery passages for each of the four seminary courses. These passages provide an important scriptural foundation for understanding and sharing the gospel and for strengthening faith. Seminary students are encouraged to develop a “mastery” of these passages as described below. Institute students should be encouraged to build upon the foundation of these 100 scripture mastery passages and develop a depth of understanding of other key passages of scripture. Mastery of scripture passages includes:</p><ul><li>Locating the verses by knowing the associated scriptural references.</li><li>Understanding the context and content of the scripture passages.</li><li>Applying the gospel principles and doctrines taught in the scripture passages.</li><li>Memorizing the passages.</li></ul><p>Memorization can be a wonderful tool to help students know and love selected passages of scripture. As Elder Richard G. Scott explained, “When scriptures are used as the Lord has caused them to be recorded, they have intrinsic power that is not communicated when paraphrased” (“He Lives,” Ensign, Nov. 1999, 88). Care should be taken, however, to tailor expectations to each student’s capabilities and circumstances. Students should not be made to feel embarrassed or overwhelmed if they are unable to memorize.</p><p>Teachers will be better able to help their students if they master these passages themselves. When teachers refer to scripture mastery passages with consistency, maintain appropriate expectations, and use methods that appeal to different learning styles, they will be more successful in helping students to master these key passages. During lessons, scripture mastery passages should be used to clarify related doctrines and principles. They may be used as the theme for devotionals or displayed somewhere in the classroom. Students should also be encouraged to study and apply them outside of class.</p><p>In locations where multiple teachers serve together on a faculty, student learning will be enhanced when faculty members take a unified approach to scripture mastery. Periodically teachers may choose to review scripture mastery references from previous years so that students can maintain mastery of all of the selected passages.</p><p>While scripture mastery is an important part of the curriculum, it should supplement, not overshadow, daily sequential study of the scriptures. Teachers should be wise in the time they allot to scripture mastery. Home-study teachers must be particularly careful that the weekly class does not become a weekly scripture mastery activity. Teachers should choose methods, activities, and music that are in keeping with the dignity, purpose, and spirit of the scriptures and that avoid contention.</p>",
 		skip: "Skip",
 		next: "Continue",
+		share: "Share",
 		again: "Again",
 		quiz: "Quiz",
 		about: "About",
@@ -760,11 +761,12 @@ jQuery(document).ready(function($) {
 			//console.log($('.unordered .word').length);
 			//show next
 			if ( $('.unordered .word').length < 1) {
+				var score = parseInt( (quiz_guesses_correct / quiz_guesses_total) * 100 );
 				$('.unordered').addClass('empty');
 				$('.button_skip').text( langs[language].next );
 				$('.button_skip').after( "<div class='button button_again'>" + langs[language].again + "</div>" );
-				$('.button_skip').after( "<div class='button button_share' data-score='" + score + "' data-article='" + smref + " " + langs[language].title + "'>" + langs[language].share + "</div>" );
-				var score = parseInt( (quiz_guesses_correct / quiz_guesses_total) * 100 );
+				$('.button_skip').after( "<div class='button button_share' data-score='" + score + "' data-article='" + active_cannon[ quiz_article ].reference + "'>" + langs[language].share + "</div>" );
+				
 				$('dt').append(" - " + score + "%");
 
 				if ( keep_log ) {

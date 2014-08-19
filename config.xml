@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.circlecube.scripturemastery"
-        versionCode="005" 
-        version   = "0.0.5">
+        versionCode="006" 
+        version   = "0.0.6">
 
     <name>LDS Scripture Mastery</name>
 
@@ -26,8 +26,9 @@ Review all the scripture mastery verses in a clean list on one page, quiz yourse
         Evan Mullins 
     </author>
     <gap:plugin name="com.adobe.plugins.gaplugin" />
+    <gap:plugin name="nl.x-services.plugins.socialsharing" />
     <gap:platform name="android" />
-    <preference name="phonegap-version" value="3.3.0" />
+    <preference name="phonegap-version" value="3.5.0" />
     <icon src="icon-large.png" />
     <gap:splash src="splash.png" />
     <preference name="orientation" value="default" />

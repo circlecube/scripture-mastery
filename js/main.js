@@ -59,6 +59,11 @@ var langs = {
 	}
 };
 var difficulty = langs['english'].difficulty_all;
+
+var share_message = 'Do you know the Scripture Mastery verses? Take the test in this mobile app! ';
+var share_subject = 'Scripture Mastery';
+var share_files = null;
+var share_url = 'https://play.google.com/store/apps/details?id=com.circlecube.scripturemastery';
 /*
 difficulty levels
 'all_words', 
@@ -359,12 +364,38 @@ jQuery(document).ready(function($) {
 	});
 	$('.options_toggle').on('click touch', function(){
 		$('.options').toggleClass('active');
-	})
+	});
 	$('.content').on('click touch', '.button_clear_log', function(e){
 		activity_log = [];
 		localStorage.activity_log = JSON.stringify(activity_log);
 		show_activity_log();
-	})
+	});
+	$('.share').on('click touch', function(e){
+		share_message = 'Know your Scripture Mastery?';
+		share_message += ' Take the test in this mobile app!';
+		share_message += '#lds #scripturemastery';
+		share_subject = langs[language].title_plural;
+		console.log(share_message, share_subject, share_url);
+		window.plugins.socialsharing.available(function(isAvailable) {
+		    if (isAvailable) {
+				window.plugins.socialsharing.share(share_message, share_subject, share_files, share_url );
+		    }
+		});
+		gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Share", "Menu", quiz_article, score);
+	});
+	$('.content').on('click touch', '.button_share', function(e){
+		share_message = 'Know your Scripture Mastery?';
+		share_message += ' I do! I scored a ' + $('.button_share').data('score') + ' on ' + $('.button_share').data('article') + '!';
+		share_message += ' #lds #scripturemastery';
+		share_subject = langs[language].title_plural;
+		console.log(share_message, share_subject, share_url);
+	  	window.plugins.socialsharing.available(function(isAvailable) {
+		    if (isAvailable) {
+				window.plugins.socialsharing.share(share_message, share_subject, share_files, share_url );
+		    }
+		});
+	  	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Share", "Level", quiz_article, score);
+	});
 	function show_about(){
 		var content = '<dt>' + langs[language].about + ': ' + langs[language].title_plural + '</dt>';
 		content += '<dd>' + langs[language].about_text + '</dd>';
@@ -732,6 +763,7 @@ jQuery(document).ready(function($) {
 				$('.unordered').addClass('empty');
 				$('.button_skip').text( langs[language].next );
 				$('.button_skip').after( "<div class='button button_again'>" + langs[language].again + "</div>" );
+				$('.button_skip').after( "<div class='button button_share' data-score='" + score + "' data-article='" + smref + " " + langs[language].title + "'>" + langs[language].share + "</div>" );
 				var score = parseInt( (quiz_guesses_correct / quiz_guesses_total) * 100 );
 				$('dt').append(" - " + score + "%");
 

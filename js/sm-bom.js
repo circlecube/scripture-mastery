@@ -1038,3 +1038,70 @@ var sm_dc = [
 		verse: "After I had retired to the place where I had previously designed to go, having looked around me, and finding myself alone, I kneeled down and began to offer up the desires of my heart to God. I had scarcely done so, when immediately I was seized upon by some power which entirely overcame me, and had such an astonishing influence over me as to bind my tongue so that I could not speak. Thick darkness gathered around me, and it seemed to me for a time as if I were doomed to sudden destruction.  But, exerting all my powers to call upon God to deliver me out of the power of this enemy which had seized upon me, and at the very moment when I was ready to sink into despair and abandon myself to destruction—not to an imaginary ruin, but to the power of some actual being from the unseen world, who had such marvelous power as I had never before felt in any being—just at this moment of great alarm, I saw a pillar of light exactly over my head, above the brightness of the sun, which descended gradually until it fell upon me.  It no sooner appeared than I found myself delivered from the enemy which held me bound. When the light rested upon me I saw two Personages, whose brightness and glory defy all description, standing above me in the air. One of them spake unto me, calling me by name and said, pointing to the other—This is My Beloved Son. Hear Him!  My object in going to inquire of the Lord was to know which of all the sects was right, that I might know which to join. No sooner, therefore, did I get possession of myself, so as to be able to speak, than I asked the Personages who stood above me in the light, which of all the sects was right (for at this time it had never entered into my heart that all were wrong)—and which I should join.  I was answered that I must join none of them, for they were all wrong; and the Personage who addressed me said that all their creeds were an abomination in his sight; that those professors were all corrupt; that: “they draw near to me with their lips, but their hearts are far from me, they teach for doctrines the commandments of men, having a form of godliness, but they deny the power thereof.”  He again forbade me to join with any of them; and many other things did he say unto me, which I cannot write at this time. When I came to myself again, I found myself alying on my back, looking up into heaven. When the light had departed, I had no strength; but soon recovering in some degree, I went home. And as I leaned up to the fireplace, mother inquired what the matter was. I replied, “Never mind, all is well—I am well enough off.” I then said to my mother, “I have learned for myself that Presbyterianism is not true.” It seems as though the adversary was aware, at a very early period of my life, that I was destined to prove a disturber and an annoyer of his kingdom; else why should the powers of darkness combine against me? Why the opposition and persecution that arose against me, almost in my infancy?",
 	}
 ];
+
+/*
+		MORE
+*/
+var extras = [
+	{ 
+		index: 1,
+		reference: "The Living Christ",
+		digits: "1 2 3 4 5 6 7 8 9 10 11 12 13",
+		title: "The Living Christ",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "As we commemorate the birth of Jesus Christ two millennia ago, we offer our testimony of the reality of His matchless life and the infinite virtue of His great atoning sacrifice. None other has had so profound an influence upon all who have lived and will yet live upon the earth.  He was the Great Jehovah of the Old Testament, the Messiah of the New. Under the direction of His Father, He was the creator of the earth. “All things were made by him; and without him was not any thing made that was made” (John 1:3). Though sinless, He was baptized to fulfill all righteousness. He “went about doing good” (Acts 10:38), yet was despised for it. His gospel was a message of peace and goodwill. He entreated all to follow His example. He walked the roads of Palestine, healing the sick, causing the blind to see, and raising the dead. He taught the truths of eternity, the reality of our premortal existence, the purpose of our life on earth, and the potential for the sons and daughters of God in the life to come.  He instituted the sacrament as a reminder of His great atoning sacrifice. He was arrested and condemned on spurious charges, convicted to satisfy a mob, and sentenced to die on Calvary’s cross. He gave His life to atone for the sins of all mankind. His was a great vicarious gift in behalf of all who would ever live upon the earth.  We solemnly testify that His life, which is central to all human history, neither began in Bethlehem nor concluded on Calvary. He was the Firstborn of the Father, the Only Begotten Son in the flesh, the Redeemer of the world.  He rose from the grave to “become the firstfruits of them that slept” (1 Corinthians 15:20). As Risen Lord, He visited among those He had loved in life. He also ministered among His “other sheep” (John 10:16) in ancient America. In the modern world, He and His Father appeared to the boy Joseph Smith, ushering in the long-promised “dispensation of the fulness of times” (Ephesians 1:10).  Of the Living Christ, the Prophet Joseph wrote: “His eyes were as a flame of fire; the hair of his head was white like the pure snow; his countenance shone above the brightness of the sun; and his voice was as the sound of the rushing of great waters, even the voice of Jehovah, saying:  “I am the first and the last; I am he who liveth, I am he who was slain; I am your advocate with the Father” (D&C 110:3–4).  Of Him the Prophet also declared: “And now, after the many testimonies which have been given of him, this is the testimony, last of all, which we give of him: That he lives!  “For we saw him, even on the right hand of God; and we heard the voice bearing record that he is the Only Begotten of the Father—  “That by him, and through him, and of him, the worlds are and were created, and the inhabitants thereof are begotten sons and daughters unto God” (D&C 76:22–24).  We declare in words of solemnity that His priesthood and His Church have been restored upon the earth— “built upon the foundation of . . . apostles and prophets, Jesus Christ himself being the chief corner stone” (Ephesians 2:20).  We testify that He will someday return to earth. “And the glory of the Lord shall be revealed, and all flesh shall see it together” (Isaiah 40:5). He will rule as King of Kings and reign as Lord of Lords, and every knee shall bend and every tongue shall speak in worship before Him. Each of us will stand to be judged of Him according to our works and the desires of our hearts.  We bear testimony, as His duly ordained Apostles— that Jesus is the Living Christ, the immortal Son of God. He is the great King Immanuel, who stands today on the right hand of His Father. He is the light, the life, and the hope of the world. His way is the path that leads to happiness in this life and eternal life in the world to come. God be thanked for the matchless gift of His divine Son.",
+	},
+	{ 
+		index: 2,
+		reference: "The Family Proclamation",
+		digits: "",
+		title: "The Family Proclamation",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "WE, THE FIRST PRESIDENCY and the Council of the Twelve Apostles of The Church of Jesus Christ of Latter-day Saints, solemnly proclaim that marriage between a man and a woman is ordained of God and that the family is central to the Creator’s plan for the eternal destiny of His children.  ALL HUMAN BEINGS—male and female—are created in the image of God. Each is a beloved spirit son or daughter of heavenly parents, and, as such, each has a divine nature and destiny. Gender is an essential characteristic of individual premortal, mortal, and eternal identity and purpose.  IN THE PREMORTAL REALM, spirit sons and daughters knew and worshipped God as their Eternal Father and accepted His plan by which His children could obtain a physical body and gain earthly experience to progress toward perfection and ultimately realize their divine destiny as heirs of eternal life. The divine plan of happiness enables family relationships to be perpetuated beyond the grave. Sacred ordinances and covenants available in holy temples make it possible for individuals to return to the presence of God and for families to be united eternally.  THE FIRST COMMANDMENT that God gave to Adam and Eve pertained to their potential for parenthood as husband and wife. We declare that God’s commandment for His children to multiply and replenish the earth remains in force. We further declare that God has commanded that the sacred powers of procreation are to be employed only between man and woman, lawfully wedded as husband and wife.  WE DECLARE the means by which mortal life is created to be divinely appointed. We affirm the sanctity of life and of its importance in God’s eternal plan.  HUSBAND AND WIFE have a solemn responsibility to love and care for each other and for their children. “Children are an heritage of the Lord” (Psalm 127:3). Parents have a sacred duty to rear their children in love and righteousness, to provide for their physical and spiritual needs, and to teach them to love and serve one another, observe the commandments of God, and be law-abiding citizens wherever they live. Husbands and wives—mothers and fathers—will be held accountable before God for the discharge of these obligations.  THE FAMILY is ordained of God. Marriage between man and woman is essential to His eternal plan. Children are entitled to birth within the bonds of matrimony, and to be reared by a father and a mother who honor marital vows with complete fidelity. Happiness in family life is most likely to be achieved when founded upon the teachings of the Lord Jesus Christ. Successful marriages and families are established and maintained on principles of faith, prayer, repentance, forgiveness, respect, love, compassion, work, and wholesome recreational activities. By divine design, fathers are to preside over their families in love and righteousness and are responsible to provide the necessities of life and protection for their families. Mothers are primarily responsible for the nurture of their children. In these sacred responsibilities, fathers and mothers are obligated to help one another as equal partners. Disability, death, or other circumstances may necessitate individual adaptation. Extended families should lend support when needed.  WE WARN that individuals who violate covenants of chastity, who abuse spouse or offspring, or who fail to fulfill family responsibilities will one day stand accountable before God. Further, we warn that the disintegration of the family will bring upon individuals, communities, and nations the calamities foretold by ancient and modern prophets.  WE CALL UPON responsible citizens and officers of government everywhere to promote those measures designed to maintain and strengthen the family as the fundamental unit of society.",
+	},
+	{
+		index: 3,
+		reference: "2015 Mutual theme",
+		digits: "",
+		title: "2015 Mutual theme",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "O ye that embark in the service of God, see that ye serve him with all your heart, might, mind and strength, that ye may stand blameless before God at the last day” (D&C 4:2)"
+	},
+	{
+		index: 4,
+		reference: "BSA Oath/Promise",
+		digits: "",
+		title: "BSA Oath/Promise",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "On my honor, I will do my best  To do my duty to God and my country and to obey the Scout Law;  To help other people at all times;  To keep myself physically strong, mentally awake and morally straight."
+	},
+	{
+		index: 5,
+		reference: "BSA Law",
+		digits: "",
+		title: "BSA Law",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "A Scout is: Trustworthy, Loyal, Helpful, Friendly, Courteous, Kind, Obedient, Cheerful, Thrifty, Brave, Clean, and Reverent."
+	},
+	{
+		index: 6,
+		reference: "YW Theme",
+		digits: "",
+		title: "YW Theme",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "WE ARE DAUGHTERS of our Heavenly Father, who loves us, and we love Him. WE WILL “STAND as witnesses of God at all times and in all things, and in all places” (Mosiah 18:9) as we strive to live the Young Women values, which are:  Faith, Divine Nature, Individual Worth, Knowledge, Choice and Accountability, Good Works, Integrity, and Virtue  WE BELIEVE as we come to accept and act upon these values, WE WILL BE PREPARED to strengthen home and family, make and keep sacred covenants, receive the ordinances of the temple, and enjoy the blessings of exaltation."
+	},
+];
+	

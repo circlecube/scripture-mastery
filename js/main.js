@@ -155,7 +155,10 @@ jQuery(document).ready(function($) {
 	});
 
 	function update_language(){
-		//console.log('update_language!', language);
+		language = 'english';
+		localStorage.language = language;
+
+		console.log('update_language!', language);
 
 		$('.quiz_ot .quiz_begin').text(	langs[language].sm_ot );
 		$('.quiz_ot .quiz_jump li').remove();

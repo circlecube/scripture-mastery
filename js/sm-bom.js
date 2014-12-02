@@ -1038,7 +1038,181 @@ var sm_dc = [
 		verse: "After I had retired to the place where I had previously designed to go, having looked around me, and finding myself alone, I kneeled down and began to offer up the desires of my heart to God. I had scarcely done so, when immediately I was seized upon by some power which entirely overcame me, and had such an astonishing influence over me as to bind my tongue so that I could not speak. Thick darkness gathered around me, and it seemed to me for a time as if I were doomed to sudden destruction.  But, exerting all my powers to call upon God to deliver me out of the power of this enemy which had seized upon me, and at the very moment when I was ready to sink into despair and abandon myself to destruction—not to an imaginary ruin, but to the power of some actual being from the unseen world, who had such marvelous power as I had never before felt in any being—just at this moment of great alarm, I saw a pillar of light exactly over my head, above the brightness of the sun, which descended gradually until it fell upon me.  It no sooner appeared than I found myself delivered from the enemy which held me bound. When the light rested upon me I saw two Personages, whose brightness and glory defy all description, standing above me in the air. One of them spake unto me, calling me by name and said, pointing to the other—This is My Beloved Son. Hear Him!  My object in going to inquire of the Lord was to know which of all the sects was right, that I might know which to join. No sooner, therefore, did I get possession of myself, so as to be able to speak, than I asked the Personages who stood above me in the light, which of all the sects was right (for at this time it had never entered into my heart that all were wrong)—and which I should join.  I was answered that I must join none of them, for they were all wrong; and the Personage who addressed me said that all their creeds were an abomination in his sight; that those professors were all corrupt; that: “they draw near to me with their lips, but their hearts are far from me, they teach for doctrines the commandments of men, having a form of godliness, but they deny the power thereof.”  He again forbade me to join with any of them; and many other things did he say unto me, which I cannot write at this time. When I came to myself again, I found myself alying on my back, looking up into heaven. When the light had departed, I had no strength; but soon recovering in some degree, I went home. And as I leaned up to the fireplace, mother inquired what the matter was. I replied, “Never mind, all is well—I am well enough off.” I then said to my mother, “I have learned for myself that Presbyterianism is not true.” It seems as though the adversary was aware, at a very early period of my life, that I was destined to prove a disturber and an annoyer of his kingdom; else why should the powers of darkness combine against me? Why the opposition and persecution that arose against me, almost in my infancy?",
 	}
 ];
+/*
+		Articles of Faith
+*/
 
+var aof = [
+	{ 
+		index: 1,   
+		spanish: "Nosotros creemos en Dios el Eterno Padre, y en su Hijo Jesucristo, y en el Espíritu Santo.",
+		french: "Nous croyons en Dieu, le Père éternel, et en son Fils, Jésus-Christ, et au Saint-Esprit.",
+		german: "Wir glauben an Gott, den Ewigen Vater, und an seinen Sohn, Jesus Christus, und an den Heiligen Geist.",
+		reference: "Article of Faith 1",
+		title: "Article of Faith 1",
+		digits: "1",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "We believe in God, the Eternal Father, and in His Son, Jesus Christ, and in the Holy Ghost." 
+	},
+	{ 
+		index: 2,   
+		spanish: "Creemos que los hombres serán castigados por sus propios pecados, y no por la transgresión de Adán.",
+		french: "Nous croyons que les hommes seront punis pour leurs propres péchés, et non pour la transgression d'Adam.",
+		german: "Wir glauben, daß der Mensch für seine eigenen Sünden bestraft werden wird und nicht für die Übertretung Adams.",
+		reference: "Article of Faith 2",
+		title: "Article of Faith 2",
+		digits: "2",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "We believe that men will be punished for their own sins, and not for Adam’s transgression." 
+	},
+	{ 
+		index: 3,   
+		spanish: "Creemos que por la Expiación de Cristo, todo el género humano puede salvarse, mediante la obediencia a las leyes y ordenanzas del Evangelio.",
+		french: "Nous croyons que, grâce au sacrifice expiatoire du Christ, tout le genre humain peut être sauvé en obéissant aux lois et aux ordonnances de l'Évangile.",
+		german: "Wir glauben, daß durch das Sühnopfer Christi alle Menschen errettet werden können, indem sie die Gesetze und Verordnungen des Evangeliums befolgen.",
+		reference: "Article of Faith 3",
+		title: "Article of Faith 3",
+		digits: "3",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "We believe that through the Atonement of Christ, all mankind may be saved, by obedience to the laws and ordinances of the Gospel." 
+	},
+	{ 
+		index: 4,   
+		spanish: "Creemos que los primeros principios y ordenanzas del Evangelio son: primero, Fe en el Señor Jesucristo; segundo, Arrepentimiento; tercero, Bautismo por inmersión para la remisión de los pecados; cuarto, Imposición de manos para comunicar el don del Espíritu Santo.",
+		french: "Nous croyons que les premiers principes et ordonnances de l'Évangile sont: premièrement la foi au Seigneur Jésus-Christ, deuxièmement le repentir, troisièmement le baptême par immersion pour la rémission des péchés, quatrièmement l'imposition des mains pour le don du Saint-Esprit.",
+		german: "Wir glauben, daß die ersten Grundsätze und Verordnungen des Evangeliums sind: erstens der Glaube an den Herrn Jesus Christus; zweitens die Umkehr; drittens die Taufe durch Untertauchen zur Sündenvergebung; viertens das Händeauflegen zur Gabe des Heiligen Geistes.",
+		reference: "Article of Faith 4",
+		title: "Article of Faith 4",
+		digits: "4",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "We believe that the first principles and ordinances of the Gospel are: first, Faith in the Lord Jesus Christ; second, Repentance; third, Baptism by immersion for the remission of sins; fourth, Laying on of hands for the gift of the Holy Ghost." 
+	},
+	{ 
+		index: 5,   
+		spanish: "Creemos que el hombre debe ser llamado por Dios, por profecía y la imposición de manos, por aquellos que tienen la autoridad, a fin de que pueda predicar el evangelio y administrar sus ordenanzas.",
+		french: "Nous croyons que l'on doit être appelé de Dieu par prophétie, et par l'imposition des mains de ceux qui détiennent l'autorité, pour prêcher l'Évangile et en administrer les ordonnances.",
+		german: "Wir glauben, daß man durch Prophezeiung und das Händeauflegen derer, die Vollmacht dazu haben, von Gott berufen werden muß, um das Evangelium zu predigen und seine heiligen Handlungen zu vollziehen.",
+		reference: "Article of Faith 5",
+		title: "Article of Faith 5",
+		digits: "5",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "We believe that a man must be called of God, by prophecy, and by the laying on of hands by those who are in authority, to preach the Gospel and administer in the ordinances thereof." 
+	},
+	{ 
+		index: 6,   
+		spanish: "Creemos en la misma organización que existió en la Iglesia Primitiva, esto es, apóstoles, profetas, pastores, maestros, evangelistas, etc.",
+		french: "Nous croyons à la même organisation que celle qui existait dans l'Église primitive, savoir: apôtres, prophètes, pasteurs, docteurs, évangélistes, etc.",
+		german: "Wir glauben an die gleiche Organisation, wie sie in der Urkirche bestanden hat, nämlich Apostel, Propheten, Hirten, Lehrer, Evangelisten usw.",
+		reference: "Article of Faith 6",
+		title: "Article of Faith 6",
+		digits: "6",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "We believe in the same organization that existed in the Primitive Church, namely, apostles, prophets, pastors, teachers, evangelists, and so forth." 
+	},
+	{ 
+		index: 7,   
+		spanish: "Creemos en el don de lenguas, profecía, revelación, visiones, sanidades, interpretación de lenguas, etc.",
+		french: "Nous croyons au don des langues, de prophétie, de révélation, de vision, de guérison, d'interprétation des langues, etc.",
+		german: "Wir glauben an die Gabe der Zungenrede, Prophezeiung, Offenbarung, der Visionen, der Heilung, Auslegung der Zungenrede usw.",
+		reference: "Article of Faith 7",
+		title: "Article of Faith 7",
+		digits: "7",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "We believe in the gift of tongues, prophecy, revelation, visions, healing, interpretation of tongues, and so forth." 
+	},
+	{ 
+		index: 8,   
+		spanish: "Creemos que la Biblia es la palabra de Dios hasta donde esté traducida correctamente; también creemos que el Libro de Mormón es la palabra de Dios.",
+		french: "Nous croyons que la Bible est la parole de Dieu dans la mesure où elle est traduite correctement; nous croyons aussi que le Livre de Mormon est la parole de Dieu.",
+		german: "Wir glauben, daß die Bibel, soweit richtig übersetzt, das Wort Gottes ist; wir glauben auch, daß das Buch Mormon das Wort Gottes ist.",
+		reference: "Article of Faith 8",
+		title: "Article of Faith 8",
+		digits: "8",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "We believe the Bible to be the word of God as far as it is translated correctly; we also believe the Book of Mormon to be the word of God." 
+	},
+	{ 
+		index: 9,   
+		spanish: "Creemos todo lo que Dios ha revelado, todo lo que actualmente revela, y creemos que aún revelará muchos grandes e importantes asuntos pertenecientes al reino de Dios.",
+		french: "Nous croyons tout ce que Dieu a révélé, tout ce qu'il révèle maintenant, et nous croyons qu'il révélera encore beaucoup de choses grandes et importantes concernant le royaume de Dieu.",
+		german: "Wir glauben alles, was Gott offenbart hat, und alles, was er jetzt offenbart; und wir glauben, daß er noch viel Großes und Wichtiges offenbaren wird, was das Reich Gottes betrifft.",
+		reference: "Article of Faith 9",
+		title: "Article of Faith 9",
+		digits: "9",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "We believe all that God has revealed, all that He does now reveal, and we believe that He will yet reveal many great and important things pertaining to the Kingdom of God." 
+	},
+	{ 
+		index: 10,  
+		spanish: "Creemos en la congregación literal del pueblo de Israel y en la restauración de las Diez Tribus; que Sión (la Nueva Jerusalén) será edificada sobre el continente americano; que Cristo reinará personalmente sobre la tierra, y que la tierra será renovada y recibirá su gloria paradisíaca.",
+		french: "Nous croyons au rassemblement littéral d'Israël et au rétablissement des dix tribus. Nous croyons que Sion (la nouvelle Jérusalem) sera bâtie sur le continent américain, que le Christ régnera en personne sur la terre, que la terre sera renouvelée et recevra sa gloireparadisiaque.",
+		german: "Wir glauben an die buchstäbliche Sammlung Israels und die Wiederherstellung der Zehn Stämme, daß Zion (das Neue Jerusalem) auf dem amerikanischen Kontinent errichtet werden wird, daß Christus persönlich auf der Erde regieren wird und daß die Erde erneuert werden und ihre paradiesische Herrlichkeit empfangen wird.",
+		reference: "Article of Faith 10",
+		title: "Article of Faith 10",
+		digits: "10",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "We believe in the literal gathering of Israel and in the restoration of the Ten Tribes; that Zion (the New Jerusalem) will be built upon the American continent; that Christ will reign personally upon the earth; and, that the earth will be renewed and receive its paradisiacal glory." 
+	},
+	{ 
+		index: 11,  
+		spanish: "Reclamamos el derecho de adorar a Dios Todopoderoso conforme a los dictados de nuestra propia conciencia, y concedemos a todos los hombres el mismo privilegio: que adoren cómo, dónde o lo que deseen.",
+		french: "Nous affirmons avoir le droit d'adorer le Dieu Tout-Puissant selon les inspirations de notre conscience et reconnaissons le même droit à tous les hommes: qu'ils adorent comme ils veulent, où ils veulent ou ce qu'ils veulent.",
+		german: "Wir beanspruchen das Recht, den Allmächtigen Gott zu verehren, wie es uns das eigene Gewissen gebietet, und gestehen allen Menschen das gleiche Recht zu, mögen sie verehren, wie oder wo oder was sie wollen.",
+		reference: "Article of Faith 11",
+		title: "Article of Faith 11",
+		digits: "11",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "We claim the privilege of worshiping Almighty God according to the dictates of our own conscience, and allow all men the same privilege, let them worship how, where, or what they may." 
+	},
+	{ 
+		index: 12,  
+		spanish: "Creemos en estar sujetos a los reyes, presidentes, gobernantes y magistrados; en obedecer, honrar y sostener la ley.",
+		french: "Nous croyons que nous devons nous soumettre aux rois, aux présidents, aux gouverneurs et aux magistrats, et que nous devons respecter, honorer et défendre la loi.",
+		german: "Wir glauben, daß es recht ist, Königen, Präsidenten, Herrschern und Obrigkeiten untertan zu sein und dem Gesetz zu gehorchen, es zu achten und für es einzutreten.",
+		reference: "Article of Faith 12",
+		title: "Article of Faith 12",
+		digits: "12",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "We believe in being subject to kings, presidents, rulers, and magistrates, in obeying, honoring, and sustaining the law." 
+	},
+	{ 
+		index: 13,  
+		spanish: "Creemos en ser honrados, verídicos, castos, benevolentes, virtuosos y en hacer el bien a todos los hombres; en verdad, podemos decir que seguimos la admonición de Pablo: Todo lo creemos, todo lo esperamos; hemos sufrido muchas cosas, y esperamos poder sufrir todas las cosas. Si hay algo virtuoso, o bello, o de buena reputación, o digno de alabanza, a esto aspiramos.",
+		french: "Nous croyons que nous devons être honnêtes, fidèles, chastes, bienveillants et vertueux, et que nous devons faire du bien à tous les hommes; en fait, nous pouvons dire que nous suivons l'exhortation de Paul: nous croyons tout, nous espérons tout, nous avons supporté beaucoup et nous espérons être capables de supporter tout. Nous recherchons tout ce qui est vertueux ou aimable, tout ce qui mérite l'approbation ou est digne de louange.",
+		german: "Wir glauben, daß es recht ist, ehrlich, treu, keusch, gütig und tugendhaft zu sein und allen Menschen Gutes zu tun; ja, wir können sagen, daß wir der Ermahnung des Paulus folgen—wir glauben alles, wir hoffen alles, wir haben viel ertragen und hoffen, alles ertragen zu können. Wenn es etwas Tugendhaftes oder Liebenswertes gibt, wenn etwas guten Klang hat oder lobenswert ist, so trachten wir danach.",
+		reference: "Article of Faith 13",
+		title: "Article of Faith 13",
+		digits: "13",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "We believe in being honest, true, chaste, benevolent, virtuous, and in doing good to all men; indeed, we may say that we follow the admonition of Paul-We believe all things, we hope all things, we have endured many things, and hope to be able to endure all things. If there is anything virtuous, lovely, or of good report or praiseworthy, we seek after these things." 
+	}
+];
 /*
 		MORE
 */
@@ -1051,32 +1225,42 @@ var extras = [
 		context: "",
 		principle: "",
 		application: "",
-		verse: "As we commemorate the birth of Jesus Christ two millennia ago, we offer our testimony of the reality of His matchless life and the infinite virtue of His great atoning sacrifice. None other has had so profound an influence upon all who have lived and will yet live upon the earth.  He was the Great Jehovah of the Old Testament, the Messiah of the New. Under the direction of His Father, He was the creator of the earth. “All things were made by him; and without him was not any thing made that was made” (John 1:3). Though sinless, He was baptized to fulfill all righteousness. He “went about doing good” (Acts 10:38), yet was despised for it. His gospel was a message of peace and goodwill. He entreated all to follow His example. He walked the roads of Palestine, healing the sick, causing the blind to see, and raising the dead. He taught the truths of eternity, the reality of our premortal existence, the purpose of our life on earth, and the potential for the sons and daughters of God in the life to come.  He instituted the sacrament as a reminder of His great atoning sacrifice. He was arrested and condemned on spurious charges, convicted to satisfy a mob, and sentenced to die on Calvary’s cross. He gave His life to atone for the sins of all mankind. His was a great vicarious gift in behalf of all who would ever live upon the earth.  We solemnly testify that His life, which is central to all human history, neither began in Bethlehem nor concluded on Calvary. He was the Firstborn of the Father, the Only Begotten Son in the flesh, the Redeemer of the world.  He rose from the grave to “become the firstfruits of them that slept” (1 Corinthians 15:20). As Risen Lord, He visited among those He had loved in life. He also ministered among His “other sheep” (John 10:16) in ancient America. In the modern world, He and His Father appeared to the boy Joseph Smith, ushering in the long-promised “dispensation of the fulness of times” (Ephesians 1:10).  Of the Living Christ, the Prophet Joseph wrote: “His eyes were as a flame of fire; the hair of his head was white like the pure snow; his countenance shone above the brightness of the sun; and his voice was as the sound of the rushing of great waters, even the voice of Jehovah, saying:  “I am the first and the last; I am he who liveth, I am he who was slain; I am your advocate with the Father” (D&C 110:3–4).  Of Him the Prophet also declared: “And now, after the many testimonies which have been given of him, this is the testimony, last of all, which we give of him: That he lives!  “For we saw him, even on the right hand of God; and we heard the voice bearing record that he is the Only Begotten of the Father—  “That by him, and through him, and of him, the worlds are and were created, and the inhabitants thereof are begotten sons and daughters unto God” (D&C 76:22–24).  We declare in words of solemnity that His priesthood and His Church have been restored upon the earth— “built upon the foundation of . . . apostles and prophets, Jesus Christ himself being the chief corner stone” (Ephesians 2:20).  We testify that He will someday return to earth. “And the glory of the Lord shall be revealed, and all flesh shall see it together” (Isaiah 40:5). He will rule as King of Kings and reign as Lord of Lords, and every knee shall bend and every tongue shall speak in worship before Him. Each of us will stand to be judged of Him according to our works and the desires of our hearts.  We bear testimony, as His duly ordained Apostles— that Jesus is the Living Christ, the immortal Son of God. He is the great King Immanuel, who stands today on the right hand of His Father. He is the light, the life, and the hope of the world. His way is the path that leads to happiness in this life and eternal life in the world to come. God be thanked for the matchless gift of His divine Son.",
+		verse: "As we commemorate the birth of Jesus Christ two millennia ago, we offer our testimony of the reality of His matchless life and the infinite virtue of His great atoning sacrifice. None other has had so profound an influence upon all who have lived and will yet live upon the earth.  He was the Great Jehovah of the Old Testament, the Messiah of the New. Under the direction of His Father, He was the creator of the earth. “All things were made by him; and without him was not any thing made that was made” (John 1:3). Though sinless, He was baptized to fulfill all righteousness. He “went about doing good” (Acts 10:38), yet was despised for it. His gospel was a message of peace and goodwill. He entreated all to follow His example. He walked the roads of Palestine, healing the sick, causing the blind to see, and raising the dead. He taught the truths of eternity, the reality of our premortal existence, the purpose of our life on earth, and the potential for the sons and daughters of God in the life to come.  He instituted the sacrament as a reminder of His great atoning sacrifice. He was arrested and condemned on spurious charges, convicted to satisfy a mob, and sentenced to die on Calvary’s cross. He gave His life to atone for the sins of all mankind. His was a great vicarious gift in behalf of all who would ever live upon the earth.  We solemnly testify that His life, which is central to all human history, neither began in Bethlehem nor concluded on Calvary. He was the Firstborn of the Father, the Only Begotten Son in the flesh, the Redeemer of the world.  He rose from the grave to “become the firstfruits of them that slept” (1 Corinthians 15:20). As Risen Lord, He visited among those He had loved in life. He also ministered among His “other sheep” (John 10:16) in ancient America. In the modern world, He and His Father appeared to the boy Joseph Smith, ushering in the long-promised “dispensation of the fulness of times” (Ephesians 1:10).  Of the Living Christ, the Prophet Joseph wrote: “His eyes were as a flame of fire; the hair of his head was white like the pure snow; his countenance shone above the brightness of the sun; and his voice was as the sound of the rushing of great waters, even the voice of Jehovah, saying:  “I am the first and the last; I am he who liveth, I am he who was slain; I am your advocate with the Father” (D&C 110:3–4).  Of Him the Prophet also declared: “And now, after the many testimonies which have been given of him, this is the testimony, last of all, which we give of him: That he lives!  “For we saw him, even on the right hand of God; and we heard the voice bearing record that he is the Only Begotten of the Father—  “That by him, and through him, and of him, the worlds are and were created, and the inhabitants thereof are begotten sons and daughters unto God” (D&C 76:22–24).  We declare in words of solemnity that His priesthood and His Church have been restored upon the earth—“built upon the foundation of... apostles and prophets, Jesus Christ himself being the chief corner stone” (Ephesians 2:20).  We testify that He will someday return to earth. “And the glory of the Lord shall be revealed, and all flesh shall see it together” (Isaiah 40:5). He will rule as King of Kings and reign as Lord of Lords, and every knee shall bend and every tongue shall speak in worship before Him. Each of us will stand to be judged of Him according to our works and the desires of our hearts.  We bear testimony, as His duly ordained Apostles—that Jesus is the Living Christ, the immortal Son of God. He is the great King Immanuel, who stands today on the right hand of His Father. He is the light, the life, and the hope of the world. His way is the path that leads to happiness in this life and eternal life in the world to come. God be thanked for the matchless gift of His divine Son.",
 	},
 	{ 
 		index: 2,
 		reference: "The Family Proclamation",
-		digits: "",
+		digits: "1 2 3 4 5 6 7 8 9",
 		title: "The Family Proclamation",
 		context: "",
 		principle: "",
 		application: "",
 		verse: "WE, THE FIRST PRESIDENCY and the Council of the Twelve Apostles of The Church of Jesus Christ of Latter-day Saints, solemnly proclaim that marriage between a man and a woman is ordained of God and that the family is central to the Creator’s plan for the eternal destiny of His children.  ALL HUMAN BEINGS—male and female—are created in the image of God. Each is a beloved spirit son or daughter of heavenly parents, and, as such, each has a divine nature and destiny. Gender is an essential characteristic of individual premortal, mortal, and eternal identity and purpose.  IN THE PREMORTAL REALM, spirit sons and daughters knew and worshipped God as their Eternal Father and accepted His plan by which His children could obtain a physical body and gain earthly experience to progress toward perfection and ultimately realize their divine destiny as heirs of eternal life. The divine plan of happiness enables family relationships to be perpetuated beyond the grave. Sacred ordinances and covenants available in holy temples make it possible for individuals to return to the presence of God and for families to be united eternally.  THE FIRST COMMANDMENT that God gave to Adam and Eve pertained to their potential for parenthood as husband and wife. We declare that God’s commandment for His children to multiply and replenish the earth remains in force. We further declare that God has commanded that the sacred powers of procreation are to be employed only between man and woman, lawfully wedded as husband and wife.  WE DECLARE the means by which mortal life is created to be divinely appointed. We affirm the sanctity of life and of its importance in God’s eternal plan.  HUSBAND AND WIFE have a solemn responsibility to love and care for each other and for their children. “Children are an heritage of the Lord” (Psalm 127:3). Parents have a sacred duty to rear their children in love and righteousness, to provide for their physical and spiritual needs, and to teach them to love and serve one another, observe the commandments of God, and be law-abiding citizens wherever they live. Husbands and wives—mothers and fathers—will be held accountable before God for the discharge of these obligations.  THE FAMILY is ordained of God. Marriage between man and woman is essential to His eternal plan. Children are entitled to birth within the bonds of matrimony, and to be reared by a father and a mother who honor marital vows with complete fidelity. Happiness in family life is most likely to be achieved when founded upon the teachings of the Lord Jesus Christ. Successful marriages and families are established and maintained on principles of faith, prayer, repentance, forgiveness, respect, love, compassion, work, and wholesome recreational activities. By divine design, fathers are to preside over their families in love and righteousness and are responsible to provide the necessities of life and protection for their families. Mothers are primarily responsible for the nurture of their children. In these sacred responsibilities, fathers and mothers are obligated to help one another as equal partners. Disability, death, or other circumstances may necessitate individual adaptation. Extended families should lend support when needed.  WE WARN that individuals who violate covenants of chastity, who abuse spouse or offspring, or who fail to fulfill family responsibilities will one day stand accountable before God. Further, we warn that the disintegration of the family will bring upon individuals, communities, and nations the calamities foretold by ancient and modern prophets.  WE CALL UPON responsible citizens and officers of government everywhere to promote those measures designed to maintain and strengthen the family as the fundamental unit of society.",
 	},
-	{
+	{	
 		index: 3,
+		reference: "2014 Mutual theme",
+		digits: "32",
+		title: "2014 Mutual theme",
+		context: "",
+		principle: "",
+		application: "",
+	 	verse: "“Come unto Christ, and be perfected in him, and deny yourselves of all ungodliness” (Moroni 10:32)"
+	},
+	{
+		index: 4,
 		reference: "2015 Mutual theme",
-		digits: "",
+		digits: "2",
 		title: "2015 Mutual theme",
 		context: "",
 		principle: "",
 		application: "",
-		verse: "O ye that embark in the service of God, see that ye serve him with all your heart, might, mind and strength, that ye may stand blameless before God at the last day” (D&C 4:2)"
+		verse: "“O ye that embark in the service of God, see that ye serve him with all your heart, might, mind and strength, that ye may stand blameless before God at the last day” (D&C 4:2)"
 	},
 	{
-		index: 4,
+		index: 5,
 		reference: "BSA Oath/Promise",
-		digits: "",
+		digits: "1 2 3 4",
 		title: "BSA Oath/Promise",
 		context: "",
 		principle: "",
@@ -1084,9 +1268,9 @@ var extras = [
 		verse: "On my honor, I will do my best  To do my duty to God and my country and to obey the Scout Law;  To help other people at all times;  To keep myself physically strong, mentally awake and morally straight."
 	},
 	{
-		index: 5,
+		index: 6,
 		reference: "BSA Law",
-		digits: "",
+		digits: "1",
 		title: "BSA Law",
 		context: "",
 		principle: "",
@@ -1094,14 +1278,14 @@ var extras = [
 		verse: "A Scout is: Trustworthy, Loyal, Helpful, Friendly, Courteous, Kind, Obedient, Cheerful, Thrifty, Brave, Clean, and Reverent."
 	},
 	{
-		index: 6,
-		reference: "YW Theme",
-		digits: "",
+		index: 7,
+		reference: "Young Women Theme",
+		digits: "1 2 3 4",
 		title: "YW Theme",
 		context: "",
 		principle: "",
 		application: "",
-		verse: "WE ARE DAUGHTERS of our Heavenly Father, who loves us, and we love Him. WE WILL “STAND as witnesses of God at all times and in all things, and in all places” (Mosiah 18:9) as we strive to live the Young Women values, which are:  Faith, Divine Nature, Individual Worth, Knowledge, Choice and Accountability, Good Works, Integrity, and Virtue  WE BELIEVE as we come to accept and act upon these values, WE WILL BE PREPARED to strengthen home and family, make and keep sacred covenants, receive the ordinances of the temple, and enjoy the blessings of exaltation."
-	},
+		verse: "WE ARE DAUGHTERS of our Heavenly Father, who loves us, and we love Him.  WE WILL “STAND as witnesses of God at all times and in all things, and in all places” (Mosiah 18:9) as we strive to live the Young Women values, which are:  Faith, Divine Nature, Individual Worth, Knowledge, Choice and Accountability, Good Works, Integrity, and Virtue  WE BELIEVE as we come to accept and act upon these values, WE WILL BE PREPARED to strengthen home and family, make and keep sacred covenants, receive the ordinances of the temple, and enjoy the blessings of exaltation."
+	}
 ];
 	

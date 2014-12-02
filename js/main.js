@@ -57,7 +57,8 @@ var langs = {
 		sm_nt: "New Testament",
 		sm_ot: "Old Testament",
 		sm_dc: "Doctrine & Covenants",
-		extras: "Extras"
+		extras: "Extras",
+		aof: "Articles of Faith"
 	}
 };
 var difficulty = langs['english'].difficulty_all;
@@ -76,7 +77,7 @@ difficulty levels
 'odd_words',
 'first_letter'
 */
-var cannon = [sm_ot, sm_nt, sm_bom, sm_dc, extras];
+var cannon = [sm_ot, sm_nt, sm_bom, sm_dc, aof, extras];
 var active_cannon_index = 0;
 var active_cannon = cannon[active_cannon_index];
 
@@ -176,10 +177,15 @@ jQuery(document).ready(function($) {
 		for ( var i = 0; i < sm_dc.length; i++){
 			$('.quiz_dc .quiz_jump').append('<li><a href="#" class="quiz_begin_jump" data-value="' + (i+1) + '" data-active-cannon="3">' + sm_dc[i].reference  + '</a></li>');
 		}
+		$('.quiz_aof .quiz_begin').text(	langs[language].aof );
+		$('.quiz_aof .quiz_jump li').remove();
+		for ( var i = 0; i < aof.length; i++){
+			$('.quiz_aof .quiz_jump').append('<li><a href="#" class="quiz_begin_jump" data-value="' + (i+1) + '" data-active-cannon="4">' + aof[i].reference  + '</a></li>');
+		}
 		$('.quiz_extras .quiz_begin').text(	langs[language].extras );
 		$('.quiz_extras .quiz_jump li').remove();
 		for ( var i = 0; i < extras.length; i++){
-			$('.quiz_extras .quiz_jump').append('<li><a href="#" class="quiz_begin_jump" data-value="' + (i+1) + '" data-active-cannon="4">' + extras[i].reference  + '</a></li>');
+			$('.quiz_extras .quiz_jump').append('<li><a href="#" class="quiz_begin_jump" data-value="' + (i+1) + '" data-active-cannon="5">' + extras[i].reference  + '</a></li>');
 		}
 
 

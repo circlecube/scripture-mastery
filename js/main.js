@@ -819,6 +819,7 @@ var article_words
 		//split array into verses first to seperate the verses for easier scrambles
 		var article_verse_words = active_cannon[article].verse.split('  ');
 		var article_verses = active_cannon[article].digits.split(' ');
+		console.log(article_verse_words, article_verses);
 		article_words = [];
 		global_order = 0;
 		for (var j = 0; j < article_verse_words.length; j++){
@@ -831,7 +832,7 @@ var article_words
 					absolute_order: global_order,
 					odd: i % 2,
 					length: article_word[i].length,
-					verse: article_verses[j],
+					verse: parseInt(article_verses[j]),
 					random: Math.round( Math.random() )
 				});
 				global_order++;

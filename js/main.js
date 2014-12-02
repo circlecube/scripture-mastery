@@ -158,8 +158,6 @@ jQuery(document).ready(function($) {
 		language = 'english';
 		localStorage.language = language;
 
-		console.log('update_language!', language);
-
 		$('.quiz_ot .quiz_begin').text(	langs[language].sm_ot );
 		$('.quiz_ot .quiz_jump li').remove();
 		for ( var i = 0; i < sm_ot.length; i++){
@@ -822,7 +820,7 @@ var article_words
 		//split array into verses first to seperate the verses for easier scrambles
 		var article_verse_words = active_cannon[article].verse.split('  ');
 		var article_verses = active_cannon[article].digits.split(' ');
-		console.log(article_verse_words, article_verses);
+		// console.log(article_verse_words, article_verses);
 		article_words = [];
 		global_order = 0;
 		for (var j = 0; j < article_verse_words.length; j++){

@@ -7,6 +7,7 @@ var touching = false;
 var keep_log = true;
 var hints_on = true;
 var verses_on = true;
+var word_order = 'random';
 var language = 'english';
 var font_size = 'normal';
 var long_word_length = 3;
@@ -35,12 +36,15 @@ var langs = {
 		about: "About",
 		log: "Activity",
 		clear_log: "Clear Activity Log",
-		hints: "Hints",
+		hints_label: "Hints",
 		hints_on_label: "Show Hints",
 		hints_off_label: "Do Not Show Hints",
-		verses: "Verses",
+		verses_label: "Verses",
 		verses_on_label: "Seperate Verses",
 		verses_off_label: "Combine verses",
+		word_order_label: "Word Order",
+		word_order_random_label: "Random",
+		word_order_alphabetical_label: "Alphabetical",
 		difficulty: "Difficulty",
 		difficulty_all: "All Words",
 		difficulty_long: "Long Words",
@@ -103,6 +107,9 @@ jQuery(document).ready(function($) {
 		}
 		if (localStorage.verses_on){
 			verses_on = localStorage.verses_on;
+		}
+		if (localStorage.word_order){
+			word_order = localStorage.word_order;
 		}
 		if (localStorage.activity_log){
 			activity_log = JSON.parse(localStorage.activity_log);
@@ -211,25 +218,30 @@ jQuery(document).ready(function($) {
 		$('.font_size-normal').text( 	langs[language].normal );
 		$('.font_size-small').text( 	langs[language].small );
 
-		$('.hints_option').text( 		langs[language].hints );
+		$('.hints_option').text( 		langs[language].hints_label );
 		$('.hints_option-on').text( 	langs[language].hints_on_label );
 		$('.hints_option-off').text( 	langs[language].hints_off_label );
 
-		$('.verses_option').text( 		langs[language].hints );
+		$('.verses_option').text( 		langs[language].verses_label );
 		$('.verses_option-on').text( 	langs[language].verses_on_label );
 		$('.verses_option-off').text( 	langs[language].verses_off_label );
+
+		$('.word_order_option').text( 	langs[language].word_order_label );
+		$('.word_order-random').text( 	langs[language].word_order_random_label );
+		$('.word_order-alphabetical').text( langs[language].word_order_alphabetical_label );
 
 
 		$('.title').text(	langs[language].title_plural );
 
 		//set active from local storage vars
 		// console.log(font_size, difficulty, language, hints_on, verses_on);
-		$('.font_size_option, .language_option, .difficulty_option, .hints_option, .verses_option').parent().removeClass('active');
+		$('.font_size_option, .language_option, .difficulty_option, .hints_option, .verses_option, .word_order_option').parent().removeClass('active');
 		$('.font_size_option[data-value="' + font_size + '"]').parent().addClass('active');
 		$('.language_option[data-value="' + language + '"]').parent().addClass('active');
 		$('.difficulty_option[data-value="' + difficulty + '"]').parent().addClass('active');
 		$('.hints_option[data-value="' + hints_on + '"]').parent().addClass('active');
 		$('.verses_option[data-value="' + verses_on + '"]').parent().addClass('active');
+		$('.word_order_option[data-value="' + word_order + '"]').parent().addClass('active');
 	}	
 
 	function list_aofs(){
@@ -364,6 +376,15 @@ jQuery(document).ready(function($) {
 		quiz_article--;
 		game_aofs();
 		//console.log('verses_on', verses_on, localStorage.verses_on);
+	});
+	$('.word_order_option').on('click touch', function(e){
+		console.log('word order update:', $(this).data('value') );
+		word_order = $(this).data('value');
+		localStorage.word_order = word_order;
+		$(this).parent().siblings().removeClass('active');
+		$(this).parent().addClass('active');
+		quiz_article--;
+		game_aofs();
 	});
 	$('.activity_log').on('click touch', function(e){
 		show_activity_log();

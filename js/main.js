@@ -476,6 +476,31 @@ jQuery(document).ready(function($) {
 				  return 0;
 				}
 			);
+			
+			if (word_order == 'alphabetical'){
+				random_article_words.sort(
+					function compare(a,b) {
+						if (parseInt(a.verse) === parseInt(b.verse)) {
+							x = a.word.toLowerCase().replace(/[():-]/g,'').replace('“','');
+							y = b.word.toLowerCase().replace(/[():-]/g,'').replace('“','');
+							console.log(x, y, x < y);
+							if (x < y)
+							   return -1;
+							if (x > y)
+							  return 1;
+							return 0;
+						}
+					  	
+					  	if (parseInt(a.verse) < parseInt(b.verse))
+					    	return -1;
+					  	
+					  	if (parseInt(a.verse) > parseInt(b.verse))
+					    	return 1;
+						
+						return 0;
+					}
+				);
+			}
 		}
 		var verse_index = 0;
 		//at end of verse add an hr or break.

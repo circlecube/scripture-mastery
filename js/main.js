@@ -462,6 +462,20 @@ jQuery(document).ready(function($) {
 		var random_article_words = randomize_aof( quiz_article );
 
 		//place unordred words
+		if (word_order == 'alphabetical'){
+			random_article_words.sort(
+				function compare(a,b) {
+					x = a.word.toLowerCase().replace(/[():-]/g,'').replace('“','');
+					y = b.word.toLowerCase().replace(/[():-]/g,'').replace('“','');
+					if (x < y)
+						return -1;
+					if (x > y)
+						return 1;
+					return 0;
+				}
+			);
+		}
+		
 		//if verses_on - seperate verses 
 		//sort words by verse
 		//console.log('verses_on', verses_on, localStorage.verses_on);
@@ -483,11 +497,10 @@ jQuery(document).ready(function($) {
 						if (parseInt(a.verse) === parseInt(b.verse)) {
 							x = a.word.toLowerCase().replace(/[():-]/g,'').replace('“','');
 							y = b.word.toLowerCase().replace(/[():-]/g,'').replace('“','');
-							console.log(x, y, x < y);
 							if (x < y)
-							   return -1;
+								return -1;
 							if (x > y)
-							  return 1;
+								return 1;
 							return 0;
 						}
 					  	

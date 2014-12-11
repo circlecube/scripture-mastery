@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.circlecube.scripturemastery"
-        versionCode="007" 
-        version   = "0.0.7">
+        versionCode="010" 
+        version   = "0.1.0">
 
     <name>LDS Scripture Mastery</name>
 
@@ -16,6 +16,9 @@ This app will help you learn these scripture verses in the
 ★New Testament
 ★Book of Mormon
 ★Doctrine and Covenants LDS Church History. 
+Bonus content now
+*Articles of Faith
+*Extras (Living Christ, Family Proclomation, Mutual Theme, Boy Scout Oath, Sacrament Prayers)
 
 ✔Easy and fun to use tool to learn or memorize or even re-memorize all Scripture Mastery verses of the Church of Jesus Christ of Latter-Day Saints. 
 

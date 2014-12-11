@@ -1259,16 +1259,26 @@ var extras = [
 	},
 	{
 		index: 5,
-		reference: "BSA Oath/Promise",
+		reference: "Young Women Theme",
 		digits: "1 2 3 4",
-		title: "BSA Oath/Promise",
+		title: "YW Theme",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "WE ARE DAUGHTERS of our Heavenly Father, who loves us, and we love Him.  WE WILL “STAND as witnesses of God at all times and in all things, and in all places” (Mosiah 18:9) as we strive to live the Young Women values, which are:  Faith, Divine Nature, Individual Worth, Knowledge, Choice and Accountability, Good Works, Integrity, and Virtue  WE BELIEVE as we come to accept and act upon these values, WE WILL BE PREPARED to strengthen home and family, make and keep sacred covenants, receive the ordinances of the temple, and enjoy the blessings of exaltation."
+	},
+	{
+		index: 6,
+		reference: "BSA Oath",
+		digits: "1 2 3 4",
+		title: "BSA Oath",
 		context: "",
 		principle: "",
 		application: "",
 		verse: "On my honor, I will do my best  To do my duty to God and my country and to obey the Scout Law;  To help other people at all times;  To keep myself physically strong, mentally awake and morally straight."
 	},
 	{
-		index: 6,
+		index: 7,
 		reference: "BSA Law",
 		digits: "1",
 		title: "BSA Law",
@@ -1278,14 +1288,54 @@ var extras = [
 		verse: "A Scout is: Trustworthy, Loyal, Helpful, Friendly, Courteous, Kind, Obedient, Cheerful, Thrifty, Brave, Clean, and Reverent."
 	},
 	{
-		index: 7,
-		reference: "Young Women Theme",
-		digits: "1 2 3 4",
-		title: "YW Theme",
+		index: 8,
+		reference: "BSA Motto",
+		digits: "1",
+		title: "BSA Motto",
 		context: "",
 		principle: "",
 		application: "",
-		verse: "WE ARE DAUGHTERS of our Heavenly Father, who loves us, and we love Him.  WE WILL “STAND as witnesses of God at all times and in all things, and in all places” (Mosiah 18:9) as we strive to live the Young Women values, which are:  Faith, Divine Nature, Individual Worth, Knowledge, Choice and Accountability, Good Works, Integrity, and Virtue  WE BELIEVE as we come to accept and act upon these values, WE WILL BE PREPARED to strengthen home and family, make and keep sacred covenants, receive the ordinances of the temple, and enjoy the blessings of exaltation."
+		verse: "Be Prepared"
+	},
+	{
+		index: 9,
+		reference: "BSA Slogan",
+		digits: "1",
+		title: "BSA Slogan",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "Do a Good Turn Daily"
+	},
+	{
+		index: 10,
+		reference: "Pledge of Allegiance",
+		digits: "1",
+		title: "Pledge of Allegiance",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "I pledge allegiance to the Flag of the United States of America, and to the Republic for which it stands, one Nation under God, indivisible, with liberty and justice for all."
+	},
+	{
+		index: 11,
+		reference: "Sacrament Prayer (Bread)",
+		digits: "1",
+		title: "Sacrament Prayer (Bread)",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and sanctify this bread to the souls of all those who partake of it, that they may eat in remembrance of the body of thy Son, and witness unto thee, O God, the Eternal Father, that they are willing to take upon them the name of thy Son, and always remember him and keep his commandments which he has given them; that they may always have his Spirit to be with them. Amen."
+	},
+	{
+		index: 12,
+		reference: "Sacrament Prayer (Water)",
+		digits: "1",
+		title: "Sacrament Prayer (Water)",
+		context: "",
+		principle: "",
+		application: "",
+		verse: "O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and sanctify this water to the souls of all those who drink of it, that they may do it in remembrance of the blood of thy Son, which was shed for them; that they may witness unto thee, O God, the Eternal Father, that they do always remember him, that they may have his Spirit to be with them. Amen."
 	}
 ];
 	

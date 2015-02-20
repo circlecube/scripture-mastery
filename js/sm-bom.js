@@ -935,7 +935,7 @@ var sm_dc = [
 		context: "While receiving a vision of the three degrees of glory, Joseph Smith and Sidney Rigdon saw Jesus Christ.",
 		principle: "Jesus Christ lives and is the Only Begotten Son of God the Father.",
 		application: "How do you know that Jesus Christ lives? Record your testimony of the Savior.",
-		verse: "And now, after the many testimonies which have been given of him, this is the testimony, last of all, which we give of him: That he lives!  For we saw him, even on the bright hand of God; and we heard the voice bearing record that he is the Only Begotten of the Father—  That by him, and through him, and of him, the worlds are and were created, and the inhabitants thereof are begotten sons and daughters unto God.",
+		verse: "And now, after the many testimonies which have been given of him, this is the testimony, last of all, which we give of him: That he lives!  For we saw him, even on the right hand of God; and we heard the voice bearing record that he is the Only Begotten of the Father—  That by him, and through him, and of him, the worlds are and were created, and the inhabitants thereof are begotten sons and daughters unto God.",
 	},
 	{ 
 		index: 16,

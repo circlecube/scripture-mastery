@@ -33,7 +33,6 @@ Review all the scripture mastery verses in a clean list on one page, quiz yourse
     <gap:platform name="android" />
     <gap:platform name="ios" />
     <preference name="phonegap-version" value="3.7.0" />
-    <gap:splash src="splash.png" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="true" />
     <preference name="permissions" value="none"/>
@@ -73,7 +72,7 @@ Review all the scripture mastery verses in a clean list on one page, quiz yourse
 <!--
 	
 	android: 
-	ios: 
+	ios: scripturemastery
 
 	Bundle ID- The bundle ID must match the one you used in Xcode. It can't be changed after you submit your first build.
 	com.circlecube.ldsquizpro

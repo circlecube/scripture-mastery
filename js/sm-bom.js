@@ -1000,12 +1000,12 @@ var sm_dc = [
 	{ 
 		index: 22,
 		reference: "D&C 121:36, 41–42",
-		digits: "41 42",
+		digits: "36 41 42",
 		title: "The principles of righteousness give power to the priesthood.",
 		context: "In a letter from Liberty Jail, Joseph Smith recorded the Lord’s words of comfort to the righteous and the consequences that would come to priesthood holders who had been unrighteous.",
 		principle: "The power of the priesthood can only be controlled on the principles of righteousness.",
 		application: "How have priesthood holders that you know demonstrated the characteristics in D&C 121? How can remembering these characteristics help you as you interact with others?",
-		verse: "That the rights of the priesthood are inseparably connected with the powers of heaven, and that the powers of heaven cannot be controlled nor handled only upon the principles of righteousness.  No apower or influence can or ought to be maintained by virtue of the priesthood, only by persuasion, by long-suffering, by gentleness and meekness, and by love unfeigned;  By kindness, and pure knowledge, which shall greatly enlarge the soul without hypocrisy, and without guile—",
+		verse: "That the rights of the priesthood are inseparably connected with the powers of heaven, and that the powers of heaven cannot be controlled nor handled only upon the principles of righteousness.  No power or influence can or ought to be maintained by virtue of the priesthood, only by persuasion, by long-suffering, by gentleness and meekness, and by love unfeigned;  By kindness, and pure knowledge, which shall greatly enlarge the soul without hypocrisy, and without guile—",
 	},
 	{ 
 		index: 23,
@@ -1025,7 +1025,7 @@ var sm_dc = [
 		context: "While visiting Saints in Ramus, Illinois, Joseph Smith taught the importance of celestial marriage.",
 		principle: "To obtain exaltation in the highest degree of the celestial kingdom, we must enter into the new and everlasting covenant of marriage.",
 		application: "How can you prepare to receive the blessings of marriage in the covenant?",
-		verse: "In the celestial glory there are three heavens or degrees;  And in order to obtain the highest, a man must enter into this border of the priesthood [meaning the new and everlasting covenant of marriage];  And if he does not, he cannot obtain it.  He may enter into the other, but that is the end of his kingdom; he cannot have an increase.",
+		verse: "In the celestial glory there are three heavens or degrees;  And in order to obtain the highest, a man must enter into this order of the priesthood [meaning the new and everlasting covenant of marriage];  And if he does not, he cannot obtain it.  He may enter into the other, but that is the end of his kingdom; he cannot have an increase.",
 	},
 	{ 
 		index: 25,

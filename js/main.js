@@ -439,11 +439,15 @@ jQuery(document).ready(function($) {
 	}
 	function show_activity_log(){
 		var content = '<dt>' + langs[language].log + '</dt>';
-		for( var i=0; i<activity_log.length;i++){
+		for( var i = 0; i < activity_log.length; i++){
 			//console.log(activity_log[i]);
 			if ( activity_log[i].s != undefined ) {
+				var activity_active_cannon = active_cannon;
+				if ( activity_log[i].c ) {
+					activity_active_cannon = activity_log[i].c;
+				}
 				content += '<dd>' + activity_log[i].s + '% - ';
-				content += active_cannon[ activity_log[i].i ].reference + ' ';
+				content += activity_active_cannon[ activity_log[i].i ].reference + ' ';
 				// content += ' (' + activity_log[i].d + ') ';
 				content += relative_time(activity_log[i].t) + '.</dd>';
 			}
@@ -849,7 +853,8 @@ jQuery(document).ready(function($) {
 						s: score,
 						d: difficulty,
 						t: timestamp,
-						i: quiz_article
+						i: quiz_article,
+						c: active_cannon
 					});
 					// = quiz_article + ',' + difficulty + ',' + score + ',' + timestamp + '|' + activity_log;
 					localStorage.activity_log = JSON.stringify(activity_log);

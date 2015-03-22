@@ -70,7 +70,21 @@ var difficulty = langs['english'].difficulty_all;
 var share_message = 'Do you know the Scripture Mastery verses? Take the test in this mobile app! ';
 var share_subject = 'Scripture Mastery';
 var share_files = null;
-var share_url = 'https://play.google.com/store/apps/details?id=com.circlecube.scripturemastery';
+// var share_url = 'https://play.google.com/store/apps/details?id=com.circlecube.scripturemastery';
+
+var devicePlatform = 'Android';
+// var devicePlatform = 'iOS';
+if (typeof( device ) !== 'undefined') {
+	devicePlatform = device.platform;
+}
+// var devicePlatform = device.platform;
+var android_android_link = 'market://details?id=com.circlecube.scripturemastery';
+var android_web_link = 'https://play.google.com/store/apps/details?id=com.circlecube.scripturemastery';
+var ios_ios_link = 'http://appstore.com/lds-scripture-mastery-pro';
+var ios_web_link = 'http://appstore.com/lds-scripture-mastery-pro';
+var store_link = android_android_link;
+var web_link = android_web_link;
+
 /*
 difficulty levels
 'all_words', 
@@ -91,7 +105,25 @@ jQuery(document).ready(function($) {
 		document.addEventListener("deviceready", onDeviceReady, false);
 		document.addEventListener("menubutton", onMenuKeyDown, false);
 		document.addEventListener("backbutton", onBackKeyDown, false);
-
+		
+		//platform check
+		if (devicePlatform == 'Android') {
+			//update links to point to play market
+			store_link = android_android_link;
+			web_link = android_web_link;
+		}
+		else if (devicePlatform == 'iOS') {
+			//update links to point to itunes store
+			
+			//remove more apps - in the future update apps with links to itunes apps
+			$('.more_apps').parent('li').remove();
+			
+			//update share links
+			store_link = ios_ios_link;
+			web_link = ios_web_link;
+			
+		}
+		
 		//get local storage settings
 		if (localStorage.font_size){
 			font_size = localStorage.font_size;
@@ -410,10 +442,10 @@ jQuery(document).ready(function($) {
 		share_message += ' Take the test in this mobile app!';
 		share_message += '#lds #scripturemastery';
 		share_subject = langs[language].title_plural;
-		console.log(share_message, share_subject, share_url);
+		console.log(share_message, share_subject, web_link);
 		window.plugins.socialsharing.available(function(isAvailable) {
 		    if (isAvailable) {
-				window.plugins.socialsharing.share(share_message, share_subject, share_files, share_url );
+				window.plugins.socialsharing.share(share_message, share_subject, share_files, web_link );
 		    }
 		});
 		gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Share", "Menu", quiz_article, score);
@@ -423,10 +455,10 @@ jQuery(document).ready(function($) {
 		share_message += ' I do! I scored a ' + $('.button_share').data('score') + ' on ' + $('.button_share').data('article') + '!';
 		share_message += ' #lds #scripturemastery';
 		share_subject = langs[language].title_plural;
-		console.log(share_message, share_subject, share_url);
+		console.log(share_message, share_subject, web_link);
 	  	window.plugins.socialsharing.available(function(isAvailable) {
 		    if (isAvailable) {
-				window.plugins.socialsharing.share(share_message, share_subject, share_files, share_url );
+				window.plugins.socialsharing.share(share_message, share_subject, share_files, web_link );
 		    }
 		});
 	  	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Share", "Level", quiz_article, score);

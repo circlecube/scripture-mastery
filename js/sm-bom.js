@@ -1237,8 +1237,28 @@ var extras = [
 		application: "",
 		verse: "WE, THE FIRST PRESIDENCY and the Council of the Twelve Apostles of The Church of Jesus Christ of Latter-day Saints, solemnly proclaim that marriage between a man and a woman is ordained of God and that the family is central to the Creator’s plan for the eternal destiny of His children.  ALL HUMAN BEINGS—male and female—are created in the image of God. Each is a beloved spirit son or daughter of heavenly parents, and, as such, each has a divine nature and destiny. Gender is an essential characteristic of individual premortal, mortal, and eternal identity and purpose.  IN THE PREMORTAL REALM, spirit sons and daughters knew and worshipped God as their Eternal Father and accepted His plan by which His children could obtain a physical body and gain earthly experience to progress toward perfection and ultimately realize their divine destiny as heirs of eternal life. The divine plan of happiness enables family relationships to be perpetuated beyond the grave. Sacred ordinances and covenants available in holy temples make it possible for individuals to return to the presence of God and for families to be united eternally.  THE FIRST COMMANDMENT that God gave to Adam and Eve pertained to their potential for parenthood as husband and wife. We declare that God’s commandment for His children to multiply and replenish the earth remains in force. We further declare that God has commanded that the sacred powers of procreation are to be employed only between man and woman, lawfully wedded as husband and wife.  WE DECLARE the means by which mortal life is created to be divinely appointed. We affirm the sanctity of life and of its importance in God’s eternal plan.  HUSBAND AND WIFE have a solemn responsibility to love and care for each other and for their children. “Children are an heritage of the Lord” (Psalm 127:3). Parents have a sacred duty to rear their children in love and righteousness, to provide for their physical and spiritual needs, and to teach them to love and serve one another, observe the commandments of God, and be law-abiding citizens wherever they live. Husbands and wives—mothers and fathers—will be held accountable before God for the discharge of these obligations.  THE FAMILY is ordained of God. Marriage between man and woman is essential to His eternal plan. Children are entitled to birth within the bonds of matrimony, and to be reared by a father and a mother who honor marital vows with complete fidelity. Happiness in family life is most likely to be achieved when founded upon the teachings of the Lord Jesus Christ. Successful marriages and families are established and maintained on principles of faith, prayer, repentance, forgiveness, respect, love, compassion, work, and wholesome recreational activities. By divine design, fathers are to preside over their families in love and righteousness and are responsible to provide the necessities of life and protection for their families. Mothers are primarily responsible for the nurture of their children. In these sacred responsibilities, fathers and mothers are obligated to help one another as equal partners. Disability, death, or other circumstances may necessitate individual adaptation. Extended families should lend support when needed.  WE WARN that individuals who violate covenants of chastity, who abuse spouse or offspring, or who fail to fulfill family responsibilities will one day stand accountable before God. Further, we warn that the disintegration of the family will bring upon individuals, communities, and nations the calamities foretold by ancient and modern prophets.  WE CALL UPON responsible citizens and officers of government everywhere to promote those measures designed to maintain and strengthen the family as the fundamental unit of society.",
 	},
-	{	
+	{
 		index: 3,
+		reference: "The Lord's Prayer, Matthew 6: 9-13",
+		digits: "9 10 11 12 13",
+		title: "The Lord's Prayer",
+		context: "",
+		principle:"",
+		application:"",
+		verse:"After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name.  Thy kingdom come. Thy will be done in earth, as it is in heaven.  Give us this day our daily bread.  And forgive us our debts, as we forgive our debtors.  And lead us not into temptation, but deliver us from evil: For thine is the kingdom, and the power, and the glory, for ever. Amen."
+	},
+	{
+		index: 4,
+		reference:"Baptismal Prayer - D&C 20:73",
+		digits:"73",
+		title:"Baptismal Prayer",
+		context:"",
+		principle:"",
+		application:"",
+		verse:"NAME, Having been commissioned of Jesus Christ, I baptize you in the name of the Father, and of the Son, and of the Holy Ghost. Amen"
+	},
+	{	
+		index: 5,
 		reference: "2014 Mutual theme",
 		digits: "32",
 		title: "2014 Mutual theme",
@@ -1248,7 +1268,7 @@ var extras = [
 	 	verse: "“Come unto Christ, and be perfected in him, and deny yourselves of all ungodliness” (Moroni 10:32)"
 	},
 	{
-		index: 4,
+		index: 6,
 		reference: "2015 Mutual theme",
 		digits: "2",
 		title: "2015 Mutual theme",
@@ -1258,7 +1278,7 @@ var extras = [
 		verse: "“O ye that embark in the service of God, see that ye serve him with all your heart, might, mind and strength, that ye may stand blameless before God at the last day” (D&C 4:2)"
 	},
 	{
-		index: 5,
+		index: 7,
 		reference: "Young Women Theme",
 		digits: "1 2 3 4",
 		title: "YW Theme",
@@ -1268,7 +1288,7 @@ var extras = [
 		verse: "WE ARE DAUGHTERS of our Heavenly Father, who loves us, and we love Him.  WE WILL “STAND as witnesses of God at all times and in all things, and in all places” (Mosiah 18:9) as we strive to live the Young Women values, which are:  Faith, Divine Nature, Individual Worth, Knowledge, Choice and Accountability, Good Works, Integrity, and Virtue  WE BELIEVE as we come to accept and act upon these values, WE WILL BE PREPARED to strengthen home and family, make and keep sacred covenants, receive the ordinances of the temple, and enjoy the blessings of exaltation."
 	},
 	{
-		index: 6,
+		index: 8,
 		reference: "BSA Oath",
 		digits: "1 2 3 4",
 		title: "BSA Oath",
@@ -1278,7 +1298,7 @@ var extras = [
 		verse: "On my honor, I will do my best  To do my duty to God and my country and to obey the Scout Law;  To help other people at all times;  To keep myself physically strong, mentally awake and morally straight."
 	},
 	{
-		index: 7,
+		index: 9,
 		reference: "BSA Law",
 		digits: "1",
 		title: "BSA Law",
@@ -1288,7 +1308,7 @@ var extras = [
 		verse: "A Scout is: Trustworthy, Loyal, Helpful, Friendly, Courteous, Kind, Obedient, Cheerful, Thrifty, Brave, Clean, and Reverent."
 	},
 	{
-		index: 8,
+		index: 10,
 		reference: "BSA Motto",
 		digits: "1",
 		title: "BSA Motto",
@@ -1298,7 +1318,7 @@ var extras = [
 		verse: "Be Prepared"
 	},
 	{
-		index: 9,
+		index: 11,
 		reference: "BSA Slogan",
 		digits: "1",
 		title: "BSA Slogan",
@@ -1308,7 +1328,7 @@ var extras = [
 		verse: "Do a Good Turn Daily"
 	},
 	{
-		index: 10,
+		index: 12,
 		reference: "Pledge of Allegiance",
 		digits: "1",
 		title: "Pledge of Allegiance",
@@ -1318,7 +1338,7 @@ var extras = [
 		verse: "I pledge allegiance to the Flag of the United States of America, and to the Republic for which it stands, one Nation under God, indivisible, with liberty and justice for all."
 	},
 	{
-		index: 11,
+		index: 13,
 		reference: "Sacrament Prayer (Bread)",
 		digits: "1",
 		title: "Sacrament Prayer (Bread)",
@@ -1328,7 +1348,7 @@ var extras = [
 		verse: "O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and sanctify this bread to the souls of all those who partake of it, that they may eat in remembrance of the body of thy Son, and witness unto thee, O God, the Eternal Father, that they are willing to take upon them the name of thy Son, and always remember him and keep his commandments which he has given them; that they may always have his Spirit to be with them. Amen."
 	},
 	{
-		index: 12,
+		index: 14,
 		reference: "Sacrament Prayer (Water)",
 		digits: "1",
 		title: "Sacrament Prayer (Water)",
@@ -1338,4 +1358,3 @@ var extras = [
 		verse: "O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and sanctify this water to the souls of all those who drink of it, that they may do it in remembrance of the blood of thy Son, which was shed for them; that they may witness unto thee, O God, the Eternal Father, that they do always remember him, that they may have his Spirit to be with them. Amen."
 	}
 ];
-	

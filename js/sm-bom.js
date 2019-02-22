@@ -236,7 +236,7 @@ var sm_bom = [
 	{
 		index: 24,
 		reference: "Moroni 7:45, 47-48",
-		digits: "47 48",
+		digits: "45 47 48",
 		title: "Charity suffereth long.",
 		context: "Mormon taught during a time of great wickedness how faith, hope, and charity help us become like Jesus Christ.",
 		principle: "We must have charity to be true followers of Jesus Christ. We should pray to the Father to be filled with this love.",

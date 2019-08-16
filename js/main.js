@@ -164,14 +164,14 @@ jQuery(document).ready(function($) {
 		game_aofs();
 	}
 
-	// function onDeviceReady() {
+	function onDeviceReady() {
 	// 	//https://github.com/phonegap-build/GAPlugin/blob/c928e353feb1eb75ca3979b129b10b216a27ad59/README.md
 	// 	//gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Button", "Click", "event only", 1);
 	//     gaPlugin = window.plugins.gaPlugin;
 	//     gaPlugin.init(nativePluginResultHandler, nativePluginErrorHandler, "UA-1466312-12", 10);
 
 	// 	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "Begin", quiz_article);
-	// }
+	}
 	
 
 	function onMenuKeyDown() {

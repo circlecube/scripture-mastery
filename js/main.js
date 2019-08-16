@@ -1,7 +1,7 @@
 /*
 
 */
-var gaPlugin;
+// var gaPlugin;
 var activity_log = [];
 var touching = false;
 var keep_log = true;
@@ -164,14 +164,14 @@ jQuery(document).ready(function($) {
 		game_aofs();
 	}
 
-	function onDeviceReady() {
-		//https://github.com/phonegap-build/GAPlugin/blob/c928e353feb1eb75ca3979b129b10b216a27ad59/README.md
-		//gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Button", "Click", "event only", 1);
-	    gaPlugin = window.plugins.gaPlugin;
-	    gaPlugin.init(nativePluginResultHandler, nativePluginErrorHandler, "UA-1466312-12", 10);
+	// function onDeviceReady() {
+	// 	//https://github.com/phonegap-build/GAPlugin/blob/c928e353feb1eb75ca3979b129b10b216a27ad59/README.md
+	// 	//gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Button", "Click", "event only", 1);
+	//     gaPlugin = window.plugins.gaPlugin;
+	//     gaPlugin.init(nativePluginResultHandler, nativePluginErrorHandler, "UA-1466312-12", 10);
 
-		gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "Begin", quiz_article);
-	}
+	// 	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "Begin", quiz_article);
+	// }
 	
 
 	function onMenuKeyDown() {
@@ -437,32 +437,32 @@ jQuery(document).ready(function($) {
 		localStorage.activity_log = JSON.stringify(activity_log);
 		show_activity_log();
 	});
-	$('.share').on('click touch', function(e){
-		share_message = 'Know your Scripture Mastery?';
-		share_message += ' Take the test in this mobile app!';
-		share_message += '#lds #scripturemastery';
-		share_subject = langs[language].title_plural;
-		console.log(share_message, share_subject, web_link);
-		window.plugins.socialsharing.available(function(isAvailable) {
-		    if (isAvailable) {
-				window.plugins.socialsharing.share(share_message, share_subject, share_files, web_link );
-		    }
-		});
-		gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Share", "Menu", quiz_article, score);
-	});
-	$('.content').on('click touch', '.button_share', function(e){
-		share_message = 'Know your Scripture Mastery?';
-		share_message += ' I do! I scored a ' + $('.button_share').data('score') + ' on ' + $('.button_share').data('article') + '!';
-		share_message += ' #lds #scripturemastery';
-		share_subject = langs[language].title_plural;
-		console.log(share_message, share_subject, web_link);
-	  	window.plugins.socialsharing.available(function(isAvailable) {
-		    if (isAvailable) {
-				window.plugins.socialsharing.share(share_message, share_subject, share_files, web_link );
-		    }
-		});
-	  	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Share", "Level", quiz_article, score);
-	});
+	// $('.share').on('click touch', function(e){
+	// 	share_message = 'Know your Scripture Mastery?';
+	// 	share_message += ' Take the test in this mobile app!';
+	// 	share_message += '#lds #scripturemastery';
+	// 	share_subject = langs[language].title_plural;
+	// 	console.log(share_message, share_subject, web_link);
+	// 	window.plugins.socialsharing.available(function(isAvailable) {
+	// 	    if (isAvailable) {
+	// 			window.plugins.socialsharing.share(share_message, share_subject, share_files, web_link );
+	// 	    }
+	// 	});
+	// 	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Share", "Menu", quiz_article, score);
+	// });
+	// $('.content').on('click touch', '.button_share', function(e){
+	// 	share_message = 'Know your Scripture Mastery?';
+	// 	share_message += ' I do! I scored a ' + $('.button_share').data('score') + ' on ' + $('.button_share').data('article') + '!';
+	// 	share_message += ' #lds #scripturemastery';
+	// 	share_subject = langs[language].title_plural;
+	// 	console.log(share_message, share_subject, web_link);
+	//   	window.plugins.socialsharing.available(function(isAvailable) {
+	// 	    if (isAvailable) {
+	// 			window.plugins.socialsharing.share(share_message, share_subject, share_files, web_link );
+	// 	    }
+	// 	});
+	//   	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Share", "Level", quiz_article, score);
+	// });
 	function show_about(){
 		var content = '<dt>' + langs[language].about + ': ' + langs[language].title_plural + '</dt>';
 		content += '<dd>' + langs[language].about_text + '</dd>';
@@ -873,7 +873,7 @@ jQuery(document).ready(function($) {
 				$('.unordered').addClass('empty');
 				$('.button_skip').text( langs[language].next );
 				$('.button_skip').after( "<div class='button button_again'>" + langs[language].again + "</div>" );
-				$('.button_skip').after( "<div class='button button_share' data-score='" + score + "' data-article='" + active_cannon[ quiz_article ].reference + "'>" + langs[language].share + "</div>" );
+				// $('.button_skip').after( "<div class='button button_share' data-score='" + score + "' data-article='" + active_cannon[ quiz_article ].reference + "'>" + langs[language].share + "</div>" );
 				
 				$('dt').append(" - " + score + "%");
 
@@ -902,7 +902,7 @@ To track an event, call (oddly enough) trackEvent(). trackEvent takes 6 argument
 5)  eventLabel - A label that describes the event such as Button title or Menu Item name.
 6)  eventValue - An application defined integer value that can mean whatever you want it to mean.
 */
-				gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Level", "Finish", active_cannon[ quiz_article ].reference, score);
+				// gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "Level", "Finish", active_cannon[ quiz_article ].reference, score);
 			}
 			//console.log('score :', quiz_guesses_correct / quiz_guesses_total);
 		}
@@ -993,10 +993,10 @@ var article_words
 		//error
 		//console.log('nativePluginErrorHandler', 'fail');
 	}
-	function goingAway() {
-		gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "End", quiz_article);
-	    gaPlugin.exit(nativePluginResultHandler, nativePluginErrorHandler);
-	}
+	// function goingAway() {
+	// 	gaPlugin.trackEvent( nativePluginResultHandler, nativePluginErrorHandler, "App", "End", quiz_article);
+	//     gaPlugin.exit(nativePluginResultHandler, nativePluginErrorHandler);
+	// }
 
 
 	function relative_time(time) {

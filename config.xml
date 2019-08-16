@@ -43,10 +43,8 @@ Review all the scripture mastery verses in a clean list on one page, quiz yourse
         android:largeScreens="true" 
         android:xlargeScreens="true" />
     </config-file>
-    
-    <plugin name="cordova-plugin-whitelist" source="npm" />
-    <plugin name="cordova-plugin-x-socialsharing" source="npm" />
-    <plugin name="cordova-plugin-google-analytics" source="npm" />
+
+    <preference name="phonegap-version" value="cli-9.0.0" />
 
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="true" />

@@ -52,36 +52,36 @@ Review all the scripture mastery verses in a clean list on one page, quiz yourse
     <preference name="permissions" value="none"/>
     
     
-    <icon src="res/icon-large.png" width="512" height="512" />
-    <icon src="res/icon.png" width="128" height="128" />
-    
     <!-- Androind -->
-    <icon src="res/android/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
-    <icon src="res/android/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
-    <icon src="res/android/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
-    <icon src="res/android/xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
-    <icon src="res/android/xxxhdpi.png" gap:platform="android" gap:qualifier="xxxhdpi" />
-    
+    <platform name="android">
+        <icon src="res/android/mdpi.png" platform="android" qualifier="mdpi" />
+        <icon src="res/android/hdpi.png" platform="android" qualifier="hdpi" />
+        <icon src="res/android/xhdpi.png" platform="android" qualifier="xhdpi" />
+        <icon src="res/android/xxhdpi.png" platform="android" qualifier="xxhdpi" />
+        <icon src="res/android/xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
+    </platform>
     <!-- iOS -->
-    <icon src="res/ios/Icon-57.png" gap:platform="ios" width="57" height="57" />
-    <icon src="res/ios/Icon-72.png" gap:platform="ios" width="72" height="72" />
-    <icon src="res/icon-1024.png" gap:platform="ios" width="1024" height="1024" />
-    <!-- iPhone 6 / 6+ -->
-    <icon src="res/ios/Icon-60@3x.png" gap:platform="ios" width="180" height="180" />
-    <!-- iPhone / iPod Touch  -->
-    <icon src="res/ios/Icon-60.png" gap:platform="ios" width="60" height="60" />
-    <icon src="res/ios/Icon-60@2x.png" gap:platform="ios" width="120" height="120" />
-    <!-- iPad -->
-    <icon src="res/ios/Icon-76.png" gap:platform="ios" width="76" height="76" />
-    <icon src="res/ios/Icon-76@2x.png" gap:platform="ios" width="152" height="152" />
-    <!-- Settings Icon -->
-    <icon src="res/ios/Icon-Small.png" gap:platform="ios" width="29" height="29" />
-    <icon src="res/ios/Icon-Small@2x.png" gap:platform="ios" width="58" height="58" />
-    <icon src="res/ios/Icon-Small@3x.png" gap:platform="ios" width="87" height="87" />
-    <!-- Spotlight Icon -->
-    <icon src="res/ios/Icon-40.png" gap:platform="ios" width="40" height="40" />
-    <icon src="res/ios/Icon-40@2x.png" gap:platform="ios" width="80" height="80" />
-    
+    <platform name="ios">
+        <icon src="res/ios/Icon-57.png" platform="ios" width="57" height="57" />
+        <icon src="res/ios/Icon-72.png" platform="ios" width="72" height="72" />
+        <icon src="res/icon-1024.png" platform="ios" width="1024" height="1024" />
+        <!-- iPhone 6 / 6+ -->
+        <icon src="res/ios/Icon-60@3x.png" platform="ios" width="180" height="180" />
+        <!-- iPhone / iPod Touch  -->
+        <icon src="res/ios/Icon-60.png" platform="ios" width="60" height="60" />
+        <icon src="res/ios/Icon-60@2x.png" platform="ios" width="120" height="120" />
+        <!-- iPad -->
+        <icon src="res/ios/Icon-76.png" platform="ios" width="76" height="76" />
+        <icon src="res/ios/Icon-76@2x.png" platform="ios" width="152" height="152" />
+        <!-- Settings Icon -->
+        <icon src="res/ios/Icon-Small.png" platform="ios" width="29" height="29" />
+        <icon src="res/ios/Icon-Small@2x.png" platform="ios" width="58" height="58" />
+        <icon src="res/ios/Icon-Small@3x.png" platform="ios" width="87" height="87" />
+        <!-- Spotlight Icon -->
+        <icon src="res/ios/Icon-40.png" platform="ios" width="40" height="40" />
+        <icon src="res/ios/Icon-40@2x.png" platform="ios" width="80" height="80" />
+    </platform>
+
     <platform name="android">  
         <allow-intent href="market:*" />  
     </platform>  

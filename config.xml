@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.circlecube.scripturemastery"
-        versionCode="015" 
-        version   = "0.1.5">
+        versionCode="020" 
+        version   = "0.2.0">
 
     <name>LDS Scripture Mastery</name>
 
@@ -28,10 +28,25 @@ Review all the scripture mastery verses in a clean list on one page, quiz yourse
     <author href="http://circlecube.com" email="evan@circlecube.com">
         Evan Mullins 
     </author>
-    <gap:plugin name="com.adobe.plugins.gaplugin" />
-    <gap:plugin name="nl.x-services.plugins.socialsharing" />
-    <gap:platform name="android" />
-    <gap:platform name="ios" />
+	
+    <access origin="*" />
+    <platform name="ios">
+    </platform>
+    <platform name="android">
+    </platform>
+
+    <config-file platform="android" parent="/manifest" mode="merge">
+      <supports-screens android:anyDensity="true" android:resizeable="true" 
+        android:smallScreens="true" 
+        android:normalScreens="true" 
+        android:largeScreens="true" 
+        android:xlargeScreens="true" />
+    </config-file>
+    
+    <plugin name="cordova-plugin-whitelist" source="npm" />
+    <plugin name="cordova-plugin-x-socialsharing" source="npm" />
+    <plugin name="cordova-plugin-google-analytics" source="npm" />
+
     <preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="true" />
@@ -68,6 +83,14 @@ Review all the scripture mastery verses in a clean list on one page, quiz yourse
     <icon src="res/ios/Icon-40.png" gap:platform="ios" width="40" height="40" />
     <icon src="res/ios/Icon-40@2x.png" gap:platform="ios" width="80" height="80" />
     
+    <platform name="android">  
+        <allow-intent href="market:*" />  
+    </platform>  
+    <platform name="ios">  
+        <allow-intent href="itms:*" />  
+        <allow-intent href="itms-apps:*" />  
+    </platform> 
+	
 </widget>
 <!--
 	
